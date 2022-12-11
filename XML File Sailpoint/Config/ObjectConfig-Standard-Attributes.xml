@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE sailpoint PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<sailpoint>
+<ImportAction name='merge'>
+<ObjectConfig name="Identity">
+  
+  <ObjectAttribute displayName="att_manager" editMode="ReadOnly" groupFactory="true" name="manager" standard="true" type="sailpoint.object.Identity">
+    <AttributeSource name="managerId">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Employees"/>
+      </ApplicationRef>
+    </AttributeSource>
+    <AttributeSource name="managerId">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Contractors"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+  
+  <ObjectAttribute displayName="att_first_name" editMode="ReadOnly" name="firstname" standard="true" type="string">
+    <AttributeSource name="firstName">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Employees"/>
+      </ApplicationRef>
+    </AttributeSource>
+    <AttributeSource name="firstName">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Contractors"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+  
+  <ObjectAttribute displayName="att_last_name" editMode="ReadOnly" name="lastname" standard="true" type="string">
+    <AttributeSource name="lastName">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Employees"/>
+      </ApplicationRef>
+    </AttributeSource>
+    <AttributeSource name="lastName">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Contractors"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+  
+  <ObjectAttribute displayName="att_display_name" editMode="ReadOnly" name="displayName" standard="true" type="string">
+    <AttributeSource name="fullName">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Employees"/>
+      </ApplicationRef>
+    </AttributeSource>
+    <AttributeSource name="fullName">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Contractors"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+  
+  <ObjectAttribute displayName="att_inactive" editMode="ReadOnly" groupFactory="true" name="inactive" standard="true" type="boolean">
+    <AttributeSource name="inactiveUser">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Employees"/>
+      </ApplicationRef>
+    </AttributeSource>
+    <AttributeSource name="inactiveUser">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Contractors"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+  
+</ObjectConfig>
+</ImportAction>
+</sailpoint>

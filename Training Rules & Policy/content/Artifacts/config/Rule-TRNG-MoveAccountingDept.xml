@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Rule language="beanshell"  name="TRNG-MoveAccountingDept">
+  <Description>For each Identity in the Accounting department in the London location, change their location to Brussels</Description>
+<Source>
+  import sailpoint.object.Identity;
+  import sailpoint.object.QueryOptions;
+  import sailpoint.object.Filter;
+
+  // Initialize variables
+  String properties = "id";
+  QueryOptions qo = new QueryOptions();
+
+  // [1] Build filter for department = "Accounting"
+  //     Build filter for location = "London"
+  //     Combine the two filters in an And relationship 
+  //-----------------------------
+  Filter f1 = Filter.__________("department","Accounting");
+  Filter f2 = ________________________________;
+  Filter identityFilter = Filter.________(f1,f2);
+  //-----------------------------
+  // [2] add filter to the QueryOptions
+  //-----------------------------
+  qo._____________________; 
+  //-----------------------------
+
+  // [3] Retrieve Identity IDs with search()
+  //-----------------------------
+  Iterator identIds = context.search(________,__________,__________);    
+  //-----------------------------
+
+  // Loop through identity IDs, retrieve each identity, and change its region attribute
+  if (null != identIds) {
+    while (identIds.hasNext()) {
+      String identId = (String) identIds.next()[0];
+      // [4] Retrieve single Identity using the id
+      //-----------------------------
+      Identity targetUser = context._________________________;
+      //-----------------------------
+ 
+      // Change the user's region attribute, save, and commit
+      targetUser.setAttribute("location","Brussels");
+      context.saveObject(targetUser);
+      context.commitTransaction();  
+    }
+  } 
+  </Source>
+</Rule>

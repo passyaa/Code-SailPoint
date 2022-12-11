@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE sailpoint PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<sailpoint>
+
+<Bundle name="Contractors Birthright Role" type="rapidSetupBirthright">
+  <Attributes>
+    <Map>
+      <entry key="accountSelectorRules"/>
+      <entry key="allowDuplicateAccounts" value="false"/>
+      <entry key="allowMultipleAssignments" value="false"/>
+      <entry key="mergeTemplates" value="false"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Birthright access for a new contractor (LDAP account, Contractors group)"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="Admins"/>
+  </Owner>
+  <Selector>
+    <IdentitySelector>
+      <PopulationRef>
+        <Reference class="sailpoint.object.GroupDefinition" name="Active Contractors"/>
+      </PopulationRef>
+    </IdentitySelector>
+  </Selector>
+  <Profiles>
+    <Profile>
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="LDAP"/>
+      </ApplicationRef>
+      <Constraints>
+        <Filter operation="CONTAINS_ALL" property="groups">
+          <Value>
+            <List>
+              <String>cn=Contractors,ou=groups,dc=training,dc=sailpoint,dc=com</String>
+            </List>
+          </Value>
+        </Filter>
+      </Constraints>
+    </Profile>
+  </Profiles>
+</Bundle>
+<Bundle name="Global Birthright Role" type="rapidSetupBirthright">
+  <Attributes>
+    <Map>
+      <entry key="accountSelectorRules"/>
+      <entry key="allowDuplicateAccounts" value="false"/>
+      <entry key="allowMultipleAssignments" value="false"/>
+      <entry key="mergeTemplates" value="false"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Birthright access for a new employee or contractor. &lt;br>&#xa;&#xa;Grants:&lt;br>&#xa;&#xa;&lt;ul>&#xa;&lt;li>ability to input timesheets&lt;/li>&#xa;&lt;/ul>&#xa;&lt;br>"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="Admins"/>
+  </Owner>
+  <Selector>
+    <IdentitySelector>
+      <PopulationRef>
+        <Reference class="sailpoint.object.GroupDefinition" name="Global"/>
+      </PopulationRef>
+    </IdentitySelector>
+  </Selector>
+  <Profiles>
+    <Profile>
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="Time Tracking"/>
+      </ApplicationRef>
+      <Constraints>
+        <Filter operation="CONTAINS_ALL" property="capability">
+          <Value>
+            <List>
+              <String>input</String>
+            </List>
+          </Value>
+        </Filter>
+      </Constraints>
+    </Profile>
+  </Profiles>
+</Bundle>
+<Bundle name="Americas Birthright Role" type="rapidSetupBirthright">
+  <Attributes>
+    <Map>
+      <entry key="accountSelectorRules"/>
+      <entry key="allowDuplicateAccounts" value="false"/>
+      <entry key="allowMultipleAssignments" value="false"/>
+      <entry key="mergeTemplates" value="false"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Birthright access for a new employee in Americas region. &lt;br>&#xa;&#xa;Grants:&lt;br>&#xa;&#xa;&lt;ul>&#xa;&lt;li>read access to Americas announcements chat channel.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;br>"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="Admins"/>
+  </Owner>
+  <Selector>
+    <IdentitySelector>
+      <PopulationRef>
+        <Reference class="sailpoint.object.GroupDefinition" name="Americas"/>
+      </PopulationRef>
+    </IdentitySelector>
+  </Selector>
+  <Profiles>
+    <Profile>
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="Chat"/>
+      </ApplicationRef>
+      <Constraints>
+        <Filter operation="CONTAINS_ALL" property="groups">
+          <Value>
+            <List>
+              <String>americas_read</String>
+            </List>
+          </Value>
+        </Filter>
+      </Constraints>
+    </Profile>
+  </Profiles>
+</Bundle>
+<Bundle name="Asia-Pacific Birthright Role" type="rapidSetupBirthright">
+  <Attributes>
+    <Map>
+      <entry key="accountSelectorRules"/>
+      <entry key="allowDuplicateAccounts" value="false"/>
+      <entry key="allowMultipleAssignments" value="false"/>
+      <entry key="mergeTemplates" value="false"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Birthright access for a new employee in Asia-Pacific region. &lt;br>&#xa;&#xa;Grants:&lt;br>&#xa;&#xa;&lt;ul>&#xa;&lt;li>read access to Asia-Pacific announcements chat channel.&lt;/li>&#xa;&lt;/ul>"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="Admins"/>
+  </Owner>
+  <Selector>
+    <IdentitySelector>
+      <PopulationRef>
+        <Reference class="sailpoint.object.GroupDefinition" name="Asia-Pacific"/>
+      </PopulationRef>
+    </IdentitySelector>
+  </Selector>
+  <Profiles>
+    <Profile>
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="Chat"/>
+      </ApplicationRef>
+      <Constraints>
+        <Filter operation="CONTAINS_ALL" property="groups">
+          <Value>
+            <List>
+              <String>asiapacific_read</String>
+            </List>
+          </Value>
+        </Filter>
+      </Constraints>
+    </Profile>
+  </Profiles>
+</Bundle>
+<Bundle name="Europe Birthright Role" type="rapidSetupBirthright">
+  <Attributes>
+    <Map>
+      <entry key="accountSelectorRules"/>
+      <entry key="allowDuplicateAccounts" value="false"/>
+      <entry key="allowMultipleAssignments" value="false"/>
+      <entry key="mergeTemplates" value="false"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Birthright access for a new employee in Europe region.&lt;br>&#xa;&#xa;Grants:&lt;br>&#xa;&#xa;&lt;ul>&#xa;&lt;li>read access to Europe announcements chat channel.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;br>"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="Admins"/>
+  </Owner>
+  <Selector>
+    <IdentitySelector>
+      <PopulationRef>
+        <Reference class="sailpoint.object.GroupDefinition" name="Europe"/>
+      </PopulationRef>
+    </IdentitySelector>
+  </Selector>
+  <Profiles>
+    <Profile>
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="Chat"/>
+      </ApplicationRef>
+      <Constraints>
+        <Filter operation="CONTAINS_ALL" property="groups">
+          <Value>
+            <List>
+              <String>europe_read</String>
+            </List>
+          </Value>
+        </Filter>
+      </Constraints>
+    </Profile>
+  </Profiles>
+</Bundle>
+</sailpoint>

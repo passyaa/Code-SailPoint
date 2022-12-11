@@ -1,0 +1,7 @@
+
+          
+               // Expect: java.lang.String sAMAccountName
+               // TODO: Make the source know previous fields
+               return sAMAccountName+"@sailpointdemo.com";
+              
+        

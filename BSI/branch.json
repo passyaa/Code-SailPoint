@@ -1,0 +1,4530 @@
+{
+    "status": true,
+    "status_code": 201,
+    "message": "ok",
+    "count_data": 646,
+    "data": [
+        {
+            "branch_id": "02e53813e7b32ac750eddd8a21d24e3c",
+            "branch_code": "ID0010468",
+            "branch_name": "REGION I",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "0833d12323f24337da36bb7bc68e6b16",
+            "branch_code": "ID0010023",
+            "branch_name": "KC BALIKPAPAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "0c0731ee578086fce8eaa481b3cda3e8",
+            "branch_code": "ID0019012",
+            "branch_name": "Tangerang BSD",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "10",
+            "branch_code": "ID0010486",
+            "branch_name": "KCP MEDAN MARELAN RAYA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "100",
+            "branch_code": "ID0010269",
+            "branch_name": "KCP MEDAN ISKANDAR MUDA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "101",
+            "branch_code": "ID0010346",
+            "branch_name": "KCP KUALA SIMPANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "103",
+            "branch_code": "ID0010407",
+            "branch_name": "KK TAPAK TUAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "104",
+            "branch_code": "ID0010616",
+            "branch_name": "KCP MEDAN RINGROAD",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "105",
+            "branch_code": "ID0010678",
+            "branch_name": "KFO POS LANGSA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "106",
+            "branch_code": "ID0010700",
+            "branch_name": "KK MEDAN PANCA BUDI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "108",
+            "branch_code": "ID0010033",
+            "branch_name": "KC JAKARTA SAHARJO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "109",
+            "branch_code": "ID0010108",
+            "branch_name": "KCP JAKARTA TANAH ABANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "11",
+            "branch_code": "ID0010507",
+            "branch_name": "KCP MEDAN SUKARAMAI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "110",
+            "branch_code": "ID0010110",
+            "branch_name": "KCP JAKARTA PASAR BARU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "111",
+            "branch_code": "ID0010169",
+            "branch_name": "KC JAKARTA JATINEGARA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "112",
+            "branch_code": "ID0010170",
+            "branch_name": "KCP JAKARTA RASUNA SAID",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "113",
+            "branch_code": "ID0010171",
+            "branch_name": "KCP JAKARTA TEBET",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "114",
+            "branch_code": "ID0010176",
+            "branch_name": "KCP JAKARTA UTAN KAYU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "115",
+            "branch_code": "ID0010276",
+            "branch_name": "KCP JAKARTA GAJAH MADA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "116",
+            "branch_code": "ID0010311",
+            "branch_name": "KCP JAKARTA MEGA KUNINGAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "117",
+            "branch_code": "ID0010355",
+            "branch_name": "KC JAKARTA ROXY",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "118",
+            "branch_code": "ID0010376",
+            "branch_name": "KC JAKARTA HAYAM WURUK",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "119",
+            "branch_code": "ID0010388",
+            "branch_name": "KK JAKARTA DEPARTEMEN AGAMA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "11f2a947e7a6182398504c1659611ed0",
+            "branch_code": "ID0010022",
+            "branch_name": "KC PEKANBARU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "12",
+            "branch_code": "ID0010544",
+            "branch_name": "KCP MEDAN MUCHTAR BASRI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "120",
+            "branch_code": "ID0010389",
+            "branch_name": "KK JAKARTA INDOSAT",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "121",
+            "branch_code": "ID0010392",
+            "branch_name": "KCP JAKARTA TOMANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "122",
+            "branch_code": "ID0010394",
+            "branch_name": "KK JAKARTA TRISAKTI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "123",
+            "branch_code": "ID0010430",
+            "branch_name": "KCP JAKARTA JATINEGARA TIMUR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "124",
+            "branch_code": "ID0010520",
+            "branch_name": "KCP JAKARTA PECENONGAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "125",
+            "branch_code": "ID0010603",
+            "branch_name": "KCP JAKARTA K-LINK TOWER",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "126",
+            "branch_code": "ID0010650",
+            "branch_name": "KK JAKARTA GRAHA MANDIRI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "127",
+            "branch_code": "ID0010683",
+            "branch_name": "KFO POS JAKARTA PUSAT",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "128",
+            "branch_code": "ID0010714",
+            "branch_name": "KFO MITRA MANDIRI PASAR BARU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "129",
+            "branch_code": "ID0010733",
+            "branch_name": "KFO POS JATINEGARA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "13",
+            "branch_code": "ID0010545",
+            "branch_name": "KCP MEDAN PADANG BULAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "131",
+            "branch_code": "ID0010005",
+            "branch_name": "KC JAKARTA WARUNG BUNCIT",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "132",
+            "branch_code": "ID0010006",
+            "branch_name": "KC JAKARTA PONDOK INDAH",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "133",
+            "branch_code": "ID0010067",
+            "branch_name": "KCP JAKARTA FATMAWATI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "134",
+            "branch_code": "ID0010068",
+            "branch_name": "KCP JAKARTA WOLTERMONGINSIDI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "135",
+            "branch_code": "ID0010069",
+            "branch_name": "KC JAKARTA CIPULIR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "136",
+            "branch_code": "ID0010071",
+            "branch_name": "KCP JAKARTA BENDUNGAN HILIR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "137",
+            "branch_code": "ID0010074",
+            "branch_name": "KCP JAKARTA PASAR MINGGU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "138",
+            "branch_code": "ID0010076",
+            "branch_name": "KCP JAKARTA PONDOK LABU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "139",
+            "branch_code": "ID0010080",
+            "branch_name": "KCP JAKARTA CILANDAK",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "14",
+            "branch_code": "ID0010613",
+            "branch_name": "KCP PERBAUNGAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "140",
+            "branch_code": "ID0010229",
+            "branch_name": "KCP JAKARTA PANGLIMA POLIM",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "141",
+            "branch_code": "ID0010260",
+            "branch_name": "KCP JAKARTA KEMANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "142",
+            "branch_code": "ID0010332",
+            "branch_name": "KCP JAKARTA KEBAYORAN LAMA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "143",
+            "branch_code": "ID0010379",
+            "branch_name": "KC JAKARTA SUDIRMAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "144",
+            "branch_code": "ID0010387",
+            "branch_name": "KK JAKARTA AL AZHAR KEBAYORAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "145",
+            "branch_code": "ID0010391",
+            "branch_name": "KK JAKARTA PLAZA MANDIRI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "146",
+            "branch_code": "ID0010426",
+            "branch_name": "KLS JAKARTA DEPTAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "147",
+            "branch_code": "ID0010428",
+            "branch_name": "KLS JAKARTA GD. PUSAT KEHUTANAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "148",
+            "branch_code": "ID0010429",
+            "branch_name": "KCP JAKARTA MENTENG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "149",
+            "branch_code": "ID0010432",
+            "branch_name": "KCP JAKARTA PONDOK PINANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "14d0111b7683ac6e3ee0676ed785bf9e",
+            "branch_code": "ID0010007",
+            "branch_name": "KC BEKASI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "150",
+            "branch_code": "ID0010463",
+            "branch_name": "KCP JAKARTA RADIO DALAM",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "151",
+            "branch_code": "ID0010517",
+            "branch_name": "KCP JAKARTA JOGLO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "152",
+            "branch_code": "ID0010523",
+            "branch_name": "KCP JAKARTA SIMPRUG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "153",
+            "branch_code": "ID0010551",
+            "branch_name": "KCP JAKARTA SULTAN ISKANDAR MUDA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "154",
+            "branch_code": "ID0010630",
+            "branch_name": "KCP JAKARTA PEJATEN RAYA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "155",
+            "branch_code": "ID0010635",
+            "branch_name": "KCP JAKARTA BARITO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "156",
+            "branch_code": "ID0010658",
+            "branch_name": "KCP JAKARTA TENDEAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "157",
+            "branch_code": "ID0010715",
+            "branch_name": "KFO MITRA MANDIRI ANEKA TAMBANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "158",
+            "branch_code": "ID0010734",
+            "branch_name": "KFO POS FATMAWATI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "159",
+            "branch_code": "ID0010839",
+            "branch_name": "KK JAKARTA MENARA 165",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "16",
+            "branch_code": "ID0010111",
+            "branch_name": "KC MEULABOH",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "161",
+            "branch_code": "ID0010018",
+            "branch_name": "KC TANGERANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "162",
+            "branch_code": "ID0010020",
+            "branch_name": "KC CILEGON",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "163",
+            "branch_code": "ID0010075",
+            "branch_name": "KC TANGERANG CIPUTAT",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "164",
+            "branch_code": "ID0010077",
+            "branch_name": "KC TANGERANG BINTARO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "165",
+            "branch_code": "ID0010079",
+            "branch_name": "KCP TANGERANG PAMULANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "166",
+            "branch_code": "ID0010134",
+            "branch_name": "KCP TANGERANG BSD",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "167",
+            "branch_code": "ID0010135",
+            "branch_name": "KCP TANGERANG MALABAR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "168",
+            "branch_code": "ID0010136",
+            "branch_name": "KCP TANGERANG CIKUPA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "169",
+            "branch_code": "ID0010142",
+            "branch_name": "KC SERANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "17",
+            "branch_code": "ID0010210",
+            "branch_name": "KCP BIREUEUN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "170",
+            "branch_code": "ID0010143",
+            "branch_name": "KCP LEBAK BANTEN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "171",
+            "branch_code": "ID0010230",
+            "branch_name": "KCP TANGERANG CIMONE",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "172",
+            "branch_code": "ID0010262",
+            "branch_name": "KCP TANGERANG CIRENDEU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "173",
+            "branch_code": "ID0010289",
+            "branch_name": "KCP TANGERANG BALARAJA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "174",
+            "branch_code": "ID0010292",
+            "branch_name": "KCP LABUAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "175",
+            "branch_code": "ID0010343",
+            "branch_name": "KCP TANGERANG BINTARO SEKTOR III",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "176",
+            "branch_code": "ID0010347",
+            "branch_name": "KCP SERANG CIKANDE",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "177",
+            "branch_code": "ID0010364",
+            "branch_name": "KC TANGERANG BSD",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "178",
+            "branch_code": "ID0010401",
+            "branch_name": "KCP PANDEGLANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "179",
+            "branch_code": "ID0010457",
+            "branch_name": "KK TANGERANG KEBON NANAS",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "18",
+            "branch_code": "ID0010215",
+            "branch_name": "KCP SIGLI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "180",
+            "branch_code": "ID0010522",
+            "branch_name": "KCP TANGERANG GRAHA RAYA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "181",
+            "branch_code": "ID0010583",
+            "branch_name": "KCP SERANG TIMUR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "182",
+            "branch_code": "ID0010619",
+            "branch_name": "KK JAKARTA MASJID JAMI BINTARO JAYA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "183",
+            "branch_code": "ID0010629",
+            "branch_name": "KCP PONDOK CILEGON INDAH",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "184",
+            "branch_code": "ID0010657",
+            "branch_name": "KCP TANGERANG KARAWACI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "185",
+            "branch_code": "ID0010681",
+            "branch_name": "KFO POS TANGERANG CIPUTAT",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "186",
+            "branch_code": "ID0010689",
+            "branch_name": "KFO POS SERANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "187",
+            "branch_code": "ID0010732",
+            "branch_name": "KFO POS TANGERANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "189",
+            "branch_code": "ID0010081",
+            "branch_name": "KC BEKASI CIKARANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "19",
+            "branch_code": "ID0010216",
+            "branch_name": "KCP ACEH DARUSSALAM",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "190",
+            "branch_code": "ID0010083",
+            "branch_name": "KCP KARAWANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "191",
+            "branch_code": "ID0010084",
+            "branch_name": "KCP CIKAMPEK",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "192",
+            "branch_code": "ID0010085",
+            "branch_name": "KCP BEKASI TIMUR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "193",
+            "branch_code": "ID0010086",
+            "branch_name": "KCP BEKASI TAMBUN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "194",
+            "branch_code": "ID0010264",
+            "branch_name": "KCP CIKARANG JABABEKA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "195",
+            "branch_code": "ID0010265",
+            "branch_name": "KCP BEKASI KALIMALANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "196",
+            "branch_code": "ID0010509",
+            "branch_name": "KCP BEKASI HARAPAN INDAH",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "197",
+            "branch_code": "ID0010682",
+            "branch_name": "KFO POS BEKASI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "199",
+            "branch_code": "ID0010046",
+            "branch_name": "KC DEPOK",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "2",
+            "branch_code": "ID0010088",
+            "branch_name": "KC MEDAN KAMPUNG BARU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "20",
+            "branch_code": "ID0010217",
+            "branch_name": "KCP JANTHO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "200",
+            "branch_code": "ID0010078",
+            "branch_name": "KCP DEPOK CINERE",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "201",
+            "branch_code": "ID0010127",
+            "branch_name": "KC CIBINONG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "202",
+            "branch_code": "ID0010128",
+            "branch_name": "KCP BOGOR TAJUR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "203",
+            "branch_code": "ID0010129",
+            "branch_name": "KCP BOGOR DRAMAGA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "204",
+            "branch_code": "ID0010130",
+            "branch_name": "KCP BOGOR MERDEKA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "205",
+            "branch_code": "ID0010131",
+            "branch_name": "KCP BOGOR JALAN BARU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "206",
+            "branch_code": "ID0010132",
+            "branch_name": "KCP BOGOR CITEUREUP",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "207",
+            "branch_code": "ID0010198",
+            "branch_name": "KCP DEPOK MARGONDA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "208",
+            "branch_code": "ID0010199",
+            "branch_name": "KCP DEPOK CIMANGGIS",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "209",
+            "branch_code": "ID0010200",
+            "branch_name": "KCP DEPOK SAWANGAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "21",
+            "branch_code": "ID0010277",
+            "branch_name": "KCP CALANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "210",
+            "branch_code": "ID0010201",
+            "branch_name": "KCP DEPOK DUA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "211",
+            "branch_code": "ID0010271",
+            "branch_name": "KCP CIPANAS",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "212",
+            "branch_code": "ID0010288",
+            "branch_name": "KCP BOGOR POMAD",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "213",
+            "branch_code": "ID0010329",
+            "branch_name": "KCP DEPOK KELAPA DUA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "214",
+            "branch_code": "ID0010330",
+            "branch_name": "KCP DEPOK NUSANTARA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "215",
+            "branch_code": "ID0010386",
+            "branch_name": "KCP DEPOK FMIPA - UI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "216",
+            "branch_code": "ID0010420",
+            "branch_name": "KCP BOGOR SUDIRMAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "217",
+            "branch_code": "ID0010552",
+            "branch_name": "KCP BOGOR SENTUL",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "218",
+            "branch_code": "ID0010626",
+            "branch_name": "KK BOGOR WARUNG JAMBU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "219",
+            "branch_code": "ID0010680",
+            "branch_name": "KFO POS CIBINONG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "22",
+            "branch_code": "ID0010278",
+            "branch_name": "KCP MEUREUDU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "220",
+            "branch_code": "ID0010684",
+            "branch_name": "KFO POS BOGOR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "222",
+            "branch_code": "ID0010133",
+            "branch_name": "KC TANGERANG CILEDUG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "223",
+            "branch_code": "ID0010195",
+            "branch_name": "KCP JAKARTA KEDOYA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "224",
+            "branch_code": "ID0010196",
+            "branch_name": "KCP JAKARTA TANJUNG DUREN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "225",
+            "branch_code": "ID0010197",
+            "branch_name": "KCP JAKARTA DURI KOSAMBI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "226",
+            "branch_code": "ID0010232",
+            "branch_name": "KCP JAKARTA KALIDERES",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "227",
+            "branch_code": "ID0010363",
+            "branch_name": "KC JAKARTA CENGKARENG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "228",
+            "branch_code": "ID0010435",
+            "branch_name": "KCP JAKARTA S. PARMAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "229",
+            "branch_code": "ID0010547",
+            "branch_name": "KC JAKARTA KEMBANGAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "23",
+            "branch_code": "ID0010365",
+            "branch_name": "KC LHOKSEUMAWE",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "230",
+            "branch_code": "ID0010656",
+            "branch_name": "KCP TANGERANG KARANG TENGAH",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "231",
+            "branch_code": "ID0010660",
+            "branch_name": "KCP JAKARTA MERUYA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "232",
+            "branch_code": "ID0010021",
+            "branch_name": "KC JAKARTA TANJUNG PRIOK",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "233",
+            "branch_code": "ID0010035",
+            "branch_name": "KC JAKARTA RAWAMANGUN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "233ecc33bdbaac4dac311172cf842897",
+            "branch_code": "ID0010009",
+            "branch_name": "KC BANDUNG DAGO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "235",
+            "branch_code": "ID0010107",
+            "branch_name": "KC JAKARTA SALEMBA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "236",
+            "branch_code": "ID0010109",
+            "branch_name": "KCP JAKARTA CEMPAKA PUTIH",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "237",
+            "branch_code": "ID0010144",
+            "branch_name": "KC JAKARTA MANGGA DUA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "238",
+            "branch_code": "ID0010145",
+            "branch_name": "KCP JAKARTA KRAMAT JAYA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "239",
+            "branch_code": "ID0010146",
+            "branch_name": "KCP JAKARTA SUNTER",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "24",
+            "branch_code": "ID0010495",
+            "branch_name": "KCP ACEH ULEE KARENG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "240",
+            "branch_code": "ID0010173",
+            "branch_name": "KCP JAKARTA CAKUNG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "241",
+            "branch_code": "ID0010175",
+            "branch_name": "KCP JAKARTA KLENDER",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "242",
+            "branch_code": "ID0010212",
+            "branch_name": "KCP JAKARTA RAWASARI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "243",
+            "branch_code": "ID0010231",
+            "branch_name": "KCP JAKARTA MUARA KARANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "244",
+            "branch_code": "ID0010233",
+            "branch_name": "KCP JAKARTA GADING ORCHARD",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "245",
+            "branch_code": "ID0010275",
+            "branch_name": "KCP JAKARTA CIKINI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "246",
+            "branch_code": "ID0010314",
+            "branch_name": "KCP JAKARTA PULO GADUNG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "247",
+            "branch_code": "ID0010375",
+            "branch_name": "KC JAKARTA SUNTER AGUNG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "248",
+            "branch_code": "ID0010393",
+            "branch_name": "KK JAKARTA RSIJ CEMPAKA PUTIH",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "249",
+            "branch_code": "ID0010461",
+            "branch_name": "KK JAKARTA PENGADILAN AGAMA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "25",
+            "branch_code": "ID0010561",
+            "branch_name": "KCP SABANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "250",
+            "branch_code": "ID0010553",
+            "branch_name": "KCP JAKARTA CIPINANG JAYA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "251",
+            "branch_code": "ID0010571",
+            "branch_name": "KCP JAKARTA KRAMAT RAYA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "252",
+            "branch_code": "ID0010669",
+            "branch_name": "KC JAKARTA PLUIT",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "253",
+            "branch_code": "ID0010671",
+            "branch_name": "KCP JAKARTA GADING BOULEVARD",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "254",
+            "branch_code": "ID0010679",
+            "branch_name": "KFO POS JAKARTA UTARA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "255",
+            "branch_code": "ID0010686",
+            "branch_name": "KFO POS JAKARTA TIMUR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "257",
+            "branch_code": "ID0010072",
+            "branch_name": "KC JAKARTA CIBUBUR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "258",
+            "branch_code": "ID0010073",
+            "branch_name": "KCP JAKARTA CILILITAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "259",
+            "branch_code": "ID0010082",
+            "branch_name": "KC BEKASI PONDOK GEDE",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "26",
+            "branch_code": "ID0010620",
+            "branch_name": "KK BEUREUNEUN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "260",
+            "branch_code": "ID0010174",
+            "branch_name": "KCP JAKARTA PONDOK BAMBU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "261",
+            "branch_code": "ID0010177",
+            "branch_name": "KCP JAKARTA DEWI SARTIKA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "262",
+            "branch_code": "ID0010261",
+            "branch_name": "KCP JAKARTA CIRACAS",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "263",
+            "branch_code": "ID0010263",
+            "branch_name": "KCP BEKASI KEMANG PRATAMA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "264",
+            "branch_code": "ID0010372",
+            "branch_name": "KC JAKARTA KALIBATA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "265",
+            "branch_code": "ID0010422",
+            "branch_name": "KCP JAKARTA GANDARIA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "266",
+            "branch_code": "ID0010424",
+            "branch_name": "KK BOGOR KOTA WISATA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "267",
+            "branch_code": "ID0010433",
+            "branch_name": "KCP JAKARTA PANGKALAN JATI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "268",
+            "branch_code": "ID0010434",
+            "branch_name": "KCP JAKARTA PS. REBO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "269",
+            "branch_code": "ID0010515",
+            "branch_name": "KCP BEKASI JATIASIH",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "27",
+            "branch_code": "ID0010652",
+            "branch_name": "KCP TAKENGON",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "270",
+            "branch_code": "ID0010516",
+            "branch_name": "KCP BEKASI JATIBENING",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "271",
+            "branch_code": "ID0010685",
+            "branch_name": "KFO POS BEKASI PONDOK GEDE",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "272",
+            "branch_code": "ID0010009",
+            "branch_name": "KC BANDUNG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "273",
+            "branch_code": "ID0010094",
+            "branch_name": "KC GARUT",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "274",
+            "branch_code": "ID0010095",
+            "branch_name": "KCP BANDUNG BUAH BATU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "275",
+            "branch_code": "ID0010096",
+            "branch_name": "KCP BANDUNG SETIA BUDI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "276",
+            "branch_code": "ID0010097",
+            "branch_name": "KCP SUMEDANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "277",
+            "branch_code": "ID0010272",
+            "branch_name": "KCP BANDUNG PAJAJARAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "278",
+            "branch_code": "ID0010358",
+            "branch_name": "KCP BANDUNG METRO MARGAHAYU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "279",
+            "branch_code": "ID0010359",
+            "branch_name": "KCP BANDUNG UJUNG BERUNG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "28",
+            "branch_code": "ID0010677",
+            "branch_name": "KFO POS BANDA ACEH",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "280",
+            "branch_code": "ID0010360",
+            "branch_name": "KCP BANDUNG RANCAEKEK",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "281",
+            "branch_code": "ID0010362",
+            "branch_name": "KC BANDUNG KOPO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "282",
+            "branch_code": "ID0010381",
+            "branch_name": "KK BANDUNG JAPATI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "283",
+            "branch_code": "ID0010414",
+            "branch_name": "KCP BANDUNG MOH. TOHA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "284",
+            "branch_code": "ID0010556",
+            "branch_name": "KCP GARUT KADUNGORA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "285",
+            "branch_code": "ID0010574",
+            "branch_name": "KCP BANDUNG ANTAPANI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "286",
+            "branch_code": "ID0010608",
+            "branch_name": "KCP JATINANGOR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "287",
+            "branch_code": "ID0010637",
+            "branch_name": "KK BANDUNG RS AL ISLAM",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "288",
+            "branch_code": "ID0010691",
+            "branch_name": "KFO POS BANDUNG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "289",
+            "branch_code": "ID0010735",
+            "branch_name": "KFO POS GARUT",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "291",
+            "branch_code": "ID0010114",
+            "branch_name": "KCP KLATEN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "292",
+            "branch_code": "ID0010115",
+            "branch_name": "KCP SUKOHARJO SOLO BARU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "293",
+            "branch_code": "ID0010116",
+            "branch_name": "KCP SRAGEN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "294",
+            "branch_code": "ID0010234",
+            "branch_name": "KCP BOYOLALI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "295",
+            "branch_code": "ID0010235",
+            "branch_name": "KCP KARANGANYAR PALUR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "296",
+            "branch_code": "ID0010236",
+            "branch_name": "KCP SURAKARTA PASAR KLIWON",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "297",
+            "branch_code": "ID0010237",
+            "branch_name": "KCP SUKOHARJO KARTASURA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "298",
+            "branch_code": "ID0010238",
+            "branch_name": "KCP WONOGIRI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "299",
+            "branch_code": "ID0010281",
+            "branch_name": "KCP SOLO URIP SUMOHARJO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "2bc0498cf4d3abfbda7e8f39e112fd5d",
+            "branch_code": "ID0010008",
+            "branch_name": "KC MEDAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "2ed996e9f99bbab532102e9ac3621646",
+            "branch_code": "ID0010051",
+            "branch_name": "KC JEMBER",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "3",
+            "branch_code": "ID0010089",
+            "branch_name": "KC MEDAN AKSARA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "30",
+            "branch_code": "ID0010044",
+            "branch_name": "KC DUMAI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "300",
+            "branch_code": "ID0010373",
+            "branch_name": "KC SALATIGA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "301",
+            "branch_code": "ID0010405",
+            "branch_name": "KK SOLO ASSALAAM",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "302",
+            "branch_code": "ID0010406",
+            "branch_name": "KCP SURAKARTA PASAR KLEWER",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "303",
+            "branch_code": "ID0010453",
+            "branch_name": "KCP SOLO NUSUKAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "304",
+            "branch_code": "ID0010493",
+            "branch_name": "KK SURAKARTA MANAHAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "305",
+            "branch_code": "ID0010692",
+            "branch_name": "KFO POS SOLO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "307",
+            "branch_code": "ID0010042",
+            "branch_name": "KC TASIKMALAYA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "308",
+            "branch_code": "ID0010151",
+            "branch_name": "KCP KUNINGAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "309",
+            "branch_code": "ID0010152",
+            "branch_name": "KCP INDRAMAYU JATIBARANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "30d6ae553d7e808a0049ca3fc77cf77b",
+            "branch_code": "ID0010016",
+            "branch_name": "KC BANJARMASIN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "31",
+            "branch_code": "ID0010147",
+            "branch_name": "KC PEKANBARU HARAPAN RAYA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "310",
+            "branch_code": "ID0010153",
+            "branch_name": "KCP MAJALENGKA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "311",
+            "branch_code": "ID0010190",
+            "branch_name": "KCP CIAMIS",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "312",
+            "branch_code": "ID0010241",
+            "branch_name": "KCP CIREBON PLERED",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "313",
+            "branch_code": "ID0010247",
+            "branch_name": "KCP BANJAR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "314",
+            "branch_code": "ID0010297",
+            "branch_name": "KCP INDRAMAYU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "315",
+            "branch_code": "ID0010298",
+            "branch_name": "KCP CIREBON CILEDUG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "316",
+            "branch_code": "ID0010325",
+            "branch_name": "KCP CIAWI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "317",
+            "branch_code": "ID0010421",
+            "branch_name": "KCP CIREBON SILIWANGI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "318",
+            "branch_code": "ID0010458",
+            "branch_name": "KLS TASIKMALAYA RSUD",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "319",
+            "branch_code": "ID0010460",
+            "branch_name": "KCP TEGAL ADIWERNA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "32",
+            "branch_code": "ID0010148",
+            "branch_name": "KCP PEKANBARU PANAM",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "320",
+            "branch_code": "ID0010560",
+            "branch_name": "KCP INDRAMAYU PATROL",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "321",
+            "branch_code": "ID0010612",
+            "branch_name": "KCP TASIKMALAYA SINGAPARNA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "322",
+            "branch_code": "ID0010622",
+            "branch_name": "KK CIAMIS RANCAH",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "324",
+            "branch_code": "ID0010057",
+            "branch_name": "KC PURWOKERTO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "325",
+            "branch_code": "ID0010163",
+            "branch_name": "KCP YOGYAKARTA KALIURANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "326",
+            "branch_code": "ID0010164",
+            "branch_name": "KCP WONOSARI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "327",
+            "branch_code": "ID0010189",
+            "branch_name": "KCP MAGELANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "328",
+            "branch_code": "ID0010211",
+            "branch_name": "KC CILACAP",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "329",
+            "branch_code": "ID0010243",
+            "branch_name": "KCP YOGYAKARTA KATAMSO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "33",
+            "branch_code": "ID0010149",
+            "branch_name": "KCP PANGKALAN KERINCI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "330",
+            "branch_code": "ID0010244",
+            "branch_name": "KCP AMBARUKMO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "331",
+            "branch_code": "ID0010245",
+            "branch_name": "KCP GODEAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "332",
+            "branch_code": "ID0010248",
+            "branch_name": "KCP PURBALINGGA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "333",
+            "branch_code": "ID0010305",
+            "branch_name": "KCP YOGYAKARTA KOTAGEDE",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "334",
+            "branch_code": "ID0010324",
+            "branch_name": "KCP GOMBONG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "335",
+            "branch_code": "ID0010348",
+            "branch_name": "KCP BANJARNEGARA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "336",
+            "branch_code": "ID0010384",
+            "branch_name": "KK BANTUL",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "337",
+            "branch_code": "ID0010408",
+            "branch_name": "KK YOGYAKARTA UII",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "338",
+            "branch_code": "ID0010409",
+            "branch_name": "KK BANTUL UMY",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "339",
+            "branch_code": "ID0010478",
+            "branch_name": "KCP CILACAP MAJENANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "34",
+            "branch_code": "ID0010150",
+            "branch_name": "KCP TEMBILAHAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "340",
+            "branch_code": "ID0010577",
+            "branch_name": "KCP YOGYAKARTA WIROBRAJAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "341",
+            "branch_code": "ID0010594",
+            "branch_name": "KCP AJIBARANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "342",
+            "branch_code": "ID0010597",
+            "branch_name": "KCP SLEMAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "343",
+            "branch_code": "ID0010598",
+            "branch_name": "KCP BANTUL",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "344",
+            "branch_code": "ID0010736",
+            "branch_name": "KFO POS YOGYAKARTA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "345",
+            "branch_code": "ID0010012",
+            "branch_name": "KC PEKALONGAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "347",
+            "branch_code": "ID0010112",
+            "branch_name": "KC TEGAL",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "348",
+            "branch_code": "ID0010113",
+            "branch_name": "KCP PEMALANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "349",
+            "branch_code": "ID0010187",
+            "branch_name": "KC KUDUS",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "35",
+            "branch_code": "ID0010193",
+            "branch_name": "KC DURI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "350",
+            "branch_code": "ID0010188",
+            "branch_name": "KCP UNGARAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "351",
+            "branch_code": "ID0010246",
+            "branch_name": "KCP SEMARANG KARANGAYU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "352",
+            "branch_code": "ID0010280",
+            "branch_name": "KCP BATANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "353",
+            "branch_code": "ID0010321",
+            "branch_name": "KCP SEMARANG TIMUR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "354",
+            "branch_code": "ID0010322",
+            "branch_name": "KCP PURWODADI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "355",
+            "branch_code": "ID0010323",
+            "branch_name": "KCP TEMANGGUNG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "356",
+            "branch_code": "ID0010349",
+            "branch_name": "KCP BREBES",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "357",
+            "branch_code": "ID0010367",
+            "branch_name": "KC PATI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "358",
+            "branch_code": "ID0010378",
+            "branch_name": "KC KENDAL",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "359",
+            "branch_code": "ID0010445",
+            "branch_name": "KLS PEKALONGAN PEKAJANGAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "36",
+            "branch_code": "ID0010194",
+            "branch_name": "KCP BAGAN BATU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "360",
+            "branch_code": "ID0010451",
+            "branch_name": "KCP SEMARANG MT. HARYONO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "361",
+            "branch_code": "ID0010558",
+            "branch_name": "KCP JEPARA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "362",
+            "branch_code": "ID0010578",
+            "branch_name": "KCP PEKALONGAN KAJEN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "363",
+            "branch_code": "ID0010582",
+            "branch_name": "KCP SEMARANG NGALIYAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "364",
+            "branch_code": "ID0010584",
+            "branch_name": "KCP SEMARANG BANYUMANIK",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "365",
+            "branch_code": "ID0010600",
+            "branch_name": "KCP GUBUG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "366",
+            "branch_code": "ID0010614",
+            "branch_name": "KCP MAGELANG MUNTILAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "367",
+            "branch_code": "ID0010724",
+            "branch_name": "KFO POS TEGAL",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "368",
+            "branch_code": "ID0010727",
+            "branch_name": "KFO POS SEMARANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "369",
+            "branch_code": "ID0010050",
+            "branch_name": "KC PURWAKARTA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "37",
+            "branch_code": "ID0010227",
+            "branch_name": "KCP BENGKALIS",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "370",
+            "branch_code": "ID0010091",
+            "branch_name": "KC CIMAHI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "",
+            "branch_code": "ID0010092",
+            "branch_name": "KC CIANJUR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "372",
+            "branch_code": "ID0010093",
+            "branch_name": "KC SUKABUMI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "373",
+            "branch_code": "ID0010207",
+            "branch_name": "KCP SUBANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "374",
+            "branch_code": "ID0010334",
+            "branch_name": "KCP SUBANG PAMANUKAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "375",
+            "branch_code": "ID0010336",
+            "branch_name": "KCP CICURUG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "377",
+            "branch_code": "ID0010488",
+            "branch_name": "KCP SUKABUMI SURADE",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "378",
+            "branch_code": "ID0010573",
+            "branch_name": "KCP CIMAHI BAROS",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "379",
+            "branch_code": "ID0010644",
+            "branch_name": "KCP SUKABUMI CIBADAK",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "38",
+            "branch_code": "ID0010293",
+            "branch_name": "KCP UJUNG BATU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "380",
+            "branch_code": "ID0010695",
+            "branch_name": "KFO POS CIANJUR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "381",
+            "branch_code": "ID0010726",
+            "branch_name": "KFO POS SUKABUMI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "383",
+            "branch_code": "ID0010098",
+            "branch_name": "KC SIDOARJO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "384",
+            "branch_code": "ID0010101",
+            "branch_name": "KCP MOJOKERTO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "385",
+            "branch_code": "ID0010102",
+            "branch_name": "KCP SURABAYA AMPEL",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "386",
+            "branch_code": "ID0010104",
+            "branch_name": "KCP JOMBANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "387",
+            "branch_code": "ID0010105",
+            "branch_name": "KCP SURABAYA SUNGKONO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "388",
+            "branch_code": "ID0010160",
+            "branch_name": "KCP PASURUAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "389",
+            "branch_code": "ID0010250",
+            "branch_name": "KCP SURABAYA WIYUNG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "39",
+            "branch_code": "ID0010294",
+            "branch_name": "KCP PEKANBARU NANGKA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "390",
+            "branch_code": "ID0010251",
+            "branch_name": "KCP SURABAYA DHARMAHUSADA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "391",
+            "branch_code": "ID0010273",
+            "branch_name": "KCP SURABAYA TANJUNG PERAK",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "392",
+            "branch_code": "ID0010307",
+            "branch_name": "KCP KRIAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "393",
+            "branch_code": "ID0010455",
+            "branch_name": "KCP SURABAYA JEMBATAN MERAH",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "394",
+            "branch_code": "ID0010492",
+            "branch_name": "KCP SURABAYA KEDUNGDORO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "395",
+            "branch_code": "ID0010497",
+            "branch_name": "KCP SIDOARJO WARU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "396",
+            "branch_code": "ID0010501",
+            "branch_name": "KK SURABAYA UNIVERSITAS AIRLANGGA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "397",
+            "branch_code": "ID0010646",
+            "branch_name": "KCP SURABAYA PASAR TURI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "398",
+            "branch_code": "ID0010670",
+            "branch_name": "KCP SURABAYA PASAR ATOM",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "399",
+            "branch_code": "ID0010712",
+            "branch_name": "KFO MITRA MANDIRI KEMBANG JEPUN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "3d431fac21b68adf611449b57136edfe",
+            "branch_code": "ID0010872",
+            "branch_name": "KFO MIKRO MERLUNG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "3e18d9e7098447e7d5ebd7f787bcde83",
+            "branch_code": "ID0010037",
+            "branch_name": "KC BANDAR LAMPUNG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "4",
+            "branch_code": "ID0010214",
+            "branch_name": "KCP MEDAN SIMPANG LIMUN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "40",
+            "branch_code": "ID0010402",
+            "branch_name": "KK PEKANBARU RUMBAI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "400",
+            "branch_code": "ID0010719",
+            "branch_name": "KCP SIDOARJO SEPANJANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "401",
+            "branch_code": "ID0010728",
+            "branch_name": "KFO POS SURABAYA KEBON ROJO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "403",
+            "branch_code": "ID0010048",
+            "branch_name": "KC KEDIRI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "404",
+            "branch_code": "ID0010162",
+            "branch_name": "KCP MALANG BATU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "405",
+            "branch_code": "ID0010202",
+            "branch_name": "KCP TULUNGAGUNG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "406",
+            "branch_code": "ID0010203",
+            "branch_name": "KC MADIUN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "407",
+            "branch_code": "ID0010255",
+            "branch_name": "KCP KEPANJEN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "408",
+            "branch_code": "ID0010256",
+            "branch_name": "KCP KEDIRI PARE",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "409",
+            "branch_code": "ID0010302",
+            "branch_name": "KCP PANDAAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "41",
+            "branch_code": "ID0010423",
+            "branch_name": "KCP DUMAI SUKAJADI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "410",
+            "branch_code": "ID0010304",
+            "branch_name": "KCP LAWANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "411",
+            "branch_code": "ID0010331",
+            "branch_name": "KCP NGANJUK",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "412",
+            "branch_code": "ID0010350",
+            "branch_name": "KCP PONOROGO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "413",
+            "branch_code": "ID0010374",
+            "branch_name": "KC BLITAR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "414",
+            "branch_code": "ID0010467",
+            "branch_name": "KCP NGAWI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "415",
+            "branch_code": "ID0010512",
+            "branch_name": "KCP MALANG SOEKARNO HATTA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "416",
+            "branch_code": "ID0010529",
+            "branch_name": "KCP TRENGGALEK",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "417",
+            "branch_code": "ID0010590",
+            "branch_name": "KCP MAGETAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "418",
+            "branch_code": "ID0010591",
+            "branch_name": "KCP PACITAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "419",
+            "branch_code": "ID0010659",
+            "branch_name": "KCP MALANG TUREN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "42",
+            "branch_code": "ID0010446",
+            "branch_name": "KCP PEKANBARU SUDIRMAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "420",
+            "branch_code": "ID0010693",
+            "branch_name": "KFO POS MALANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "421",
+            "branch_code": "ID0010703",
+            "branch_name": "KCP MALANG PASAR BESAR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "423",
+            "branch_code": "ID0010060",
+            "branch_name": "KC BANYUWANGI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "4235d2cd54a833c17a189be2385c29ba",
+            "branch_code": "ID0010058",
+            "branch_name": "KC JAKARTA KELAPA GADING",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "424",
+            "branch_code": "ID0010161",
+            "branch_name": "KCP PROBOLINGGO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "425",
+            "branch_code": "ID0010303",
+            "branch_name": "KCP LUMAJANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "426",
+            "branch_code": "ID0010337",
+            "branch_name": "KCP BONDOWOSO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "427",
+            "branch_code": "ID0010338",
+            "branch_name": "KCP SITUBONDO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "428",
+            "branch_code": "ID0010339",
+            "branch_name": "KCP JEMBER BALUNG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "429",
+            "branch_code": "ID0010351",
+            "branch_name": "KCP GENTENG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "43",
+            "branch_code": "ID0010477",
+            "branch_name": "KCP UJUNG TANJUNG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "430",
+            "branch_code": "ID0010565",
+            "branch_name": "KK JEMBER UNIVERSITAS MUHAMMADIYAH",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "431",
+            "branch_code": "ID0010605",
+            "branch_name": "KK JEMBER KALISAT",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "432",
+            "branch_code": "ID0010654",
+            "branch_name": "KCP BANYUWANGI ROGOJAMPI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "433",
+            "branch_code": "ID0010694",
+            "branch_name": "KFO POS BANYUWANGI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "434",
+            "branch_code": "ID0010701",
+            "branch_name": "KK BANYUWANGI KETAPANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "435",
+            "branch_code": "ID0010729",
+            "branch_name": "KFO POS JEMBER",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "436",
+            "branch_code": "ID0010031",
+            "branch_name": "KC MATARAM",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "438",
+            "branch_code": "ID0010165",
+            "branch_name": "KCP SUMBAWA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "439",
+            "branch_code": "ID0010166",
+            "branch_name": "KCP PANCOR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "44",
+            "branch_code": "ID0010484",
+            "branch_name": "KCP TELUK KUANTAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "440",
+            "branch_code": "ID0010208",
+            "branch_name": "KCP BULELENG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "441",
+            "branch_code": "ID0010259",
+            "branch_name": "KC KUPANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "442",
+            "branch_code": "ID0010308",
+            "branch_name": "KCP PRAYA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "443",
+            "branch_code": "ID0010309",
+            "branch_name": "KCP BIMA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "444",
+            "branch_code": "ID0010340",
+            "branch_name": "KCP DENPASAR GATOT SUBROTO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "445",
+            "branch_code": "ID0010397",
+            "branch_name": "KCP KUTA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "446",
+            "branch_code": "ID0010499",
+            "branch_name": "KCP DENPASAR WR SUPRATMAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "447",
+            "branch_code": "ID0010707",
+            "branch_name": "KFO MITRA BSHB MELATI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "448",
+            "branch_code": "ID0010708",
+            "branch_name": "KFO MITRA BSHB GUNUNG AGUNG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "449",
+            "branch_code": "ID0010709",
+            "branch_name": "KFO MITRA BSHB SUKAWATI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "45",
+            "branch_code": "ID0010504",
+            "branch_name": "KCP BANGKINANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "450",
+            "branch_code": "ID0010710",
+            "branch_name": "KFO MITRA BSHB TABANAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "451",
+            "branch_code": "ID0010711",
+            "branch_name": "KFO MITRA BSHB WATURENGGONG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "452",
+            "branch_code": "ID0010730",
+            "branch_name": "KFO POS KUPANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "453",
+            "branch_code": "ID0010731",
+            "branch_name": "KFO POS MATARAM",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "454",
+            "branch_code": "ID0010842",
+            "branch_name": "KFO MITRA MANDIRI MATARAM CAKRANEGARA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "455",
+            "branch_code": "ID0010014",
+            "branch_name": "KC PAMEKASAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "456",
+            "branch_code": "ID0010099",
+            "branch_name": "KC GRESIK",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "457",
+            "branch_code": "ID0010100",
+            "branch_name": "KC BOJONEGORO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "458",
+            "branch_code": "ID0010103",
+            "branch_name": "KCP TUBAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "46",
+            "branch_code": "ID0010508",
+            "branch_name": "KCP FLAMBOYAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "460",
+            "branch_code": "ID0010117",
+            "branch_name": "KCP BANGKALAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "461",
+            "branch_code": "ID0010282",
+            "branch_name": "KCP SUMENEP",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "462",
+            "branch_code": "ID0010283",
+            "branch_name": "KCP SAMPANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "463",
+            "branch_code": "ID0010319",
+            "branch_name": "KCP LAMONGAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "464",
+            "branch_code": "ID0010454",
+            "branch_name": "KCP SURABAYA KLAMPIS",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "465",
+            "branch_code": "ID0010498",
+            "branch_name": "KCP BOJONEGORO SUMBERREJO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "466",
+            "branch_code": "ID0010528",
+            "branch_name": "KCP SURABAYA RUNGKUT",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "467",
+            "branch_code": "ID0010604",
+            "branch_name": "KK BOJONEGORO PONPES ATTANWIR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "469",
+            "branch_code": "ID0010065",
+            "branch_name": "KC MAMUJU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "47",
+            "branch_code": "ID0010546",
+            "branch_name": "KCP SELAT PANJANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "470",
+            "branch_code": "ID0010118",
+            "branch_name": "KC BONE",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "471",
+            "branch_code": "ID0010119",
+            "branch_name": "KCP MAKASSAR PANAKUKKANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "472",
+            "branch_code": "ID0010120",
+            "branch_name": "KCP BULUKUMBA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "473",
+            "branch_code": "ID0010121",
+            "branch_name": "KCP PARE PARE",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "474",
+            "branch_code": "ID0010122",
+            "branch_name": "KCP PALOPO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "475",
+            "branch_code": "ID0010284",
+            "branch_name": "KCP SENGKANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "476",
+            "branch_code": "ID0010285",
+            "branch_name": "KCP MAKASSAR TAMALANREA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "477",
+            "branch_code": "ID0010354",
+            "branch_name": "KC AMBON",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "478",
+            "branch_code": "ID0010366",
+            "branch_name": "KC KENDARI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "479",
+            "branch_code": "ID0010380",
+            "branch_name": "KCP MAKASSAR UNISMUH",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "48",
+            "branch_code": "ID0010549",
+            "branch_name": "KCP BAGAN SIAPIAPI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "480",
+            "branch_code": "ID0010440",
+            "branch_name": "KCP MAKASSAR AHMAD YANI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "481",
+            "branch_code": "ID0010466",
+            "branch_name": "KCP MAROS",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "482",
+            "branch_code": "ID0010542",
+            "branch_name": "KCP POLEWALI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "483",
+            "branch_code": "ID0010579",
+            "branch_name": "KCP GOWA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "483ec5e04e34e174824b064bf9eff0d9",
+            "branch_code": "ID0010011",
+            "branch_name": "KC ACEH",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "484",
+            "branch_code": "ID0010668",
+            "branch_name": "KCP BAUBAU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "485",
+            "branch_code": "ID0010704",
+            "branch_name": "KCP AMBON DIPONEGORO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "486",
+            "branch_code": "ID0010713",
+            "branch_name": "KFO MITRA MANDIRI SULAWESI MAKASSAR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "487",
+            "branch_code": "ID0010717",
+            "branch_name": "KCP BULA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "488",
+            "branch_code": "ID0010737",
+            "branch_name": "KFO POS MAKASSAR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "489",
+            "branch_code": "ID0010836",
+            "branch_name": "KFO POS KENDARI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "49",
+            "branch_code": "ID0010550",
+            "branch_name": "KCP RENGAT",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "490",
+            "branch_code": "ID0010840",
+            "branch_name": "KFO MITRA MANDIRI BONE WATAMPONE",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "492",
+            "branch_code": "ID0010052",
+            "branch_name": "KC MANADO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "493",
+            "branch_code": "ID0010062",
+            "branch_name": "KC GORONTALO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "494",
+            "branch_code": "ID0010064",
+            "branch_name": "KC TERNATE",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "495",
+            "branch_code": "ID0010184",
+            "branch_name": "KC LUWUK",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "496",
+            "branch_code": "ID0010185",
+            "branch_name": "KCP PARIGI MOUTONG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "497",
+            "branch_code": "ID0010257",
+            "branch_name": "KCP BITUNG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "498",
+            "branch_code": "ID0010317",
+            "branch_name": "KCP PALU PLAZA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "499",
+            "branch_code": "ID0010318",
+            "branch_name": "KCP MOROWALI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "4a608f0abb893600d6a7da6cd776f636",
+            "branch_code": "ID0010015",
+            "branch_name": "KC MAKASSAR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "4b3e7969aa98888d17297ab20809e1d0",
+            "branch_code": "ID0010868",
+            "branch_name": "KFO MIKRO GEMOLONG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "5",
+            "branch_code": "ID0010266",
+            "branch_name": "KCP MEDAN KRAKATAU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "50",
+            "branch_code": "ID0010618",
+            "branch_name": "KK PASIR PANGARAIAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "500",
+            "branch_code": "ID0010398",
+            "branch_name": "KCP MANADO PASAR 45",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "50044210193e7106529a0bf1f4289855",
+            "branch_code": "ID0010049",
+            "branch_name": "KC PEMATANGSIANTAR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "501",
+            "branch_code": "ID0010444",
+            "branch_name": "KCP PALU TADULAKO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "502",
+            "branch_code": "ID0010464",
+            "branch_name": "KCP KOTAMOBAGU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "503",
+            "branch_code": "ID0010511",
+            "branch_name": "KCP TOLITOLI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "504",
+            "branch_code": "ID0010536",
+            "branch_name": "KCP SIGI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "505",
+            "branch_code": "ID0010596",
+            "branch_name": "KCP AMPANA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "506",
+            "branch_code": "ID0010601",
+            "branch_name": "KCP POSO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "507",
+            "branch_code": "ID0010705",
+            "branch_name": "KCP BACAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "508",
+            "branch_code": "ID0010723",
+            "branch_name": "KFO POS MANADO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "509",
+            "branch_code": "ID0010835",
+            "branch_name": "KFO POS GORONTALO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "51",
+            "branch_code": "ID0010653",
+            "branch_name": "KCP SOREK",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "511",
+            "branch_code": "ID0010258",
+            "branch_name": "KC SORONG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "512",
+            "branch_code": "ID0010344",
+            "branch_name": "KCP JAYAPURA ABEPURA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "513",
+            "branch_code": "ID0010395",
+            "branch_name": "KCP JAYAPURA SENTANI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "ID0010063",
+            "branch_code": "ID0010063",
+            "branch_name": "KC PANGKAL PINANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "516",
+            "branch_code": "ID0010137",
+            "branch_name": "KC PRABUMULIH",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "517",
+            "branch_code": "ID0010138",
+            "branch_name": "KC BATURAJA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "518",
+            "branch_code": "ID0010139",
+            "branch_name": "KC PALEMBANG PASAR 16 ILIR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "519",
+            "branch_code": "ID0010140",
+            "branch_name": "KC PALEMBANG SIMPANG PATAL",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "52",
+            "branch_code": "ID0010667",
+            "branch_name": "KCP SIAK",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "520",
+            "branch_code": "ID0010141",
+            "branch_name": "KCP LUBUK LINGGAU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "521",
+            "branch_code": "ID0010239",
+            "branch_name": "KCP PALEMBANG RADIAL",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "522",
+            "branch_code": "ID0010240",
+            "branch_name": "KCP PALEMBANG KM 5",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "523",
+            "branch_code": "ID0010290",
+            "branch_name": "KCP KAYU AGUNG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "524",
+            "branch_code": "ID0010291",
+            "branch_name": "KCP SUNGAI LILIN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "525",
+            "branch_code": "ID0010335",
+            "branch_name": "KCP LAHAT",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "526",
+            "branch_code": "ID0010352",
+            "branch_name": "KCP TANJUNG PANDAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "527",
+            "branch_code": "ID0010443",
+            "branch_name": "KCP PALEMBANG SUDIRMAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "528",
+            "branch_code": "ID0010559",
+            "branch_name": "KCP TANJUNG ENIM",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "529",
+            "branch_code": "ID0010585",
+            "branch_name": "KCP PALEMBANG JAKABARING",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "53",
+            "branch_code": "ID0010722",
+            "branch_name": "KK PEKANBARU UIR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "530",
+            "branch_code": "ID0010638",
+            "branch_name": "KCP SUNGAI LIAT",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "532",
+            "branch_code": "ID0010039",
+            "branch_name": "KC BUKITTINGGI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "533",
+            "branch_code": "ID0010157",
+            "branch_name": "KCP SOLOK",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "534",
+            "branch_code": "ID0010186",
+            "branch_name": "KC PAYAKUMBUH",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "535",
+            "branch_code": "ID0010220",
+            "branch_name": "KCP PADANG ULAK KARANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "536",
+            "branch_code": "ID0010221",
+            "branch_name": "KCP PADANG BANDAR BUAT",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "537",
+            "branch_code": "ID0010222",
+            "branch_name": "KCP PADANG PARIAMAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "538",
+            "branch_code": "ID0010225",
+            "branch_name": "KCP PADANG PANJANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "539",
+            "branch_code": "ID0010226",
+            "branch_name": "KCP PASAMAN BARAT",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "53e6d12ae12644c887d92a0ea26aa4bd",
+            "branch_code": "ID0010017",
+            "branch_name": "KC BOGOR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "54",
+            "branch_code": "ID0010756",
+            "branch_name": "KK DURI CPI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "540",
+            "branch_code": "ID0010300",
+            "branch_name": "KCP PULAU PUNJUNG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "541",
+            "branch_code": "ID0010320",
+            "branch_name": "KCP LUBUK BASUNG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "542",
+            "branch_code": "ID0010385",
+            "branch_name": "KCP BATUSANGKAR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "543",
+            "branch_code": "ID0010400",
+            "branch_name": "KK PADANG UNIVERSITAS ANDALAS",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "544",
+            "branch_code": "ID0010465",
+            "branch_name": "KCP LUBUK SIKAPING",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "545",
+            "branch_code": "ID0010496",
+            "branch_name": "KCP PAINAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "546",
+            "branch_code": "ID0010538",
+            "branch_name": "KCP BUKITTINGGI PASAR AUR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "547",
+            "branch_code": "ID0010581",
+            "branch_name": "KK PADANG UPI YPTK",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "548",
+            "branch_code": "ID0010592",
+            "branch_name": "KK UNIVERSITAS NEGERI PADANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "549",
+            "branch_code": "ID0010615",
+            "branch_name": "KCP SAWAHLUNTO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "55",
+            "branch_code": "ID0010838",
+            "branch_name": "KFO MITRA MANDIRI PEKANBARU AHMAD YANI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "550",
+            "branch_code": "ID0010640",
+            "branch_name": "KCP PANGKALAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "551",
+            "branch_code": "ID0010690",
+            "branch_name": "KFO POS PADANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "553",
+            "branch_code": "ID0010056",
+            "branch_name": "KC BENGKULU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "554",
+            "branch_code": "ID0010167",
+            "branch_name": "KCP MUARA BUNGO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "555",
+            "branch_code": "ID0010168",
+            "branch_name": "KCP JAMBI SIPIN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "556",
+            "branch_code": "ID0010209",
+            "branch_name": "KCP CURUP",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "557",
+            "branch_code": "ID0010310",
+            "branch_name": "KCP SAROLANGUN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "558",
+            "branch_code": "ID0010341",
+            "branch_name": "KCP BELITANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "559",
+            "branch_code": "ID0010437",
+            "branch_name": "KCP JAMBI JELUTUNG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "560",
+            "branch_code": "ID0010527",
+            "branch_name": "KCP KUALA TUNGKAL",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "561",
+            "branch_code": "ID0010602",
+            "branch_name": "KK JAMBI IAIN STS",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "562",
+            "branch_code": "ID0010645",
+            "branch_name": "KCP MUARA BULIAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "563",
+            "branch_code": "ID0010649",
+            "branch_name": "KCP KETAHUN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "564",
+            "branch_code": "ID0010841",
+            "branch_name": "KFO POS JAMBI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "566",
+            "branch_code": "ID0010180",
+            "branch_name": "KC BANDAR JAYA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "567",
+            "branch_code": "ID0010181",
+            "branch_name": "KC METRO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "568",
+            "branch_code": "ID0010182",
+            "branch_name": "KCP PRINGSEWU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "569",
+            "branch_code": "ID0010183",
+            "branch_name": "KCP BANDAR LAMPUNG KEDATON",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "57",
+            "branch_code": "ID0010059",
+            "branch_name": "KC TANJUNG PINANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "570",
+            "branch_code": "ID0010316",
+            "branch_name": "KCP UNIT 2 TULANG BAWANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "571",
+            "branch_code": "ID0010411",
+            "branch_name": "KCP BANDAR LAMPUNG TELUK BETUNG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "572",
+            "branch_code": "ID0010489",
+            "branch_name": "KCP KALIANDA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "573",
+            "branch_code": "ID0010490",
+            "branch_name": "KCP KOTABUMI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "574",
+            "branch_code": "ID0010627",
+            "branch_name": "KK KALIREJO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "575",
+            "branch_code": "ID0010633",
+            "branch_name": "KK SRIBHAWONO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "576",
+            "branch_code": "ID0010643",
+            "branch_name": "KCP LIWA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "577",
+            "branch_code": "ID0010837",
+            "branch_name": "KFO MITRA MANDIRI BANDAR LAMPUNG WR. SUPRATMAN ",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "579",
+            "branch_code": "ID0010066",
+            "branch_name": "KC PALANGKARAYA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "58",
+            "branch_code": "ID0010172",
+            "branch_name": "KCP TANJUNG BALAI KARIMUN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "580",
+            "branch_code": "ID0010123",
+            "branch_name": "KC MARTAPURA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "581",
+            "branch_code": "ID0010124",
+            "branch_name": "KCP BANJARMASIN A. YANI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "582",
+            "branch_code": "ID0010125",
+            "branch_name": "KCP BATULICIN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "583",
+            "branch_code": "ID0010126",
+            "branch_name": "KCP BARABAI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "584",
+            "branch_code": "ID0010253",
+            "branch_name": "KCP BANJARMASIN PS. CEMPAKA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "585",
+            "branch_code": "ID0010254",
+            "branch_name": "KCP BANJARMASIN SENTRA ANTASARI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "586",
+            "branch_code": "ID0010286",
+            "branch_name": "KCP PELAIHARI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "587",
+            "branch_code": "ID0010287",
+            "branch_name": "KCP KOTABARU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "588",
+            "branch_code": "ID0010368",
+            "branch_name": "KC PANGKALAN BUN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "589",
+            "branch_code": "ID0010377",
+            "branch_name": "KC TANJUNG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "58cba1622a633f5645a235f8a0ae4560",
+            "branch_code": "ID0010871",
+            "branch_name": "KFO MIKRO SRIBHAWONO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "59",
+            "branch_code": "ID0010224",
+            "branch_name": "KCP BATAMINDO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "590",
+            "branch_code": "ID0010382",
+            "branch_name": "KK BANJARBARU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "591",
+            "branch_code": "ID0010383",
+            "branch_name": "KK BANJARMASIN S. PARMAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "592",
+            "branch_code": "ID0010415",
+            "branch_name": "KK BANJARMASIN HASAN BASRI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "593",
+            "branch_code": "ID0010416",
+            "branch_name": "KK BANJARMASIN STIMIK",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "594",
+            "branch_code": "ID0010462",
+            "branch_name": "KC SAMPIT",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "595",
+            "branch_code": "ID0010479",
+            "branch_name": "KCP KAPUAS",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "596",
+            "branch_code": "ID0010532",
+            "branch_name": "KCP AMUNTAI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "597",
+            "branch_code": "ID0010625",
+            "branch_name": "KK BANJARMASIN SD MUHAMMADIYAH",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "598",
+            "branch_code": "ID0010636",
+            "branch_name": "KCP MUARA TEWEH",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "599",
+            "branch_code": "ID0010697",
+            "branch_name": "KFO POS BANJARMASIN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "6",
+            "branch_code": "ID0010267",
+            "branch_name": "KCP MEDAN BELAWAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "60",
+            "branch_code": "ID0010228",
+            "branch_name": "KCP TANJUNG UBAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "601",
+            "branch_code": "ID0010036",
+            "branch_name": "KC SAMARINDA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "602",
+            "branch_code": "ID0010041",
+            "branch_name": "KC KUTAI KARTANEGARA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "603",
+            "branch_code": "ID0010178",
+            "branch_name": "KC BONTANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "604",
+            "branch_code": "ID0010179",
+            "branch_name": "KCP TARAKAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "605",
+            "branch_code": "ID0010295",
+            "branch_name": "KCP BALIKPAPAN SEPINGGAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "606",
+            "branch_code": "ID0010296",
+            "branch_name": "KCP BALIKPAPAN BARU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "607",
+            "branch_code": "ID0010315",
+            "branch_name": "KCP PAHLAWAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "608",
+            "branch_code": "ID0010326",
+            "branch_name": "KCP SANGATTA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "608c71919778f7cb630bdf0fe6102f3e",
+            "branch_code": "ID0010054",
+            "branch_name": "KC JAYAPURA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "609",
+            "branch_code": "ID0010410",
+            "branch_name": "KCP BALIKPAPAN KEBUN SAYUR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "61",
+            "branch_code": "ID0010312",
+            "branch_name": "KCP BATAM BATU AJI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "610",
+            "branch_code": "ID0010450",
+            "branch_name": "KCP SAMARINDA HASAN BASRI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "611",
+            "branch_code": "ID0010535",
+            "branch_name": "KCP KUTAI SENDAWAR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "612",
+            "branch_code": "ID0010541",
+            "branch_name": "KCP PENAJAM",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "613",
+            "branch_code": "ID0010576",
+            "branch_name": "KCP SAMARINDA SUDIRMAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "614",
+            "branch_code": "ID0010642",
+            "branch_name": "KCP KUTAI TENGGARONG SEBERANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "615",
+            "branch_code": "ID0010648",
+            "branch_name": "KCP NUNUKAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "616",
+            "branch_code": "ID0010696",
+            "branch_name": "KFO POS BALIKPAPAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "618",
+            "branch_code": "ID0010155",
+            "branch_name": "KC KETAPANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "619",
+            "branch_code": "ID0010156",
+            "branch_name": "KCP SINTANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "62",
+            "branch_code": "ID0010313",
+            "branch_name": "KCP BATAM CENTER",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "620",
+            "branch_code": "ID0010242",
+            "branch_name": "KCP NANGA PINOH",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "621",
+            "branch_code": "ID0010299",
+            "branch_name": "KCP PONTIANAK KOTA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "622",
+            "branch_code": "ID0010370",
+            "branch_name": "KC SAMBAS",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "623",
+            "branch_code": "ID0010403",
+            "branch_name": "KCP PONTIANAK AHMAD YANI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "624",
+            "branch_code": "ID0010447",
+            "branch_name": "KCP PONTIANAK SIDAS",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "625",
+            "branch_code": "ID0010491",
+            "branch_name": "KCP KETAPANG MANIS MATA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "626",
+            "branch_code": "ID0010525",
+            "branch_name": "KCP SANGGAU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "627",
+            "branch_code": "ID0010548",
+            "branch_name": "KC SINGKAWANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "628",
+            "branch_code": "ID0010606",
+            "branch_name": "KK PONTIANAK TANJUNG RAYA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "628a4109efa562316a514403843a8887",
+            "branch_code": "ID0010353",
+            "branch_name": "KC MEDAN GAJAH MADA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "629",
+            "branch_code": "ID0010001",
+            "branch_name": "KANTOR PUSAT",
+            "unit_id": "1",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "63",
+            "branch_code": "ID0010342",
+            "branch_name": "KCP NATUNA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "64",
+            "branch_code": "ID0010417",
+            "branch_name": "KCP BATAM BENGKONG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "65",
+            "branch_code": "ID0010418",
+            "branch_name": "KK BATAM SEKUPANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "66",
+            "branch_code": "ID0010475",
+            "branch_name": "KCP BINTAN CENTER",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "67",
+            "branch_code": "ID0010568",
+            "branch_name": "KCP ANAMBAS",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "67b8cc971aa556647955ff465569dff0",
+            "branch_code": "ID0010869",
+            "branch_name": "KFO MIKRO LANGAM",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "68",
+            "branch_code": "ID0010651",
+            "branch_name": "KK KIJANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "69",
+            "branch_code": "ID0010672",
+            "branch_name": "KCP BATAM BOTANIA GARDEN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "6aa3b165d0101d7cbfc9d5914cf1f588",
+            "branch_code": "ID0018032",
+            "branch_name": "JAKARTA BARAT",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "6bdeb4144ffdd106555402770273ec9d",
+            "branch_code": "ID0010002",
+            "branch_name": "KC JAKARTA THAMRIN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "7",
+            "branch_code": "ID0010268",
+            "branch_name": "KCP MEDAN TOMANG ELOK",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "70",
+            "branch_code": "ID0010718",
+            "branch_name": "KK JEMAJA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "707e3ea39fb40e5f00763cd0d35bdaae",
+            "branch_code": "ID0010026",
+            "branch_name": "KC PONTIANAK",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "71",
+            "branch_code": "ID0010725",
+            "branch_name": "KFO POS BATAM",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "72",
+            "branch_code": "ID0010030",
+            "branch_name": "KC RANTAU PRAPAT",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "73",
+            "branch_code": "ID0010043",
+            "branch_name": "KC PADANGSIDEMPUAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "73ed1bd7c28b99cbc0769039fbb992a8",
+            "branch_code": "ID0010873",
+            "branch_name": "KFO MIKRO SUNGAI BAHAR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "75",
+            "branch_code": "ID0010087",
+            "branch_name": "KCP TEBING TINGGI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "76",
+            "branch_code": "ID0010191",
+            "branch_name": "KCP PANYABUNGAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "77",
+            "branch_code": "ID0010192",
+            "branch_name": "KCP SIBUHUAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "78",
+            "branch_code": "ID0010204",
+            "branch_name": "KCP KISARAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "781586c442f1d5b53ae2f91f7f8966e5",
+            "branch_code": "ID0010024",
+            "branch_name": "KC CIREBON",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "78c5671260d44cee5df0ad5165265367",
+            "branch_code": "ID0010471",
+            "branch_name": "REGION V",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "79",
+            "branch_code": "ID0010205",
+            "branch_name": "KCP SIMALUNGUN PERDAGANGAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "8",
+            "branch_code": "ID0010270",
+            "branch_name": "KCP MEDAN PULO BRAYAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "80",
+            "branch_code": "ID0010206",
+            "branch_name": "KCP TANJUNG BALAI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "81",
+            "branch_code": "ID0010223",
+            "branch_name": "KCP KOTA PINANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "82",
+            "branch_code": "ID0010306",
+            "branch_name": "KCP AEK KANOPAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "83",
+            "branch_code": "ID0010327",
+            "branch_name": "KCP GUNUNG TUA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "84",
+            "branch_code": "ID0010328",
+            "branch_name": "KCP SIPIROK",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "85",
+            "branch_code": "ID0010333",
+            "branch_name": "KCP INDRAPURA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "86",
+            "branch_code": "ID0010356",
+            "branch_name": "KC SIBOLGA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "87",
+            "branch_code": "ID0010442",
+            "branch_name": "KCP BATANG TORU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "88",
+            "branch_code": "ID0010481",
+            "branch_name": "KCP KAMPUNG PAJAK",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "89",
+            "branch_code": "ID0010539",
+            "branch_name": "KC KABANJAHE",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "8d296b65b1ae621f13a907dae01db36b",
+            "branch_code": "ID0010045",
+            "branch_name": "KC JAKARTA KEBON JERUK",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "9",
+            "branch_code": "ID0010361",
+            "branch_name": "KC LUBUK PAKAM",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "90",
+            "branch_code": "ID0010025",
+            "branch_name": "KC SIMEULUE",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "90affafc118700b021aa52691b5dafb4",
+            "branch_code": "ID0010357",
+            "branch_name": "KC BANDUNG AHMAD YANI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "91",
+            "branch_code": "ID0010047",
+            "branch_name": "KC BINJAI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "92",
+            "branch_code": "ID0010055",
+            "branch_name": "KC LANGSA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "925d0bfcbe67f6df1eb9381c432d9911",
+            "branch_code": "ID0010867",
+            "branch_name": "KFO MIKRO DELANGGU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "92b1802612e760e8eb9407f74873d1fd",
+            "branch_code": "ID0010865",
+            "branch_name": "REGION II",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "93",
+            "branch_code": "ID0010090",
+            "branch_name": "KCP MEDAN SETIA BUDI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "94",
+            "branch_code": "ID0010154",
+            "branch_name": "KCP BLANGPIDIE",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "95",
+            "branch_code": "ID0010158",
+            "branch_name": "KCP STABAT",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "96",
+            "branch_code": "ID0010159",
+            "branch_name": "KCP PANGKALAN BRANDAN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "97",
+            "branch_code": "ID0010213",
+            "branch_name": "KCP MEDAN PETISAH",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "98",
+            "branch_code": "ID0010218",
+            "branch_name": "KCP SUBULUSSALAM",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "99",
+            "branch_code": "ID0010219",
+            "branch_name": "KCP RIMO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "a7ba00813b4c41150c975b56167fdc73",
+            "branch_code": "ID0010034",
+            "branch_name": "KC BATAM",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "asdw434w240",
+            "branch_code": "ID0018085",
+            "branch_name": "KCP BATU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "b178e421ddee4d6c83d1f74ad2fc23d6",
+            "branch_code": "ID0010019",
+            "branch_name": "KC PALEMBANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "bb29ea277c4c974c38802dc776d075fa",
+            "branch_code": "ID0010061",
+            "branch_name": "KC JAKARTA PONDOK KELAPA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "c029aa37b079e161a65eb038eb76c642",
+            "branch_code": "ID0010866",
+            "branch_name": "REGION VI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "c1ac32b3045adca6234c2f4fee35f1a4",
+            "branch_code": "ID0010028",
+            "branch_name": "KC MALANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "c668c774e05dca29ccc951e653c83621",
+            "branch_code": "ID0010038",
+            "branch_name": "KC PALU",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "d1ac886f4f2cf395001d4ed9b94f9702",
+            "branch_code": "ID0010611",
+            "branch_name": "REGION VII",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "d20b0a62b5d876a22db3c4cca36de2c9",
+            "branch_code": "ID0010900",
+            "branch_name": "KFO POS TANJUNG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "e0247cdfdf8a133dbc38ad80e2e9da37",
+            "branch_code": "ID0010010",
+            "branch_name": "KC SURABAYA DARMO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "e7e2202ec0eeac0bc4e1a1621000e36e",
+            "branch_code": "ID0010870",
+            "branch_name": "KFO MIKRO PANDAN KOTA",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "e973326bf371e90fcb27d6bcff6dc977",
+            "branch_code": "ID0010027",
+            "branch_name": "KC PADANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "f037c17301598f1fa89b47f58fbd708e",
+            "branch_code": "ID0010470",
+            "branch_name": "REGION IV",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "f159eeb4d1392e1a3073a9f43cd96bde",
+            "branch_code": "ID0010040",
+            "branch_name": "KC SEMARANG",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "f18af7addf8cdb773c500309d344e6c9",
+            "branch_code": "ID0010053",
+            "branch_name": "KC DENPASAR",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "f28f77a7e53e8ae91130461f41972831",
+            "branch_code": "ID0010013",
+            "branch_name": "KC SOLO",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "f50dfdb92e3cca1ea7c3f79316832b99",
+            "branch_code": "ID0010003",
+            "branch_name": "KC JAKARTA HASANUDIN",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "f69d2f110b8ffc2aabff7284c0077c13",
+            "branch_code": "ID0010032",
+            "branch_name": "KC JAMBI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "f7cc1ce01f0f1dbd3293f28c7fff8664",
+            "branch_code": "ID0010106",
+            "branch_name": "KC SURABAYA JEMUR HANDAYANI",
+            "unit_id": "2",
+            "branch_status": "1"
+        },
+        {
+            "branch_id": "f82ac7a47bca4d38d05d5aa558e29525",
+            "branch_code": "ID0010469",
+            "branch_name": "REGION III",
+            "unit_id": "2",
+            "branch_status": "1"
+        }
+    ]
+}

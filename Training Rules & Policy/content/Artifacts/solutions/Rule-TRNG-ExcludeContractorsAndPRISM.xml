@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Rule language="beanshell" name="TRNG-ExcludeContractorsAndPRISM" type="CertificationExclusion">
+  <Description>This rule is an example Certification Exclusion rule that removes all of the certifiable items from a certification if the identity being certified is marked as a Contractor or has an account on the PRISM application.</Description>
+  <Signature returnType="String">
+    <Inputs>
+      <Argument name="log">
+        <Description>
+          The log object associated with the SailPointContext.
+        </Description>
+      </Argument>
+      <Argument name="context">
+        <Description>
+          A sailpoint.api.SailPointContext object that can be used to query the database if necessary.
+        </Description>
+      </Argument>
+      <Argument name="entity" type="AbstractCertifiableEntity">
+        <Description>
+          The AbstractCertifiableEntity that is part of the certification.
+          Currently, this is either an Identity, ManagedAttribute, or Bundle.
+        </Description>
+      </Argument>
+      <Argument name="certification" type="Certification">
+        <Description>
+          The certification that this identity is part of.
+        </Description>
+      </Argument>
+      <Argument name="certContext" type="CertificationContext">
+        <Description>
+          The CertificationContext that is being used to generate the
+          certification.
+        </Description>
+      </Argument>
+      <Argument name="items" type="List">
+        <Description>
+          List of Certifiable items that are currently part of the
+          certification for this identity.  Any items that should be excluded
+          from the certification should be deleted from this list and added
+          to the itemsToExclude list.
+        </Description>
+      </Argument>
+      <Argument name="itemsToExclude" type="List">
+        <Description>
+          A List of Certifiable items that should not be included in the
+          certification.  This list will be empty when the rule is executed
+          and any items that should not be part of the certification should
+          be moved from the items list to the itemsToExclude list.
+        </Description>
+      </Argument>
+      <Argument name="state">
+        <Description>
+          A Map containing state information.
+        </Description>
+      </Argument>
+    </Inputs>
+    <Returns>
+      <Argument name="explanation" type="String">
+        <Description>
+          An optional explanation describing why the items were excluded.
+        </Description>
+      </Argument>
+    </Returns>
+  </Signature>
+  <Source>
+    import sailpoint.object.Identity;
+    import sailpoint.api.IdentityService;
+    import sailpoint.object.Application;
+
+    String reason = null;
+
+    // If this is not an Identity-focused certification, this rule won't exclude anything
+    if (entity instanceof Identity) {
+    
+       // [1] Get status from entity and then 
+       //     check for the entity's status attribute = "Contractor"
+       //-------------------------------------------------------
+       String userStatus = entity.getAttribute("status");
+       if ((userStatus != null) &amp;&amp; (userStatus.equals("Contractor"))) {
+       //-------------------------------------------------------
+          reason = "User is a Contractor"; 
+       } else {
+          Application chatApp = context.getObjectByName(Application.class,"PRISM");
+         // [2] Count accounts this user has on the PRISM application
+         //-------------------------------------------------------
+         IdentityService is = new IdentityService(context);
+         int prismAccounts = is.countLinks(entity,chatApp);
+         //-------------------------------------------------------
+        
+         if (prismAccounts > 0) {
+              reason = "User has a PRISM application account";
+         }
+       }
+       // If we found a reason to exclude, exclude all items for the identity
+       if (reason != null) {
+          // [3] Add the entire items list to the itemsToExclude list
+          //------------------------------------------
+          itemsToExclude.addAll(items);
+          //------------------------------------------
+
+          // [4] Blank out the items list
+          //------------------------------------------
+          items.clear();
+          //------------------------------------------
+       }
+    }
+    // return the reason these items were excluded; this is displayed in the certification 
+    // exclusions list if exclusions are saved
+     return reason;
+
+</Source>
+</Rule>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Map PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Map>
+   <entry key="config">
+    <value>
+     <Map>
+       <entry key="identityName" value="Adam.Kennedy"/>
+     </Map>
+    </value>
+  </entry>
+</Map>
+
+

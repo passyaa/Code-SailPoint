@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Rule language="beanshell" name="TRNG-CertificationExclusion-ReadAccess" type="CertificationExclusion">
+  <Description>This rule is an example Certification Exclusion rule that removes all of the certifiable items from a certification if the identity being certified is marked as inactive.</Description>
+  <Signature returnType="String">
+    <Inputs>
+      <Argument name="log">
+        <Description>
+          The log object associated with the SailPointContext.
+        </Description>
+      </Argument>
+      <Argument name="context">
+        <Description>
+          A sailpoint.api.SailPointContext object that can be used to query the database if necessary.
+        </Description>
+      </Argument>
+      <Argument name="entity" type="AbstractCertifiableEntity">
+        <Description>
+          The AbstractCertifiableEntity that is part of the certification.
+          Currently, this is either an Identity, ManagedAttribute, or Bundle.
+        </Description>
+      </Argument>
+      <Argument name="certification" type="Certification">
+        <Description>
+          The certification that this identity is part of.
+        </Description>
+      </Argument>
+      <Argument name="certContext" type="CertificationContext">
+        <Description>
+          The CertificationContext that is being used to generate the
+          certification.
+        </Description>
+      </Argument>
+      <Argument name="items" type="List">
+        <Description>
+          List of Certifiable items that are currently part of the
+          certification for this identity.  Any items that should be excluded
+          from the certification should be deleted from this list and added
+          to the itemsToExclude list.
+        </Description>
+      </Argument>
+      <Argument name="itemsToExclude" type="List">
+        <Description>
+          A List of Certifiable items that should not be included in the
+          certification.  This list will be empty when the rule is executed
+          and any items that should not be part of the certification should
+          be moved from the items list to the itemsToExclude list.
+        </Description>
+      </Argument>
+      <Argument name="state">
+        <Description>
+          A Map containing state information.
+        </Description>
+      </Argument>
+    </Inputs>
+    <Returns>
+      <Argument name="explanation" type="String">
+        <Description>
+          An optional explanation describing why the items were excluded.
+        </Description>
+      </Argument>
+    </Returns>
+  </Signature>
+  <Source>import sailpoint.object.Certifiable;
+import sailpoint.object.EntitlementGroup;
+import sailpoint.object.Attributes;
+
+	
+String explanation = "";
+//Iterate through the certifiable items and check if each one ends in read to exclude
+Iterator it = items.iterator();
+while(it.hasNext()) 
+{
+	Certifiable certObj = it.next();
+	if (certObj instanceof EntitlementGroup) {
+		EntitlementGroup eg = (EntitlementGroup) certObj;
+		Attributes attributes = eg.getAttributes();
+		if(attributes.containsKey("groups")) {
+			if (attributes.getString("groups").endsWith("read")){
+				itemsToExclude.add(certObj);
+				it.remove();
+				explanation = "Excluded Read-Only Entitlement";               
+			}
+		}
+ 	}
+}
+
+return explanation;
+  </Source>
+</Rule>

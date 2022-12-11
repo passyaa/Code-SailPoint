@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Rule language="beanshell"  name="TRNG-SetOwnerContact">
+ <Description>For each application in the installation, retrieve the owner's email address and store it as an application extended attribute</Description>
+ <Source>
+  import sailpoint.object.Identity;
+  import sailpoint.object.Application;
+  
+  // Retrieve applications
+  List applications = context.getObjects(Application.class);      
+ 
+  if (null != applications) {
+    // Loop through list of applications
+    for (Application targetApp : applications) {
+       // [1] Retrieve application owner
+       //-----------------------------
+       ___________ owner = targetApp._________;      
+       //-----------------------------
+       if (null!= owner) {
+          // [2] Retrieve owner's email address
+          //-----------------------------
+          String email = __________;          
+          //-----------------------------
+          if (null != email) {
+              // [3] Set ownerContact attribute for application
+              //-----------------------------
+              targetApp.____________("ownerContact",___________);
+              //-----------------------------
+          }
+       }
+       // [4] Save application changes and commit transaction
+       //-----------------------------       
+       context.saveObject(_______);
+       context.commitTransaction();
+      //-----------------------------  
+    } // end for loop
+  }
+ </Source>
+</Rule>

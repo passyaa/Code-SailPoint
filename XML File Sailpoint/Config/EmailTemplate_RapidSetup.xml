@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE sailpoint PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<sailpoint>
+
+
+
+<EmailTemplate name="TRNG-RapidSetup-Email-GlobalHeader">
+  <Body>
+    &lt;p&gt;Global Header&lt;/p&gt;		
+  </Body>
+  <Subject>Global Header</Subject>
+</EmailTemplate>
+
+<EmailTemplate name="TRNG-RapidSetup-Email-GlobalFooter">
+  <Body>
+    &lt;p&gt;Global Footer&lt;/p&gt;		
+  </Body>
+  <Subject>Global Footer</Subject>
+</EmailTemplate>
+
+<EmailTemplate name="TRNG-RapidSetup-Email-GlobalStyleSheet">
+  <Body>
+  &lt;style type="text/css"&gt;
+    body { 	
+background: background-color: powderblue;
+}
+p {
+color: red;
+font-family: courier;
+font-size: 160%;
+}
+  table {
+		  border: none;
+		  padding: 20px 40px 20px 40px;
+		  margin: 0 auto;
+		  color: #333333;
+		  width: 100%;
+		  border-collapse: separate !important;
+		}
+	&lt;/style&gt;	   
+  </Body>
+  <Subject>Global Style Sheet</Subject>
+</EmailTemplate>
+
+</sailpoint>

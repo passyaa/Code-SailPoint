@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<EmailTemplate created="1590001165887" id="0a000001723313f381723374663f015b" modified="1590001287152" name="Work Item Comment">
+  <Body>    
+  
+   
+&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+&lt;head>
+  &lt;title>&lt;/title>  
+&lt;/head>
+
+&lt;!-- Background for  -->
+&lt;body style="background:#00799d;margin:0;padding:0;text-align:left;">
+
+  &lt;table cellpadding="0" cellspacing="0" width="588" border="0" align="center" style="margin:0 auto;padding:0;">
+    &lt;tr valign="top">
+      &lt;td> &lt;img src="http://localhost:8080/identityiq/images/TopLogo1.png" height="" vspace="10">&amp;nbsp;&lt;/td>
+    &lt;/tr>
+    &lt;tr valign="top">
+      
+    &lt;/tr>
+    &lt;tr valign="top">
+        &lt;td>
+        &lt;!-- EMAILER CONTENT BEGINS -->
+        
+        &lt;!-- HEADER -->
+       &lt;!-- CHANGE BACKGROUND COLOR IN STYLE BELOW: blue - #0987a0 ; tan - #847f5c -->
+        &lt;table cellpadding="0" cellspacing="0" width="588" style="background:#fafafa;margin:0;padding:0;text-align:left;border-bottom:5px solid #b2b2b2;">
+        &lt;tr valign="middle">
+          &lt;td height="85">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td>
+            &lt;td>
+            &lt;!-- CHANGE COLOR STYLE BELOW: blue - #98bec6 ; tan - #b5b192 -->
+            &lt;h2 style="color:#222222;margin:0;padding:0;font:bold 12pt Arial;text-transform:uppercase;">You have recieved a new msg from&lt;/h2>
+            &lt;h1 style="color:#037da1;margin:0;padding:0;font:bold 22pt Arial;">'$commentAuthor'&lt;/h1>              
+          &lt;/td>
+        &lt;/tr>
+        &lt;/table>
+        &lt;!-- /HEADER -->
+        
+        &lt;!-- CONTENT -->
+     &lt;table cellpadding="0" cellspacing="0" width="588" style="background:#dadada;margin:0;padding:0;text-align:left;border-left:0px solid #b2b2b2;border-right:0px solid #b2b2b2;">
+        &lt;tr valign="top"> 
+          &lt;td colspan="3">&lt;img src="http://localhost:8080/identityiq/images/LogoHeader.png" height=""hspace="10" vspace="10" />&lt;/td>
+        &lt;/tr>
+        &lt;tr valign="top">
+          &lt;td width="40">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td>
+          &lt;td>
+                        &lt;table cellpadding="0" cellspacing="0" width="100%" border="0">
+                                &lt;tr valign="top">
+                                        &lt;td>
+                                                &lt;p style="margin:0 0 20px;padding:0;color:#007080;font:normal 10pt Arial;line-height:15pt;">This is an automated notification from IdentityIQ.&lt;/p>
+                                                &lt;p style="margin:0;padding:0;color:#007080;font:normal 10pt Arial;line-height:15pt;">&lt;b>$commentAuthor&lt;/b> has send you a new msg regarding work Item &lt;strong>$workItemName&lt;/strong> on $commentDate.&lt;br>&lt;/p>                                       
+
+&lt;p style="margin:0;padding:0;color:#007080;font:normal 10pt Arial;line-height:15pt;">&lt;b>$commentAuthor&lt;/b>"&lt;strong>$commentText"&lt;/strong>.&lt;/p>                                                  
+&lt;p style="margin:20px 0;padding:0;color:#007080;font:bold 10pt Arial;line-height:15pt;">To review this request, click the "View Request" link below and select the request from your inbox. &lt;/p>
+
+&lt;p style="margin:0;padding:0;color:#007080;font:normal %%thankYouStatementFontSize%% Arial;line-height:15pt;">Thank you for your cooperation&lt;/p>
+&lt;p style="margin:0 0 50px;padding:0;color:#007080;font:bold %%thankYouStatementFontSize%% Arial;line-height:15pt;">Your Security and Compliance Team&lt;/p>
+            &lt;/td>
+                        &lt;/table>
+            
+            &lt;/td>
+            &lt;td width="10">&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td>
+        &lt;/tr>
+        &lt;tr valign="top">
+          &lt;td colspan="3">
+            
+            &lt;table cellspacing="0" cellpadding="0" width="550" border="0">
+            &lt;tr valign="middle">
+            &lt;td>
+            &lt;!-- HELP LINKS -->
+            &lt;!-- REPLACE THESE LINKS TO POINT TO ENVIRONMENT SPECIFIC LOCATIONS -->
+              &lt;p style="margin:0 0 0 30px;padding:0;color:%%supportLinksSeparator%%;font:normal 12pt Arial;line-height:12pt;margin-bottom:30px">&lt;a href="http://localhost:8080/identityiq/dashboard.jsf" style="color:#666666;text-decoration:none;font-weight:bold;">Help&lt;/a> &amp;nbsp;|&amp;nbsp; &lt;a href="http://localhost:8080/identityiq/dashboard.jsf" style="color:#666666;text-decoration:none;font-weight:bold;">FAQs&lt;/a> &amp;nbsp;|&amp;nbsp; &lt;a href="http://localhost:8080/identityiq/dashboard.jsf" style="color:#666666;text-decoration:none;font-weight:bold;">Support&lt;/a>&lt;/p>
+            &lt;/td>
+            &lt;td width="145">
+            &lt;!-- START TASK BUTTON -->
+            &lt;!-- CHANGE BACKGROUND COLOR BELOW : red - #9f2d32 ; green - #668641 -->
+            &lt;!-- CHANGE BORDER COLOR BELOW : red - #b35b62 ; green - #78a347 -->
+            &lt;div style="background:#00799d;border:3px solid #c3daf9;width:145px;height:33px;float:right;margin-bottom:30px;">
+            &lt;a href="http://localhost:8080/identityiq/dashboard.jsf" style="color:#FFFFFF; text-align:center;font:normal 14pt Arial;display:block;margin-top:3px;text-decoration:none;"> 
+                View Request
+              &lt;/a>
+            &lt;/div>
+            &lt;!-- /BUTTON -->
+            &lt;/td>
+            &lt;/tr>
+            &lt;/table>            
+            &lt;/td>
+        &lt;/tr>
+        &lt;/table>
+        &lt;!-- /CONTENT -->
+        
+        &lt;!-- FOOTER -->
+        &lt;!-- CHANGE BACKGROUND COLOR IN STYLE BELOW: blue - #0987a0 ; tan - #847f5c -->
+        &lt;table cellpading="0" cellspacing="0" width="588" style="background:#fafafa;margin:0;padding:0;text-align:right;border-top:0px solid #b2b2b2;">
+        &lt;tr valign="middle">
+          &lt;td width="180" height="60">&amp;nbsp;&amp;nbsp;&lt;/td>
+        &lt;/tr>
+        &lt;/table>
+        &lt;!-- /FOOTER -->
+        
+        &lt;!-- /EMAILER -->
+        &lt;/td>
+    &lt;/tr>
+    &lt;/table>
+	&lt;/body>
+	&lt;/html>
+  
+</Body>
+  <Description>
+      Email Template for notifying the requester/owner of a work item
+      that a new comment has been added.
+    </Description>
+  <Signature>
+    <Inputs>
+      <Argument name="workItem" type="WorkItem">
+        <Description>The WorkItem object on which the comment was added.</Description>
+      </Argument>
+      <Argument name="workItemName" type="string">
+        <Description>The name (also the description) of the WorkItem.</Description>
+      </Argument>
+      <Argument name="comment" type="Comment">
+        <Description>The Comment object with information about the comment.</Description>
+      </Argument>
+      <Argument name="commentAuthor" type="string">
+        <Description>The name of the Identity that made the comment.</Description>
+      </Argument>
+      <Argument name="commentDate" type="date">
+        <Description>The date the comment was made, represented as a java.util.Date object.</Description>
+      </Argument>
+      <Argument name="commentText" type="string">
+        <Description>The text of the comment.</Description>
+      </Argument>
+    </Inputs>
+  </Signature>
+  <Subject>New comments added to work item "$workItemName"</Subject>
+</EmailTemplate>

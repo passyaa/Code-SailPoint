@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<EmailTemplate created="1590001302006" id="0a000001723315ac8172337679f6010c" modified="1590001303571" name="Manager Notification Joiner Provisioning Completed">
+  <Body>
+
+&lt;html>
+  &lt;head>
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    &lt;style type="text/css">
+
+      #background-table { background-color: #ececec; }
+      /* Webkit Elements */
+      
+      /* TO CHANGE TOP HEADER BACKGROUND COLOR */
+      #top-bar { border-radius:6px 6px 0px 0px; -moz-border-radius: 6px 6px 0px 0px; -webkit-border-radius:6px 6px 0px 0px; -webkit-font-smoothing: antialiased; background-color: #012168; color: #e7cba3; }
+      
+      /* CHANGE COLOR OF TEXT IN HEADER */
+      #top-bar a { font-weight: bold; color: #e7cba3; text-decoration: none;}
+      
+      #footer { border-radius:0px 0px 6px 6px; -moz-border-radius: 0px 0px 6px 6px; -webkit-border-radius:0px 0px 6px 6px; -webkit-font-smoothing: antialiased; }
+      /* Fonts and Content */
+      body, td { font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; }
+      .header-content, .footer-content-left, .footer-content-right { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; }
+      /* Prevent Webkit and Windows Mobile platforms from changing default font sizes on header and footer. */
+      .header-content { font-size: 12px; color: #ffffff; }
+      .header-content a { font-weight: bold; color: #ffffff; text-decoration: none; }
+      #headline p { color: #ffffff; font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; font-size: 24px; text-align: center; margin-top:0px; margin-bottom:30px; }
+      
+      /* HEADLINE COLOR */
+      #headline p a { color: #ffffff; text-decoration: none; }
+      
+      /*CONTENT HEADER TITLE COLOR */
+      .article-title { font-size: 18px; line-height:24px; color: #ffffff; font-weight:bold; margin-top:0px; margin-bottom:18px; font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; }
+      
+      .article-title a { color: #ffffff; text-decoration: none; }
+      .article-title.with-meta {margin-bottom: 0;}
+      .article-meta { font-size: 13px; line-height: 20px; color: #ccc; font-weight: bold; margin-top: 0;}
+      
+      /* CONTENT TEXT COLOR */
+      .article-content { font-size: 13px; line-height: 18px; color: #000000; margin-top: 0px; margin-bottom: 18px; font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif; }
+      
+      .article-content a { color: #00707b; font-weight:bold; text-decoration:none; }
+      .article-content img { max-width: 100% }
+      .article-content ol, .article-content ul { margin-top:0px; margin-bottom:18px; margin-left:19px; padding:0; }
+      .article-content li { font-size: 13px; line-height: 18px; color: #000000; }
+      .article-content li a { color: #00707b; text-decoration:underline; }
+      .article-content p {margin-bottom: 15px;}
+      
+      /* FOOTER TEXT COLOR */
+      .footer-content-left { font-size: 10px; line-height: 8px; color: #e2e2e2; margin-top: 0px; margin-bottom: 15px; }
+      
+      
+      .footer-content-left a { color: #e7cba3; font-weight: bold; text-decoration: none; }
+      .footer-content-right { font-size: 8px; line-height: 10px; color: #e2e2e2; margin-top: 0px; margin-bottom: 15px; }
+      .footer-content-right a { color: #e7cba3; font-weight: bold; text-decoration: none; }
+      #footer { font-size: 10px; background-color: #012168; color: #CCCCCC; }  
+      #footer a { color: #e7cba3; text-decoration: none; font-weight: bold; }
+      #permission-reminder { white-space: normal; }
+      #street-address { color: #e7cba3; white-space: normal; }
+      
+      /* Quick cheats */
+      j {font-weight:bold; }
+      ja {font-weight: bold; color: RED;}
+      
+      &lt;/style>
+      &lt;!--[if gte mso 9]>
+      &lt;style _tmplitem="826" >
+      .article-content ol, .article-content ul {
+         margin: 0 0 0 24px;
+         padding: 0;
+         list-style-position: inside;
+      }
+      &lt;/style>
+      &lt;![endif]-->
+  &lt;/head>
+  &lt;body>
+    &lt;table id="background-table" border="0" cellpadding="0" cellspacing="0" width="100%">
+      &lt;tbody>&lt;tr>
+        &lt;td align="center" bgcolor="#ececec">
+          &lt;table class="w640" style="margin:0 10px;" border="0" cellpadding="0" cellspacing="0" width="640">
+            &lt;tbody>
+              &lt;tr>
+                &lt;td class="w640" height="20" width="640">&lt;/td>
+              &lt;/tr>
+              &lt;tr>
+                &lt;td class="w640" width="640">
+                  &lt;table id="top-bar" class="w640" bgcolor="#00707b" border="0" cellpadding="0" cellspacing="0" width="640">
+                    &lt;tbody>
+                      &lt;tr>
+                        &lt;td class="w15" width="15">&lt;/td>
+                        &lt;td class="w325" align="left" valign="middle" width="350">
+                          &lt;table class="w325" border="0" cellpadding="0" cellspacing="0" width="350">
+                            &lt;tbody>
+                              &lt;tr>
+                                &lt;td class="w325" height="8" width="350">&lt;/td>
+                              &lt;/tr>
+                            &lt;/tbody>
+                          &lt;/table>
+                          &lt;div class="header-content">SailPoint &lt;/span>&lt;/div>
+                          &lt;table class="w325" border="0" cellpadding="0" cellspacing="0" width="350">
+                            &lt;tbody>&lt;tr>&lt;td class="w325" height="8" width="350">&lt;/td>&lt;/tr>
+                            &lt;/tbody>
+                          &lt;/table>
+                        &lt;/td>
+                        &lt;td class="w30" width="30">&lt;/td>
+                        &lt;td class="w255" align="right" valign="middle" width="255">
+                          &lt;table class="w255" border="0" cellpadding="0" cellspacing="0" width="255">
+                              &lt;tbody>&lt;tr>&lt;td class="w255" height="8" width="255">&lt;/td>&lt;/tr>
+                          &lt;/tbody>&lt;/table>
+                          &lt;table border="0" cellpadding="0" cellspacing="0">
+                            &lt;tbody>&lt;tr>
+                              &lt;td class="w10" width="10">&lt;/td>
+                           &lt;!--   &lt;td valign="middle">&lt;forwardtoafriend lang="en">&lt;img src="https://img.createsend1.com/img/templatebuilder/forward-glyph.png" alt="Forward icon"="" border="0" height="14" width="19">&lt;/forwardtoafriend>&lt;/td> -->
+                              &lt;td width="3">&lt;/td>
+                              &lt;td valign="middle">&lt;div class="header-content">IdentityIQ&lt;/div>&lt;/td>
+        
+                            &lt;/tr>
+                          &lt;/tbody>&lt;/table>
+                          &lt;table class="w255" border="0" cellpadding="0" cellspacing="0" width="255">
+                              &lt;tbody>&lt;tr>&lt;td class="w255" height="8" width="255">&lt;/td>&lt;/tr>
+                          &lt;/tbody>&lt;/table>
+                        &lt;/td>
+                        &lt;td class="w15" width="15">&lt;/td>
+                    &lt;/tr>
+                  &lt;/tbody>&lt;/table>
+                &lt;/td>
+              &lt;/tr>
+              &lt;tr>
+                &lt;!-- CHANGE BACKGROUND COLOR OF MAIN HEADER HEADLINE -->  
+                &lt;td id="header" class="w640" align="center" bgcolor="#012168" width="640">
+                  &lt;table class="w640" border="0" cellpadding="0" cellspacing="0" width="640">
+                    &lt;tbody>
+                      &lt;tr>
+                        &lt;td class="w30" width="30">&lt;/td>
+                        &lt;td class="w580" height="15" width="580">&lt;/td>
+                        &lt;td class="w30" width="30">&lt;/td>
+                      &lt;/tr>
+                      &lt;tr>
+                        &lt;td class="w30" width="30">&lt;/td>
+                        &lt;td class="w580" width="580">
+                          &lt;div id="headline" align="center">
+                        &lt;p>
+                        
+                          &lt;!-- ZZZ Make Changes here -->
+                          &lt;strong>&lt;singleline label="Title">Joiner Notification: $identityDisplayName&lt;/singleline>&lt;/strong>
+                        &lt;/p>
+                      &lt;/div>
+                    &lt;/td>
+                    &lt;td class="w30" width="30">&lt;/td>
+                  &lt;/tr>
+                &lt;/tbody>&lt;/table>
+              &lt;/td>
+            &lt;/tr>
+  
+            &lt;tr>&lt;td class="w640" bgcolor="#ffffff" height="30" width="640">&lt;/td>&lt;/tr>
+            &lt;tr >&lt;td class="w640" bgcolor="#ffffff" width="640">
+              &lt;table class="w640" border="0" cellpadding="0" cellspacing="0" width="640">
+                &lt;tbody>&lt;tr>
+                  &lt;td class="w30" width="30">&lt;/td>
+                  &lt;td class="w580" width="580">
+                    &lt;repeater>        
+                      &lt;layout label="Text only">
+                        &lt;table class="w580" border="0" cellpadding="0" cellspacing="0" width="580">
+                          &lt;tbody>&lt;tr>
+                            &lt;td class="w580" width="580">
+                              &lt;div class="article-content" align="left">
+                                &lt;multiline label="Description">
+&lt;!-- ZZZ Make Changes here -->
+&lt;img src="http://localhost:8080/identityiq/images/DemoHeader.png" width="512" height="69" alt="IdentityIQ" />
+&lt;br>&lt;br>
+Attention:
+&lt;br>&lt;br>
+Enterprise user, &lt;b>$firstName $lastName&lt;/b>, has been created.  Please direct &lt;b>$firstName&lt;/b> to visit &lt;a href="http://localhost:8080/identityiq/ui"> Identity IQ &lt;/a> (http://localhost:8080/identityiq/ui) in order to perform a password reset.  During this process a reset code will be sent to the phone number &lt;b>$phone&lt;/b>. &lt;br>
+&lt;br>
+&lt;p >To request further access for this individual click &lt;a href="http://localhost:8080/identityiq/lcm/requestAccess.jsf?identityName=$identityName">here&lt;/a>
+&lt;p>On a mobile device? Click &lt;a href="http://localhost:8080/identityiq/ui/rest/redirect?rp1=index.jsf&amp;rp2=accessRequest/manageAccess/add?identityName=$identityName">Here&lt;/a>&lt;/p>
+&lt;b>&lt;u>User Profile&lt;/u>&lt;/b>&lt;br>
+&lt;UL>
+ &lt;LI>Full Name: $firstName $lastName&lt;br>
+&lt;LI>Phone: $phone &lt;br>
+&lt;/UL>
+&lt;br> 
+&lt;b>&lt;u>Account Details&lt;/u>&lt;/b>&lt;br>
+
+#foreach ($item in $appMap)
+&lt;UL>
+#if ($item.application)
+ &lt;LI>Application: $item.application &lt;br>
+#end
+#if ($item.accountid)
+ &lt;LI>ID: $item.accountid &lt;br>
+#end
+
+&lt;/UL>
+#end
+
+&lt;br>
+Regards,&lt;br>
+The IdentityIQ Administration Team&lt;br>
+
+&lt;center>
+  &lt;img src="http://localhost:8080/identityiq/images/ProtectedByIdentityIQ.gif" alt="SailPoint IdentityIQ"/>
+&lt;/center>
+
+                                &lt;/multiline>
+                              &lt;/div>
+                            &lt;/td>
+                          &lt;/tr>
+                          &lt;tr>&lt;td class="w580" height="10" width="580">&lt;/td>&lt;/tr>
+                        &lt;/tbody>&lt;/table>
+                      &lt;/layout>
+                      &lt;layout label="Text with full-width image">
+                        &lt;table class="w580" border="0" cellpadding="0" cellspacing="0" width="580">
+                          &lt;tbody>
+                            &lt;tr>
+                              &lt;td class="w580" width="580">&lt;/td>
+                            &lt;/tr>
+                        &lt;/tbody>&lt;/table>
+                      &lt;/layout>
+                    &lt;/repeater>
+                  &lt;/td>
+                  &lt;td class="w30" width="30">&lt;/td>
+                &lt;/tr>
+              &lt;/tbody>&lt;/table>
+            &lt;/td>
+          &lt;/tr>
+
+          &lt;!-- CHANGE THE BACKGROUND COLOR FOR THE TOP FOOTER (OPTIONAL) -->
+          &lt;tr>&lt;td class="w640" bgcolor="#ffffff" height="15" width="640">&lt;/td>&lt;/tr>
+          &lt;tr>
+            &lt;td class="w640" width="640">
+              &lt;!-- CHANGE THE BACKGROUND COLOR OF THE BOTTOM FOOTER -->
+              &lt;table  class="w640" bgcolor="#012168" border="0" cellpadding="0" cellspacing="0" width="640">
+                &lt;tbody>
+                  &lt;tr>
+                    &lt;td class="w30" width="30">&lt;/td>
+                    &lt;td class="w580 h0" height="20" width="360">&lt;/td>
+                    &lt;td class="w0" width="60">&lt;/td>
+                    &lt;td class="w0" width="160">&lt;/td>
+                    &lt;td class="w30" width="30">&lt;/td>
+                  &lt;/tr>
+                  &lt;tr>
+                    &lt;td class="w30" width="30">&lt;/td>
+                    &lt;td class="w580" valign="top" width="700">
+                      &lt;span class="hide">&lt;p  class="footer-content-left" align="left">&lt;span>&lt;/span>&lt;/p>&lt;/span>
+                      &lt;p class="footer-content-left" align="left">&lt;preferences lang="en">If you have received this email in error, please immediately delete this email from your system. &lt;/preferences> &lt;/p>
+                    &lt;/td>
+                    &lt;td class="hide w0" width="60">&lt;/td>
+                    &lt;td class="hide w0" valign="top" width="200">
+                      &lt;p  class="footer-content-right" align="right">&lt;/p>
+                    &lt;/td>
+                    &lt;td class="w30" width="30">&lt;/td>
+                  &lt;/tr>
+                  &lt;tr>
+                    &lt;td class="w30" width="30">&lt;/td>&lt;td class="w580 h0" height="15" width="360">&lt;/td>&lt;td class="w0" width="60">&lt;/td>&lt;td class="w0" width="160">&lt;/td>&lt;td class="w30" width="30">&lt;/td>
+                  &lt;/tr>
+                &lt;/tbody>&lt;/table>
+              &lt;/td>
+            &lt;/tr>
+            &lt;tr>&lt;td class="w640" height="60" width="640">&lt;/td>&lt;/tr>
+          &lt;/tbody>&lt;/table>
+        &lt;/td>
+      &lt;/tr>  
+    &lt;/tbody>
+  &lt;/table>
+&lt;/body>
+&lt;/html>  
+  
+    </Body>
+  <Description>Email template for what is sent to the manager when they have a new employee - fired by
+  the Joiner lifecycle event</Description>
+  <Signature>
+    <Inputs>
+      <Argument name="firstName" type="string">
+        <Description>The number of days after termination that user accounts should be deleted.</Description>
+      </Argument>
+      <Argument name="lastName" type="string">
+        <Description>The display name of the Identity that is being changed.</Description>
+      </Argument>
+      <Argument name="tempPass" type="string">
+        <Description>The display name of the Identity that is being changed.</Description>
+      </Argument>
+      <Argument name="identityDisplayName" type="string">
+        <Description>The display name of the Identity that is being changed.</Description>
+      </Argument>
+    </Inputs>
+  </Signature>
+  <Subject>Joiner Notification: $firstName $lastName</Subject>
+</EmailTemplate>

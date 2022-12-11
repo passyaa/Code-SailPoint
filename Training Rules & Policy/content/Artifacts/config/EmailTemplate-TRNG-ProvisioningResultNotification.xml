@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<EmailTemplate name="TRNG-ProvisioningResultNotification">
+  <Body>
+#if ($status == "committed")
+    You were successfully added to the $group group in LDAP.
+#else
+    Provisioning of $target to the $group group in LDAP failed.
+    Error messages: 
+     #foreach ($msg in $errorMsgs)
+        $msg
+     #end
+#end 
+  </Body>
+  <Description>
+    Email Template for notifying result of provisioning operation.
+  </Description>
+  <Subject>Provisioning Result Notification </Subject>
+</EmailTemplate>

@@ -1,0 +1,29 @@
+<!-- go to debug >> UI configuration >> search manageAccountLinkColConfig -->
+
+
+<entry key="manageAccountLinkColConfig">
+        <value>
+          <List>
+            <ColumnConfig dataIndex="applicationName" groupProperty="application.name" headerKey="ui_manage_accounts_application_name" property="application.name" sortProperty="application.name" sortable="true" stateId="applicationName"/>
+            <ColumnConfig dataIndex="accountId" groupProperty="displayName" headerKey="ui_manage_accounts_account_id" property="displayName" sortProperty="displayName" sortable="true" stateId="accountId"/>
+            <ColumnConfig dataIndex="status" headerKey="ui_manage_accounts_status" renderer="linkStatus" sortable="true" stateId="status"/>
+            <ColumnConfig dataIndex="lastRefresh" dateStyle="short" groupProperty="lastRefresh" headerKey="ui_manage_accounts_last_refresh" property="lastRefresh" sortProperty="lastRefresh" sortable="true" stateId="lastRefresh"/>
+            <ColumnConfig dataIndex="actionStatus" headerKey="ui_manage_accounts_action_status" renderer="spLinkActionStatusColumn" sortable="true" stateId="actionStatus"/>
+            <ColumnConfig dataIndex="previousAction" fieldOnly="true" stateId="previousAction"/>
+            <ColumnConfig dataIndex="approvalStatus" fieldOnly="true" stateId="approvalStatus"/>
+            <ColumnConfig dataIndex="errors" fieldOnly="true" stateId="errors"/>
+            <ColumnConfig dataIndex="id" fixed="Right" groupProperty="id" headerKey="ui_manage_accounts_actions" property="id" renderer="spManageAccountActions" sortProperty="id" stateId="id"/>
+          </List>
+        </value>
+      </entry>
+      <entry key="manageAccountLinkSummaryColConfig">
+        <value>
+          <List>
+            <ColumnConfig dataIndex="applicationName" groupProperty="application.name" headerKey="ui_manage_accounts_application_name" property="application.name" sortProperty="application.name" stateId="applicationName"/>
+            <ColumnConfig dataIndex="accountId" groupProperty="displayName" headerKey="ui_manage_accounts_account_id" property="displayName" sortProperty="displayName" stateId="accountId"/>
+            <ColumnConfig dataIndex="lastRefresh" dateStyle="short" groupProperty="lastRefresh" headerKey="ui_manage_accounts_last_refresh" property="lastRefresh" sortProperty="lastRefresh" stateId="lastRefresh"/>
+            <ColumnConfig dataIndex="action" headerKey="ui_manage_accounts_action" renderer="spTranslate" stateId="action"/>
+            <ColumnConfig dataIndex="id" fixed="Right" groupProperty="id" headerKey="ui_manage_accounts_actions" property="id" renderer="spManageAccountSummaryActions" sortProperty="id" stateId="id"/>
+          </List>
+        </value>
+      </entry>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Rule language="beanshell" name="TRNG-GroupOwner-Department" type="GroupOwner">
+  <Description>A rule used to assign owners to groups generated from a group factory.</Description>
+  <Signature returnType="Object">
+    <Inputs>
+      <Argument name="log">
+        <Description>
+          The log object associated with the SailPointContext.
+        </Description>
+      </Argument>
+      <Argument name="context">
+        <Description>
+          A sailpoint.api.SailPointContext object that can be used to query the database if necessary.
+        </Description>
+      </Argument>
+      <Argument name="factory">
+        <Description>
+          The GroupFactory that generated the populations.
+        </Description>
+      </Argument>
+      <Argument name="group">
+        <Description>
+          One GroupDefinition from the factory.
+        </Description>
+      </Argument>
+    </Inputs>
+    <Returns>
+      <Argument name="owner">
+        <Description>
+          The group owner. The name or id of an Identity or the Identity object itself.
+        </Description>
+      </Argument>
+    </Returns>
+  </Signature>
+  <Source>import sailpoint.object.QueryOptions;
+import sailpoint.object.Identity;
+
+
+QueryOptions qo = new QueryOptions();
+qo.addFilter(group.getFilter());
+Iterator identities = context.search(Identity.class, qo);
+
+//Find the employee with the lowest employee ID.
+Identity emp = null;
+String empId = null;
+Identity owner = null;
+String ownerEmpId = null;
+
+while (identities.hasNext()) {
+  emp = identities.next();
+  empId = emp.getAttribute("empId");
+
+  if (empId != null &amp;&amp; (ownerEmpId == null || empId.compareTo(ownerEmpId) &lt; 0)) {
+    owner = emp;
+    ownerEmpId = empId;
+  }
+}
+
+//When all of the employee IDs in the subgroup are null, default to spadmin.
+if (owner == null) {
+  return "spadmin";
+}
+
+return  owner;</Source>
+</Rule>

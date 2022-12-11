@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE sailpoint PUBLIC "sailpoint.dtd" "sailpoint.dtd">  
+<sailpoint>  
+
+  <ImportAction name='merge'>  
+    <Configuration name='SystemConfiguration'>  
+      <Attributes>  
+        <Map>  
+          <entry key="createIdentityForm" value="Identity Create"/>
+        </Map>  
+      </Attributes>  
+    </Configuration>  
+  </ImportAction>  
+
+
+<Form name="Identity Create" type="CreateIdentity">
+  <Attributes>
+    <Map>
+      <entry key="pageTitle" value="Identity Create"/>
+      <entry key="title" value="Create New Identity"/>
+    </Map>
+  </Attributes>
+  <Description/>
+  <Section name="Section 1">
+    <Field displayName="Instructions" displayOnly="true" name="instructions" type="string" value="Input values to create a new Identity Cube">
+      <Attributes>
+        <Map>
+          <entry key="readOnly" value="true"/>
+        </Map>
+      </Attributes>
+    </Field>
+  </Section>
+  <Section columns="2" label="Identity Attributes" name="identityAttributes">
+    <Field columnSpan="1" displayName="First Name" name="firstname" postBack="true" required="true" type="string"/>
+    <Field columnSpan="1" displayName="Last Name" name="lastname" postBack="true" required="true" type="string"/>
+    <Field columnSpan="1" displayName="Password" helpKey="Set initial password" name="password" required="true" type="secret"/>
+    <Field columnSpan="1" displayName="Password Confirmation" name="passwordConfirm" required="true" type="secret"/>
+    <Field columnSpan="1" displayName="Username" dynamic="true" name="name" type="string">
+      <Attributes>
+        <Map>
+          <entry key="readOnly" value="true"/>
+        </Map>
+      </Attributes>
+      <Script>
+        <Source>if((null != firstname) &amp;&amp; (null != lastname)) {
+return firstname + "." + lastname;
+}</Source>
+      </Script>
+    </Field>
+    <Field columnSpan="1" displayName="Display Name" dynamic="true" name="displayName" required="true" type="string">
+      <Script>
+        <Source>if((null != firstname) &amp;&amp; (null != lastname)) {
+return firstname + "." + lastname;
+}</Source>
+      </Script>
+    </Field>
+    <Field columnSpan="1" displayName="Location" helpKey="Select location of primary office" name="location" postBack="true" required="true" type="string">
+      <AllowedValuesDefinition>
+        <Value>
+          <List>
+            <String>Austin</String>
+            <String>Brazil</String>
+            <String>Brussels</String>
+            <String>London</String>
+            <String>Munich</String>
+            <String>San Jose</String>
+            <String>Singapore</String>
+            <String>Taipei</String>
+            <String>Tokyo</String>
+          </List>
+        </Value>
+      </AllowedValuesDefinition>
+    </Field>
+    <Field columnSpan="1" displayName="Region" dynamic="true" name="region" required="true" type="string">
+      <Attributes>
+        <Map>
+          <entry key="readOnly" value="true"/>
+        </Map>
+      </Attributes>
+      <Script>
+        <Source>if(null != location){
+                 if ("Austin".equals(location)|"Brazil".equals(location)|"San Jose".equals(location)) {return "Americas";}
+else if ("Brussels".equals(location)|"London".equals(location)|"Munich".equals(location)) {return "Europe";}
+else if ("Singapore".equals(location)|"Taipei".equals(location)|"Tokyo".equals(location)) {return "Asia-Pacific";}
+}
+				 else { return "";}</Source>
+      </Script>
+    </Field>
+    <Field columnSpan="2" displayName="Manager" name="manager" type="sailpoint.object.Identity"/>
+    <Field columnSpan="2" displayName="Type" name="type" required="true" type="string" value="contractor">
+      <AllowedValuesDefinition>
+        <Value>
+          <List>
+            <String>contractor</String>
+            <String>employee</String>
+          </List>
+        </Value>
+      </AllowedValuesDefinition>
+    </Field>
+    <Field columnSpan="2" displayName="Job Title" name="jobtitle" required="true" type="string">
+      <AllowedValuesDefinition>
+        <Script>
+          <Source>import java.util.ArrayList;
+import sailpoint.api.*;
+import sailpoint.object.*;
+
+List jobtitles = new ArrayList();
+
+QueryOptions qo = new QueryOptions();
+
+qo.setDistinct(true);
+qo.addOrdering("jobtitle", true);
+
+List props = new ArrayList();
+props.add("jobtitle");
+
+Iterator result = context.search(Identity.class, qo, props);
+while (result.hasNext()) {
+ Object [] record = result.next();
+ String jobtitle= (String) record[0];
+ jobtitles.add(jobtitle);
+}
+return jobtitles;</Source>
+        </Script>
+      </AllowedValuesDefinition>
+    </Field>
+    <Field columnSpan="2" displayName="Implicit Joiner" name="needsJoiner" required="true" type="string" value="NEEDS PROCESSING">
+      <Attributes>
+        <Map>
+          <entry key="hidden" value="true"/>
+        </Map>
+      </Attributes>
+    </Field>
+  </Section>
+</Form>
+
+</sailpoint>  

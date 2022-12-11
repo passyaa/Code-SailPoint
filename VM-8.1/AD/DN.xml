@@ -1,0 +1,55 @@
+import sailpoint.object.Configuration;
+import sailpoint.object.ProvisioningPlan.ObjectRequest;
+
+    
+serilog=org.apache.commons.logging.LogFactory.getLog("SERI.Rule.ADProvisioning.DistinguishedName");
+
+// We will use the cube name, because we already guarenteed it will be unique.
+
+String dn = null;  
+String name = identity.getFirstname() + " " + identity.getLastname();
+String dnBase = ",OU=Demo,DC=seri,DC=sailpointdemo,DC=com";
+
+
+
+// lookup OU using Configuration Object
+//       
+confObject = context.getObjectByName(Configuration.class, "Location to OU Configuration");
+
+suffix="";
+
+// not documented is the fact that in the Provisioning Policy, the role gets passed in..
+if(role!=null) {
+  serilog.debug("Provisioning caused by role "+role.getName());
+  isAdmin=role.getAttribute("adminRole");
+  serilog.debug("adminRole="+isAdmin);
+  if(sailpoint.tools.Util.otob(isAdmin)) {
+    serilog.debug("suffixing with -adm");
+    suffix="-adm";
+  }
+} else {
+  serilog.debug("Provisioning not caused by role");
+  ObjectRequest objReq = new ObjectRequest();
+  String isPriv=objReq.getArgument("isPriv");
+  serilog.debug("isPriv="+isPriv);
+  if(sailpoint.tools.Util.otob(isPriv)) {
+    serilog.debug("Privileged account specified..");
+    suffix="-priv";
+  }
+}
+
+if (null != confObject) {
+  String location = identity.getAttribute("location");
+  String ou = confObject.getString(location);
+
+  cn="CN=" +name + suffix;
+
+
+  if (null != ou) {
+    dn = cn + ",OU=" + location + ",OU=" + ou + dnBase;
+  } else {
+    dn = cn + dnBase;
+  }
+}
+
+return (dn);

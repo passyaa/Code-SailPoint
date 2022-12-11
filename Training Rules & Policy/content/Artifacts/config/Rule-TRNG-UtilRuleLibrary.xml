@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Rule language="beanshell"  name="TRNG-UtilRuleLibrary">
+  <Description>This rule library contains utility methods used in the Rules-API training course.</Description>
+<Source>
+  import sailpoint.object.Identity;
+  import java.sql.Connection;  
+  import java.sql.DriverManager; 
+  import sailpoint.object.EmailTemplate;
+  import sailpoint.object.EmailOptions;
+  import sailpoint.object.ProvisioningPlan;
+  import sailpoint.object.ProvisioningPlan.AccountRequest;
+  import sailpoint.object.ProvisioningPlan.AttributeRequest; 
+  import org.apache.commons.logging.Log;
+  import org.apache.commons.logging.LogFactory;
+  
+  Log logger = LogFactory.getLog("TRNG.rule.UtilRuleLibrary");
+
+  //************
+  // Retrieve manager of the specified identity
+  // Args: user name 
+  // Returns: manager identity's name 
+  //************
+  public String getUserManager(String identityName) {
+     Identity identity = context.getObjectByName(Identity.class, identityName);
+     if (null != identity) {
+         Identity manager = identity.getManager();
+         if (null != manager) {
+             return manager.getName();
+         }
+     }
+  }
+
+  //************
+  // Retrieve email of the specified identity (user name provided, email address returned)
+  // Args: user name 
+  // Returns: email address 
+  //************
+  public String getUserEmail(String identityName) {
+     Identity identity = context.getObjectByName(Identity.class, identityName);
+     if (null != identity)
+	return identity.getEmail();
+  }
+
+  //************
+  // Retrieve email address of the specified user's manager
+  // Args: user name
+  // Returns: manager's email address
+  //************
+  public String getManagerEmail(String identityName) {
+     return getUserEmail(getUserManager(identityName));     
+  }
+
+  //************
+  // Return name of provisioned group
+  // Args: provisioned provisioningPlan
+  // Returns: group name from plan
+  //************
+  public String getProvisionedGroup(ProvisioningPlan plan) {
+     String groupName = null;
+
+    if (plan != null) {
+        logger.trace("Provisioned Plan: " + plan.toXml());
+     }
+     List accountRequests = plan.getAccountRequests();
+     if (null != accountRequests) {
+       for (AccountRequest acctReq : accountRequests) {
+           AttributeRequest attrReq = acctReq.getAttributeRequest("groups");
+           if (groupName == null)
+              groupName = attrReq.getDisplayValue();
+           else
+              groupName = groupName + ", " + attrReq.getDisplayValue();
+       }
+     }
+     logger.trace("Group Name: " + groupName);
+     return groupName;
+  }
+  
+  //************
+  // Send the specified email message to the specified user
+  // Args: user name, email template, email arguments
+  // Returns: none
+  //************
+  public void sendEmail(String identityName, String templateName, Map args) {
+  
+     // Get email address of notification target
+     String emailDest = getUserEmail(identityName);
+     if (null == emailDest) {
+         logger.error("ERROR: could not find email address for " + identityName);
+         return;
+     }
+      
+     // Get the email template based on templateName
+     EmailTemplate template = context.getObjectByName(EmailTemplate.class, templateName);
+     if (null == template) {
+         logger.error("ERROR: could not find email template [" + templateName + "]");
+         return;
+     }
+     // Provide arguments and send email message
+     EmailOptions ops = new EmailOptions(emailDest, args);
+     context.sendEmailNotification(template, ops);
+
+     return;
+  }
+
+  //************
+  // Connect to external database
+  // Args: none 
+  // Returns: database connection 
+  //************
+    public Connection connectToDatabase() {
+   
+    // Load the class driver
+    String driverClass = "com.mysql.jdbc.Driver";  
+    Class driverClazz = null;  
+    try {  
+       driverClazz = Class.forName(driverClass);  
+    } catch (Exception ex) {  
+       String errMsg = "Failed to load driver class for JDBC Driver: " + driverClass;  
+       logger.error(errMsg + ": " + ex);  
+       return null;  
+    }    
+
+    // Connect to the external database      
+    String dbType = "mysql";  
+    String dbHost = "localhost"; 
+    String dbName = "CodesDB";  
+    String dbUser = "root";  
+    String dbPass = "1:xDikd6BMwY+LL9iXETAjBg==";  
+    String dbUrl = "jdbc:mysql://" + dbHost + "/" + dbName + "?useSSL=false";    
+    String clearDbPass = context.decrypt(dbPass);  
+    Connection dbCxn = null;  
+    try {  
+       dbCxn = DriverManager.getConnection(dbUrl, dbUser, clearDbPass);  
+    } catch (Exception ex) {  
+       String errMsg = "Error while connecting to database [" + dbUrl + "]";  
+       logger.error(errMsg + ": " + ex);   
+    }
+    return dbCxn;
+  }
+  </Source>
+</Rule>

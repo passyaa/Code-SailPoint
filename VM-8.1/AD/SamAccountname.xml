@@ -1,0 +1,18 @@
+// Expect: java.lang.String cn
+// Expect: java.lang.String distinguishedName
+
+serilog=org.apache.commons.logging.LogFactory.getLog("SERI.Rule.ADProvisioning.sAMAccountName");
+serilog.debug("Sam account name in AD Account create policy");
+
+
+
+// Derive the sAMAccountName from the CN
+// extract the CN from the DN, and replace spaces with full stops
+// This leverages the DN that is influenced by the type of IT role being assigned.
+
+serilog.debug("distinguished name is "+distinguishedName);
+cn=distinguishedName.substring(3, distinguishedName.indexOf(","));
+serilog.debug("cn="+cn);
+cn=cn.replace(" ", ".");
+serilog.debug("returning "+cn);
+return cn;

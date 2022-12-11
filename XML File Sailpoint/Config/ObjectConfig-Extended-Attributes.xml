@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE sailpoint PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+
+<sailpoint>
+
+
+<ImportAction name='merge'>
+<ObjectConfig name="Identity">
+
+
+<ObjectAttribute displayName="Department" editMode="ReadOnly" groupFactory="true" name="department" namedColumn="true" type="string">
+    <AttributeSource name="department">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Employees"/>
+      </ApplicationRef>
+    </AttributeSource>
+    <AttributeSource name="department">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Contractors"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+
+
+  <ObjectAttribute displayName="Cost Center" editMode="ReadOnly" groupFactory="true" multi="true" name="costcenter" type="string">
+    <AttributeSource name="costcenter">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Employees"/>
+      </ApplicationRef>
+    </AttributeSource>
+    <AttributeSource name="costcenter">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Contractors"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+
+
+  <ObjectAttribute displayName="Employee ID" editMode="ReadOnly" extendedNumber="1" name="empId" type="string">
+    <AttributeSource name="employeeId">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Employees"/>
+      </ApplicationRef>
+    </AttributeSource>
+    <AttributeSource name="contractorId">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Contractors"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+
+
+  <ObjectAttribute displayName="Region" editMode="ReadOnly" extendedNumber="2" name="region" type="string">
+    <AttributeSource name="region">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Employees"/>
+      </ApplicationRef>
+    </AttributeSource>
+    <AttributeSource name="region">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Contractors"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+
+
+  <ObjectAttribute displayName="Job Title" editMode="ReadOnly" extendedNumber="3" name="jobtitle" type="string">
+    <AttributeSource name="jobtitle">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Employees"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+
+
+  <ObjectAttribute displayName="Location" editMode="ReadOnly" extendedNumber="4" name="location" type="string">
+    <AttributeSource name="location">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Employees"/>
+      </ApplicationRef>
+    </AttributeSource>
+    <AttributeSource name="location">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Contractors"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+</ObjectConfig>
+
+</ImportAction>
+
+</sailpoint>

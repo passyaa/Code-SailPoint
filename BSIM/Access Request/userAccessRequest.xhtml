@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:sp="http://sailpoint.com/ui">
+<sp:loadBundle basename="sailpoint.web.messages.iiqMessages" var="msgs"/>
+
+<h:body>
+
+  <div sp-fit-container="{ top: '#spHeaderPanelDiv', bottom: '#bodyDivFooter' }">
+    <div class="access" ng-controller="AccessRequestFlowCtrl as flowCtrl">
+      <div class="access-body">
+        <header class="panel-heading bg-white no-radius hidden-xs">
+          <div class="row">
+            <div class="col-xs-12">
+              <h1 class="text h4 font-thin m-t-xs m-b-xs">
+                {{'ui_access_manage_user_access' | spTranslate}}
+                <sp-contextual-help sp-button-class="pull-right" sp-help-key="contextualHelpManageUserAccessURL" 
+                                    sp-aria-label="ui_access_manage_user_access_help_aria_label">
+                </sp-contextual-help>
+              </h1>
+              <br/>
+              <div style="text-align:Left; font-size: 16px;">
+                <ul>
+                 <li class="formWarn" style="text-align:Left;">
+                  <strong>
+                    Catatan Penggunaan Access Request
+                    <br/>
+                    1. Diwajibkan mengisi Notes/Comment request untuk setiap pengajuan <br/>
+                    2. Pengajuan akses permanen tidak perlu mengisi tanggal akses <br/>
+                    3. Pengajuan akses temporary wajib mengisi tanggal start dan end date
+                  </strong>
+                 </li>
+                 </ul>
+              </div>
+            </div>
+          </div>
+        </header>
+    
+        <!-- HEADER -->
+        <section class="container-fluid progress-nav bg-light lt">
+          <div class="btn-group btn-group-progress">
+              <span class="btn-table-cell">
+                <button id="flowSelectUsersBtn"
+                        ui-sref="accessRequest.selectUser"
+                        sp-space-bar-click=""
+                        type="button"
+                        ui-sref-active="progress-active"
+                        class="btn btn-progress"
+                        ng-disabled="!flowCtrl.isSelectUsersTabEnabled()"
+                        aria-disabled="{{ !flowCtrl.isSelectUsersTabEnabled() }}"
+                        aria-label="{{flowCtrl.getSelectUsersTabAriaLabel()}}">
+                  <span class="hidden-xs number">1</span>
+                  <span class="hidden-xs title">{{'ui_access_select_users' | spTranslate}}</span>
+                  <span class="hidden-xs subtitle">{{'ui_access_select_users_subtitle' | spTranslate}}</span>
+                  <span class="visible-xs-inline">{{'ui_access_select' | spTranslate}}</span>
+                  <span class="sr-only"
+                        ng-if="'accessRequest.selectUser' | includedByState">{{'ui_access_selected' | spTranslate}}</span>
+                </button>
+              </span>
+              <span class="btn-table-cell">
+                <button id="flowManageAccessBtn"
+                        ui-sref="accessRequest.manageAccess.add"
+                        sp-space-bar-click=""
+                        type="button"
+                        class="btn btn-progress"
+                        ng-class="{ 'progress-active': flowCtrl.isManageAccessTabSelected() }"
+                        ng-disabled="!flowCtrl.isManageAccessTabEnabled()"
+                        aria-disabled="{{ !flowCtrl.isManageAccessTabEnabled() }}"
+                        aria-label="{{flowCtrl.getManageAccessTabAriaLabel()}}">
+                  <span class="hidden-xs number">2</span>
+                  <span class="hidden-xs title">{{'ui_access_manage_access' | spTranslate}}</span>
+                  <span class="hidden-xs subtitle">{{'ui_access_my_access_subtitle' | spTranslate}}</span>
+                  <span class="visible-xs-inline">{{'ui_access_manage' | spTranslate}}</span>
+                  <span class="sr-only"
+                        ng-if="'accessRequest.manageAccess' | includedByState">{{'ui_access_selected' | spTranslate}}</span>
+  
+                </button>
+              </span>
+              <span class="btn-table-cell">
+                <button id="flowReviewBtn"
+                        ui-sref="accessRequest.review"
+                        sp-space-bar-click=""
+                        type="button"
+                        ui-sref-active="progress-active"
+                        class="btn btn-progress"
+                        ng-disabled="!flowCtrl.isReviewTabEnabled()"
+                        aria-disabled="{{ !flowCtrl.isReviewTabEnabled() }}"
+                        aria-label="{{ flowCtrl.getAriaLabelForReviewTab(false) }}">
+                  <span class="hidden-xs number">3</span>
+                  <span class="title hidden-xs">{{'ui_access_review' | spTranslate}}</span>
+                  <span class="visible-xs title">{{'ui_access_review_xs' | spTranslate}}</span>
+                  <span class="hidden-xs subtitle">{{'ui_access_review_subtitle' | spTranslate}}</span>
+                  <span id="reviewAccessCount" ng-if="flowCtrl.getReviewItemsCount()" class="badge bg-info">
+                    {{ flowCtrl.getReviewItemsCount() }}
+                  </span>
+                  <span class="sr-only"
+                        ng-if="'accessRequest.review' | includedByState">{{'ui_access_selected' | spTranslate}}</span>
+                </button>
+          </span>
+          </div>
+  
+          <sp-refresh-warning sp-ignore-warning="!flowCtrl.isDirty()"/>
+  
+          <div ui-view=""/>
+              
+        </section>
+      </div>
+
+      <nav class="footer footer-action-bar navbar navbar-default sp-animate fade-in-up fade-out-down" ng-if="flowCtrl.isShowActionBar()" ng-controller="AccessRequestReviewCtrl as reviewCtrl">
+        <div class="footer-bar-padding container-fluid text-center padder-v">
+          <button id="accessRequestFooterPreviousBtn"
+                  class="btn btn-s-sm btn-white"
+                  type="button"
+                  ng-if="flowCtrl.isManageAccessTabSelected()"
+                  ui-sref="accessRequest.selectUser">
+            <span>{{'ui_previous' | spTranslate}}</span>
+          </button>
+    
+          <button id="accessRequestFooterNextBtn"
+                  class="btn btn-s-sm btn-info"
+                  type="button"
+                  ng-if="!flowCtrl.isReviewTabSelected()"
+                  ng-disabled="!flowCtrl.isNextEnabled()"
+                  ng-click="flowCtrl.next()">
+            <span>{{ 'ui_next' | spTranslate }}</span>
+          </button>
+
+          <button id="previousBtn" class="btn btn-s-sm btn-white" type="button"
+                  ng-if="flowCtrl.isReviewTabSelected()"
+                  ng-disabled="!reviewCtrl.isInterfaceEnabled()"
+                  ng-click="reviewCtrl.goPrevious()">{{'ui_previous' | spTranslate}}
+          </button>
+          <button id="cancelBtn" class="btn btn-s-sm btn-white" type="button"
+                  ng-if="flowCtrl.isReviewTabSelected()"
+                  ng-click="reviewCtrl.cancelAccessRequest()">{{'ui_access_cancel' | spTranslate}}
+          </button>
+          <button id="submitBtn" class="btn btn-s-sm btn-primary" type="button"
+                  ng-if="flowCtrl.isReviewTabSelected()"
+                  ng-disabled="reviewCtrl.getSubmitDisabled()" ng-click="reviewCtrl.submit()">{{'ui_access_submit' | spTranslate}}
+          </button>
+  
+        </div>
+      </nav>
+  
+      <script>
+        SailPoint.configData.ACCESS_REQUEST_MAX_IDENTITY_SELECT = parseInt('#{sp:getSystemConfigurationValue('lcmMobileMaxSelectableUsers', 100)}');
+      </script>
+    </div>
+  </div>
+
+</h:body>
+</html>

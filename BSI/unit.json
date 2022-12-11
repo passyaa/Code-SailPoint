@@ -1,0 +1,19 @@
+import sailpoint.object.Identity;
+import sailpoint.object.Link;
+
+String codeLoc = link.getAttribute("Lokasi Employee Code");
+
+switch (codeLoc) {
+    case 'ID0010013':
+        return bb810b9e08648261506c6b4792890271;
+        break;
+    case 'ID0010342':
+        return 732e84b8ac735f28cbc65acae2ae722c;
+        break;
+    case 'ID0010417':
+        return 07c0d989b6da0c6a6be68aa2edbdbd0b;
+        break;
+    case 'ID0010418':
+        return 714cd09288fbefb2e1c866b2d3cec3a7;  
+        break;
+}

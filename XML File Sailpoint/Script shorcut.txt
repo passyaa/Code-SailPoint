@@ -1,0 +1,78 @@
+Start Tomcat Desktop
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=sh -c $COMMON_HOME/scripts/RunStartTomcat.sh
+Name[en_US]=Start Tomcat
+Name=Start Tomcat
+Icon=/home/spadmin/TrainingCommon/images/application-x-executable.png
+
+Stop Tomcat Dekstop
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=sh -c $COMMON_HOME/scripts/RunStopTomcat.sh
+Name[en_US]=Stop Tomcat
+Name=Stop Tomcat
+Icon=/home/spadmin/TrainingCommon/images/application-x-executable.png
+
+Ldap Browser Dekstop
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/opt/ApacheDirectoryStudio/ApacheDirectoryStudio
+Name[en_US]=LDAP Browser
+Name=LDAP Browser
+Icon=/opt/ApacheDirectoryStudio/icon.xpm
+
+IIQ Console
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=sh -c $COMMON_HOME/scripts/IIQConsole.sh
+Name[en_US]=IIQ Console
+Name=Tail Tomcat Standard Out
+Icon=/home/spadmin/TrainingCommon/images/application-x-executable.png
+
+Tail Tomcat Sysout
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=sh -c $COMMON_HOME/scripts/TailTomcatLog.sh
+Name[en_US]=Tail Tomcat Standard Out
+Name=Tail Tomcat Standard Out
+Icon=/home/spadmin/TrainingCommon/images/application-x-executable.png
+
+Tail IIQ Log
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Tail IdentityIQ Log
+Type=Application
+Terminal=false
+Exec=sh -c $COMMON_HOME/scripts/TailIIQLog.sh
+Name[en_US]=Tail IdentityIQ Log
+GenericName[en_US]=
+Icon=/home/spadmin/TrainingCommon/images/application-x-executable.png
+
+Tail Email Log
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=sh -c $COMMON_HOME/scripts/TailEmailLog.sh
+Name[en_US]=Tail Email Log
+Name=Tail Email Log
+Icon=/home/spadmin/TrainingCommon/images/application-x-executable.png
+

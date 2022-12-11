@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Rule language="beanshell"  name="TRNG-IdentityLookup">
+  <Description>This rule accepts an identity name and retrieves the corresponding identity object, returning the user's email address.</Description>
+  <Signature returnType='String'>
+    <Inputs>
+      <Argument name='context'>
+        <Description>
+          A sailpoint.api.SailPointContext object that can be used to
+          query the database.
+        </Description>
+      </Argument>
+      <Argument name="log">
+        <Description>
+          The log object associated with the SailPointContext.
+        </Description>
+      </Argument>
+      <Argument name='config'>
+        <Description>
+          Map of arguments, including identityName.
+        </Description>
+      </Argument>
+    </Inputs>
+    <Returns>
+      <Argument name='email'>
+        <Description>
+          The string value of the user's email address
+        </Description>
+      </Argument>
+    </Returns>
+  </Signature>  
+<Source>
+  import sailpoint.object.Identity;
+
+  Identity identity = context.getObjectByName(Identity.class, config.get("identityName"));
+  if (null != identity) {
+      System.out.println("Found the Identity: Name = " + identity.getName() + ", Email address = " + identity.getEmail());
+      // [1] Replace with code to return manager email address
+      //-------------------------------------
+      return identity.getEmail();
+      	
+      //-------------------------------------
+  }
+
+  </Source>
+</Rule>

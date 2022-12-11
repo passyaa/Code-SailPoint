@@ -1,0 +1,4628 @@
+{
+    "status": true,
+    "status_code": 201,
+    "message": "ok",
+    "count_data": 770,
+    "data": [
+        {
+            "division_id": "003852ae444122067d46785d0a76a149",
+            "division_code": "KCP PONDOK CILE",
+            "division_name": "KCP PONDOK CILEGON INDAH",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "0083a5492a41cff5313d6e49b707b115",
+            "division_code": "KFO POS SUKABUM",
+            "division_name": "KFO POS SUKABUMI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "00e1038513bd0e1f8aab9a62f382c6f4",
+            "division_code": "KC KUDUS",
+            "division_name": "KC KUDUS",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "00fb0e698e7402a18b7f7a071814ec5c",
+            "division_code": "KC PANGKAL PINA",
+            "division_name": "KC PANGKAL PINANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "012bf3468caffb1dc1ec147c6cd87e68",
+            "division_code": "KCP TRENGGALEK",
+            "division_name": "KCP TRENGGALEK",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "017e6a6fd44916356e6a5d57e3c6f9e8",
+            "division_code": "KCP TANGERANG K",
+            "division_name": "KCP TANGERANG KARANG TENGAH",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "019f83e41f4f12e19d938f5cb47d3a5a",
+            "division_code": "KCP BULELENG",
+            "division_name": "KCP BULELENG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "01ab2932bfa82b607aedae4d443365ee",
+            "division_code": "KCP PASURUAN",
+            "division_name": "KCP PASURUAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "0215af4ece25c41f773229dae50bf731",
+            "division_code": "KC TERNATE",
+            "division_name": "KC TERNATE",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "0358b0a17fea0bb06048aded4d2703ed",
+            "division_code": "KCP SEMARANG MT",
+            "division_name": "KCP SEMARANG MT. HARYONO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "037a7028d602006f9c15bc318c007680",
+            "division_code": "KK JAKARTA TRIS",
+            "division_name": "KK JAKARTA TRISAKTI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "039f6af71959cb9debba704290fcff97",
+            "division_code": "KCP TANGERANG B",
+            "division_name": "KCP TANGERANG BSD",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "03bd7a41df7666373b14ce392b5b1fed",
+            "division_code": "KCP PEKANBARU N",
+            "division_name": "KCP PEKANBARU NANGKA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "03e773c3661c130cd52195dc81fb6092",
+            "division_code": "KFO POS KUPANG",
+            "division_name": "KFO POS KUPANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "04f788a5e890540219c89ee6552ab451",
+            "division_code": "KC BANDAR JAYA",
+            "division_name": "KC BANDAR JAYA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "05c28005bd3af989e7317d2c6b52b4bb",
+            "division_code": "KC MAMUJU",
+            "division_name": "KC MAMUJU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "0623f4017d1f0ec0e283dc07c6aa8c33",
+            "division_code": "KFO POS GORONTA",
+            "division_name": "KFO POS GORONTALO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "068b9302eebab2d738c17d3b9dc92688",
+            "division_code": "KLS PEKALONGAN ",
+            "division_name": "KLS PEKALONGAN PEKAJANGAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "06c7159709015f9a44c0889781674e73",
+            "division_code": "KCP BOGOR SUDIR",
+            "division_name": "KCP BOGOR SUDIRMAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "07c0d989b6da0c6a6be68aa2edbdbd0b",
+            "division_code": "KCP BATAM BENGK",
+            "division_name": "KCP BATAM BENGKONG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "0823c6f563dd0b686cb9c76a5344349c",
+            "division_code": "KC GRESIK",
+            "division_name": "KC GRESIK",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "08a09cc3808e21357e8ff6643ab94d47",
+            "division_code": "KC BANDUNG",
+            "division_name": "KC BANDUNG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "0909603109ab31e17fef30cdeb9522ce",
+            "division_code": "KCP AJIBARANG",
+            "division_name": "KCP AJIBARANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "0aa75a83ccb5fd5cdfd311ed64e430dc",
+            "division_code": "KCP RIMO",
+            "division_name": "KCP RIMO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "0aca72a2d2cf32e51598f8837d7752d1",
+            "division_code": "KCP SAWAHLUNTO",
+            "division_name": "KCP SAWAHLUNTO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "0afcd30baaf157c973cd525375558908",
+            "division_code": "KCP MEDAN PADAN",
+            "division_name": "KCP MEDAN PADANG BULAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "0b9c81ed47b3b5f7a2c616c1a029d427",
+            "division_code": "KK JAKARTA PLAZ",
+            "division_name": "KK JAKARTA PLAZA MANDIRI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "0bce995e7115931892ec946f11f96585",
+            "division_code": "KCP SURABAYA TA",
+            "division_name": "KCP SURABAYA TANJUNG PERAK",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "0c008d83dc1fd89f8556dc8e91f5fb36",
+            "division_code": "KCP BEKASI TAMB",
+            "division_name": "KCP BEKASI TAMBUN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "0c2b966b0620b3279de9753e3768e3ea",
+            "division_code": "KCP JAKARTA MER",
+            "division_name": "KCP JAKARTA MERUYA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "0cad301d8d4f12642bba866e63f7919e",
+            //"division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Solo",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "0ce8db112ab20342bcbf2bf19a8a87ea",
+            "division_code": "KCP MUARA TEWEH",
+            "division_name": "KCP MUARA TEWEH",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "0d79185e79ea3a7a1a761a0bdd0434a3",
+            "division_code": "KC TANGERANG BI",
+            "division_name": "KC TANGERANG BINTARO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "0d94238e073766196ee4a297ea62c203",
+            "division_code": "KC SALATIGA",
+            "division_name": "KC SALATIGA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "0dd2522d62f70badc990fcf79b11ee0f",
+            //"division_code": "CMG",
+            "division_name": "Commercial Banking Group - Area Pekanbaru",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "0f1a184145048d5023b6452b431c3252",
+            "division_code": "KCP BANDUNG RAN",
+            "division_name": "KCP BANDUNG RANCAEKEK",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "0f6824451fe18d83f3e0fb94bf8f8725",
+            "division_code": "KC BLITAR",
+            "division_name": "KC BLITAR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "0fab1eaf60208d714de580e9a095c75d",
+            "division_code": "KC METRO",
+            "division_name": "KC METRO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "1",
+            //"division_code": "IAG",
+            "division_name": "Internal Audit Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "10",
+            //"division_code": "PWG",
+            "division_name": "Pawning Management Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "107b39db369c3c5adaedfbfbd3cc8bd5",
+            //"division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Jayapura",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "10851aff1effb4c545fa4492af3ff143",
+            "division_code": "KCP MAKASSAR PA",
+            "division_name": "KCP MAKASSAR PANAKUKKANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "109a98e83dd6183e6b3d7a007d32ef9d",
+            "division_code": "KC JKT CIPULIR",
+            "division_name": "KC JKT CIPULIR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "11",
+            //"division_code": "CHG",
+            "division_name": "Consumer Finance & Hajj Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "116041af99fde23bf2172a32bbdaadbd",
+            "division_code": "KFO MITRA MANDI",
+            "division_name": "KFO MITRA MANDIRI SULAWESI MAKASSAR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "11ae2af77e4cba670e569fa7f769dd5b",
+            "division_code": "KCP TANGERANG K",
+            "division_name": "KCP TANGERANG KARAWACI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "11f1cf33e0fa9ff6e392e821eb432a29",
+            "division_code": "KC DENPASAR",
+            "division_name": "KC DENPASAR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "12",
+            //"division_code": "RDG",
+            "division_name": "Retail Deposit Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "12180c37dd913a6bf0591589e9bd536d",
+            "division_code": "KCP PEMALANG",
+            "division_name": "KCP PEMALANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "12f5bd80ef5cc879693a21224b3b8d8a",
+            "division_code": "KCP PRAYA",
+            "division_name": "KCP PRAYA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "13",
+            //"division_code": "DSG",
+            "division_name": "Distribution Strategy Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "131299a3251f7e57d8c4c1a7009da41a",
+            "division_code": "KCP PENAJAM",
+            "division_name": "KCP PENAJAM",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "1313ef7229fb6b9908f584297206a49e",
+            "division_code": "KC MEDAN",
+            "division_name": "KC MEDAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "1329352f7b419df07182f67d15f05c2b",
+            //"division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Balikpapan",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "13992c3f07eb01d241d15d15248d0aad",
+            "division_code": "KCP SURABAYA PA",
+            "division_name": "KCP SURABAYA PASAR ATOM",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "13d7c619337448318d8c60aa58906c55",
+            "division_code": "KCP SITUBONDO",
+            "division_name": "KCP SITUBONDO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "13dcd1021a0a955dc0d24c7787246614",
+            "division_code": "KCP KEPANJEN",
+            "division_name": "KCP KEPANJEN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "14",
+            //"division_code": "EBG",
+            "division_name": "Electronic Banking Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "148198df892746129a10783a1c29713a",
+            //"division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Bogor",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "1499efade8d032093dcdc0457bf2d173",
+            "division_code": "KCP LAMONGAN",
+            "division_name": "KCP LAMONGAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "14dc6336330a19d5483c9fc6f2b25a23",
+            //"division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Bdg A. Yani",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "14fc06f4be7c5d36d1ac3c32e81cbb5d",
+            "division_code": "KCP BANDUNG BUA",
+            "division_name": "KCP BANDUNG BUAH BATU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "15",
+            //"division_code": "CCG",
+            "division_name": "Culture & Customer Care Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "153a01e812ee2c9f175eb32f908e6b22",
+            "division_code": "KCP BANDUNG MET",
+            "division_name": "KCP BANDUNG METRO MARGAHAYU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "15ef296bef26c3d8a753f5bd2ac71fe8",
+            "division_code": "KCP YOGYAKARTA ",
+            "division_name": "KCP YOGYAKARTA KALIURANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "16",
+            //"division_code": "WRG",
+            "division_name": "Wholesale Risk Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "162ab96e3b8f8738e98b5ea7b5e581a2",
+            "division_code": "KCP CIKARANG JA",
+            "division_name": "KCP CIKARANG JABABEKA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "164009d42dba719d97821dd92637506b",
+            "division_code": "KK PADANG UNIVE",
+            "division_name": "KK PADANG UNIVERSITAS ANDALAS",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "16a927ca931fd659bdb88710d1134b2b",
+            "division_code": "KCP SANGGAU",
+            "division_name": "KCP SANGGAU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "17",
+            //"division_code": "RRG",
+            "division_name": "Retail Risk Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "1754d886478c09b31ca23e431053b4b9",
+            "division_code": "KCP BIMA",
+            "division_name": "KCP BIMA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "17e5b42c9b08228b85857bddb44452d9",
+            //"division_code": "RFRR",
+            "division_name": "Retail Financing Risk & Recovery - Region VI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "17e8a0eb574163009bdb408a08af01c5",
+            "division_code": "KCP PARIGI MOUT",
+            "division_name": "KCP PARIGI MOUTONG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "18",
+            //"division_code": "WFR",
+            "division_name": "Wholesale Financing Recovery Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "1811aae5d14a3b9cd49b19d27186197f",
+            "division_code": "KCP JEPARA",
+            "division_name": "KCP JEPARA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "18a4c3d71fe4fd85afad7dd18ea1ec21",
+            "division_code": "KCP BOGOR SENTU",
+            "division_name": "KCP BOGOR SENTUL",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "19",
+            //"division_code": "RC1",
+            "division_name": "Retail Collection Restructuring & Recovery 1 Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "1946dd78a60230aef422718eab4c214c",
+            "division_code": "KFO MITRA BSHB ",
+            "division_name": "KFO MITRA BSHB GUNUNG AGUNG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "198672bba7b1032f7e6c1d6aa097aafc",
+            "division_code": "KC JAKARTA MANG",
+            "division_name": "KC JAKARTA MANGGA DUA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "19cd540b2fce1e06f595c42d1fbf40ea",
+            "division_code": "KC GORONTALO",
+            "division_name": "KC GORONTALO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "1a09155c314f87c648fafb36c3f98f72",
+            "division_code": "KCP CIAMIS",
+            "division_name": "KCP CIAMIS",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "1a0df52d8049676f9a7f2c6287841a59",
+            "division_code": "KC TANGERANG",
+            "division_name": "KC TANGERANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "1a4825f4390e1453c14e22bd04a67fa5",
+            "division_code": "KCP PADANG PARI",
+            "division_name": "KCP PADANG PARIAMAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "1abe93ed4bf64330f13644ac267520cc",
+            "division_code": "KCP SURABAYA DH",
+            "division_name": "KCP SURABAYA DHARMAHUSADA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "1ac161e2d8a453052c5e50f44fafb39a",
+            //"division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Sby Darmo",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "1b146972f98bc8043716aa84e843d532",
+            "division_code": "KCP SELAT PANJA",
+            "division_name": "KCP SELAT PANJANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "1b248ee78943e887924be4e2762a5781",
+            "division_code": "KCP PADANG BAND",
+            "division_name": "KCP PADANG BANDAR BUAT",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "1b2c575cf64a096fa8171bc51641dd85",
+            "division_code": "KC PALEMBANG SI",
+            "division_name": "KC PALEMBANG SIMPANG PATAL",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "1b3d114cc23cdb8b279fb5c848431a0b",
+            "division_code": "KC PURWAKARTA",
+            "division_name": "KC PURWAKARTA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "1b775797bb494e62b538f936e8314dab",
+            "division_code": "KCP TANJUNG BAL",
+            "division_name": "KCP TANJUNG BALAI KARIMUN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "1bde527964e63c15d64c395e41beca69",
+            //"division_code": "KFO MITRA BANK ",
+            "division_name": "KFO MITRA BANK MANTAP SESETAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "1be4ce5d8070dbf1b62ba10be7f0c3cc",
+            "division_code": "KCP BOGOR MERDE",
+            "division_name": "KCP BOGOR MERDEKA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "1cbdc6a7e3a664f8ce3f01a30997836f",
+            "division_code": "RO IV",
+            "division_name": "Region Office IV",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "1d2fbbe8dffbdd5baa396be3e2139e93",
+            "division_code": "KCP TANGERANG C",
+            "division_name": "KCP TANGERANG CIKUPA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "1d4ca163097410be1b767bfe08b246c6",
+            "division_code": "KC JAYAPURA",
+            "division_name": "KC JAYAPURA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "1d7299d6f340b3584e117ee2e9739799",
+            "division_code": "KC TANJUNG PINA",
+            "division_name": "KC TANJUNG PINANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "1ed578006481bf2e1c0db0456459448b",
+            //"division_code": "DCOR RMC",
+            "division_name": "DCOR Risk Management & Compliance",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "1f3581916eba545e8e67b40df301edd3",
+            "division_code": "KC JAKARTA PLUI",
+            "division_name": "KC JAKARTA PLUIT",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "1f3ae0679157d512899ee04ddce7641e",
+            "division_code": "KK PADANG UPI Y",
+            "division_name": "KK PADANG UPI YPTK",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "1f5bbee368f031fd914d0d95e036ce22",
+            "division_code": "KCP BANJARMASIN",
+            "division_name": "KCP BANJARMASIN PS. CEMPAKA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "1faa7044ff6b0a6d333705df0f840126",
+            "division_code": "KCP BOGOR JALAN",
+            "division_name": "KCP BOGOR JALAN BARU",
+            "unit_id": "2"
+        },------------------------------------
+        {
+            "division_id": "2",
+            //"division_code": "CB1",
+            "division_name": "Corporate Banking 1 Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "20",
+            //"division_code": "ITG",
+            "division_name": "Information Technology Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "203b489e0569625994a80a734b0b040d",
+            "division_code": "KC PEKANBARU",
+            "division_name": "KC PEKANBARU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "20b75107e9a08ba2121538e7d895442b",
+            "division_code": "KCP MEDAN KRAKA",
+            "division_name": "KCP MEDAN KRAKATAU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "21",
+            //"division_code": "COG",
+            "division_name": "Central Operations Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "22",
+            //"division_code": "FOG",
+            "division_name": "Financing Operations Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "22cc858656d40af532c27087eea271a1",
+            "division_code": "KCP SOLO URIP S",
+            "division_name": "KCP SOLO URIP SUMOHARJO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "23",
+            //"division_code": "ERM",
+            "division_name": "Enterprise Risk Management Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "23b9d885240368ae272bc9aca7d15be9",
+            "division_code": "KCP JAKARTA PEJ",
+            "division_name": "KCP JAKARTA PEJATEN RAYA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "23e8efe50cc1b8cf0f5c6f6760acb157",
+            "division_code": "KFO POS FATMAWA",
+            "division_name": "KFO POS FATMAWATI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "24",
+            //"division_code": "CPG",
+            "division_name": "Compliance Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "240cd17c6c945e8429bffb4b4e9b9ba1",
+            "division_code": "KCP TANGERANG B",
+            "division_name": "KCP TANGERANG BINTARO SEKTOR III",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "2414f23f7a053d54bfd52489ab4953ad",
+            "division_code": "RO III",
+            "division_name": "Region Office III",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "24386e955348804217a3ea4450d9b9fe",
+            "division_code": "KCP CIREBON SIL",
+            "division_name": "KCP CIREBON SILIWANGI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "2474088d0470e7d25d0b64a9de128a70",
+            "division_code": "KK PONTIANAK TA",
+            "division_name": "KK PONTIANAK TANJUNG RAYA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "2498409c3283e35334d2805d6548800b",
+            "division_code": "KK BANDUNG RS A",
+            "division_name": "KK BANDUNG RS AL ISLAM",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "24a4f2fc8221d491fcc57c8f58d42126",
+            "division_code": "KCP BEKASI JATI",
+            "division_name": "KCP BEKASI JATIASIH",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "24a69a7ed1ec33e4ce582bb166c73b9d",
+            //"division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Bdg Dago",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "24a78446f7a991319ab9659739b0126c",
+            "division_code": "KC JEMBER",
+            "division_name": "KC JEMBER",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "24bd0a5967617b9a5c4fda7ce7e27d66",
+            "division_code": "KCP ACEH DARUSS",
+            "division_name": "KCP ACEH DARUSSALAM",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "24df71c1b644c86ecab69ffbf796f567",
+            "division_code": "KCP LABUAN",
+            "division_name": "KCP LABUAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "25",
+            //"division_code": "LGG",
+            "division_name": "Legal Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "252589fed4dc25aa12021cf610b76844",
+            "division_code": "KC BATAM",
+            "division_name": "KC BATAM",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "254e7989e5edc6a449a7eb83773d5c76",
+            "division_code": "KCP BANDUNG ANT",
+            "division_name": "KCP BANDUNG ANTAPANI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "26",
+            //"division_code": "PPG",
+            "division_name": "Policy & Procedure Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "268ce4e40dcedf7b9448456b67f33b47",
+            //"division_code": "DCOR RBD",
+            "division_name": "DCOR Retail Banking",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "26930d4e3862b1ec966e57d8acf7d5a9",
+            "division_code": "KCP MEDAN TOMAN",
+            "division_name": "KCP MEDAN TOMANG ELOK",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "26acc68ca7d2a68ebc8ff38ecfb17faa",
+            //"division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Palembang",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "27",
+            //"division_code": "LCG",
+            "division_name": "Learning Center Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "2707ed288a0dbe0c623a87e1f0efa55a",
+            //"division_code": "CMG",
+            "division_name": "Commercial Banking Group - Area Bandung",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "2744f8910e5885c8a9cc2294cf21e97e",
+            //"division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Jayapura",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "27743af36e7897ff106d6d1d51f7f100",
+            "division_code": "KCP BALIKPAPAN ",
+            "division_name": "KCP BALIKPAPAN KEBUN SAYUR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "28",
+            //"division_code": "HCG",
+            "division_name": "Human Capital Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "280f1721c847b60864e639394f1e2afd",
+            "division_code": "KCP BENGKALIS",
+            "division_name": "KCP BENGKALIS",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "286627035e1c30bae49e6719e4bb3c21",
+            "division_code": "KCP JAKARTA GAJ",
+            "division_name": "KCP JAKARTA GAJAH MADA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "28eca800fd2eb5f519f08ab04c135a3c",
+            //"division_code": "CMG",
+            "division_name": "Commercial Banking Group - Area Jkt Thamrin",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "29",
+            //"division_code": "SPM",
+            "division_name": "Strategy & Performance Management Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "295b038eb2589948906abcce80700d31",
+            "division_code": "KFO MITRA MANDI",
+            "division_name": "KFO MITRA MANDIRI BONE WATAMPONE",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "29d3e44d6f2c68153a92cfe33602d20a",
+            "division_code": "KCP JAKARTA UTA",
+            "division_name": "KCP JAKARTA UTAN KAYU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "2a5511b5f4df287056846ba0624ece75",
+            "division_code": "KCP PEKANBARU P",
+            "division_name": "KCP PEKANBARU PANAM",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "2a6130160ed7fbcffae346e5ddd66545",
+            "division_code": "KCP MAGELANG MU",
+            "division_name": "KCP MAGELANG MUNTILAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "2a6a8ac34c9e278f40c3e70f47fc74e0",
+            "division_code": "KC MEDAN AKSARA",
+            "division_name": "KC MEDAN AKSARA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "2ac39280f746c8c6519954f8a7fd8505",
+            "division_code": "KCP INDRAMAYU J",
+            "division_name": "KCP INDRAMAYU JATIBARANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "2af714b2a3c2dc87fd007245c4850b35",
+            "division_code": "KCP AMBARUKMO",
+            "division_name": "KCP AMBARUKMO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "2afdfb893bb0930fc29bb66ac62346dc",
+            "division_code": "KCP TANJUNG ENI",
+            "division_name": "KCP TANJUNG ENIM",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "2b0869730bd1304b224a4e86dc972b20",
+            "division_code": "KCP SURABAYA KL",
+            "division_name": "KCP SURABAYA KLAMPIS",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "2ba554be20760436a31edab71e6d192e",
+            "division_code": "KC SUKABUMI",
+            "division_name": "KC SUKABUMI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "2c5a326fbd131c30f2a0df2e14e976bb",
+            //"division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Pontianak",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "2cfed004369abb068d2af7cca8c4b5e6",
+            "division_code": "KC TEGAL",
+            "division_name": "KC TEGAL",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "2dfc5fe5a5a25a22d33ec6838cda4c97",
+            "division_code": "KCP JANTHO",
+            "division_name": "KCP JANTHO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "2e58c7e7ee36661724a7c179b0895540",
+            "division_code": "KC MEDAN GAJAH ",
+            "division_name": "KC MEDAN GAJAH MADA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "2e81a9e7a34931af5a6249abe3731efa",
+            "division_code": "KCP SENGKANG",
+            "division_name": "KCP SENGKANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "2efff83c92110969ca9c67226beabd4f",
+            "division_code": "KCP JAKARTA PON",
+            "division_name": "KCP JAKARTA PONDOK LABU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "2f3904598545e5159d01e326438a8464",
+            "division_code": "KCP JKT CILANDA",
+            "division_name": "KCP JKT CILANDAK",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "2f5cca7b9dbf871f6e6c97ae1d6ce23f",
+            "division_code": "KK JAMBI IAIN S",
+            "division_name": "KK JAMBI IAIN STS",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "2f7a1615f27999b72704e84074e08cdf",
+            //"division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Jkt Pd Kelapa",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "2f849b3be206c1f02af22f5e35b6abf2",
+            "division_code": "KCP PANGKALAN K",
+            "division_name": "KCP PANGKALAN KERINCI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "2fa4bf6e38c1304334d2c520324ce517",
+            "division_code": "KCP PARE PARE",
+            "division_name": "KCP PARE PARE",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "2fe01b82b3527916e0a923a18c0ceaea",
+            "division_code": "KFO POS MATARAM",
+            "division_name": "KFO POS MATARAM",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "3",
+            //"division_code": "CB2",
+            "division_name": "Corporate Banking 2 Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "30",
+            //"division_code": "CSG",
+            "division_name": "Corporate Secretary Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "3018b44402215406b98b95bed21ecceb",
+            "division_code": "KCP JAKARTA BAR",
+            "division_name": "KCP JAKARTA BARITO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "302715fad6243e878fed78f0364cf199",
+            "division_code": "KCP PURBALINGGA",
+            "division_name": "KCP PURBALINGGA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "306af28dcfac69341b7fb227d19f55a3",
+            "division_code": "KCP SABANG",
+            "division_name": "KCP SABANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "30ab9aad71afe411c8e9c58559d8d850",
+            "division_code": "KC BOGOR CIBINO",
+            "division_name": "KC BOGOR CIBINONG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "30bd0c4c6d2a7bca89143e19168ef030",
+            "division_code": "KCP BOYOLALI",
+            "division_name": "KCP BOYOLALI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "31",
+            //"division_code": "ACG",
+            "division_name": "Accounting Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "31733ed5e3f37b4710e1d9bbc2d91890",
+            "division_code": "KCP JAKARTA GAN",
+            "division_name": "KCP JAKARTA GANDARIA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "31974c72ed324f8f4b90937ff0551553",
+            "division_code": "KCP JAKARTA KRA",
+            "division_name": "KCP JAKARTA KRAMAT RAYA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "319b5c561bf64b50682f85166474b883",
+            "division_code": "KCP DEPOK SAWAN",
+            "division_name": "KCP DEPOK SAWANGAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "31deef7ecfad8b1e57ae723f2014237d",
+            "division_code": "KCP PEKALONGAN ",
+            "division_name": "KCP PEKALONGAN KAJEN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "32",
+            //"division_code": "SCG",
+            "division_name": "Strategic Procurement Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "32789239eef5347ab5177321ea17f44c",
+            "division_code": "KFO MITRA MANDI",
+            "division_name": "KFO MITRA MANDIRI MATARAM CAKRANEGARA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "32fc138ef9549db734139b76d9357698",
+            "division_code": "KCP GENTENG",
+            "division_name": "KCP GENTENG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "33",
+            //"division_code": "CBT",
+            "division_name": "Corporate & Branch Transformation Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "330d5eee3c093322e1a58a4a8f452950",
+            "division_code": "KCP TANJUNG BAL",
+            "division_name": "KCP TANJUNG BALAI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "331113e30426aeeaccedd01d18713ab8",
+            "division_code": "KCP KOTA PINANG",
+            "division_name": "KCP KOTA PINANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "3318e74f8ddd142bb0e80b7fb7dddd09",
+            "division_code": "KFO MITRA BSHB ",
+            "division_name": "KFO MITRA BSHB SUKAWATI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "33d83593e98735f0fc6f024a83a0f076",
+            //"division_code": "CMG",
+            "division_name": "Commercial Banking Group - Area Makassar",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "33db250ced0acf55ec84692d441a7d59",
+            "division_code": "KK BANJARBARU",
+            "division_name": "KK BANJARBARU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "34181e2ac8d012ec20217c41398c2914",
+            "division_code": "KCP BANDUNG MOH",
+            "division_name": "KCP BANDUNG MOH. TOHA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "34e6e6565210fd360f70727308d31bf0",
+            "division_code": "KC DUMAI",
+            "division_name": "KC DUMAI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "355ec1e9ee0a89a54e2151d1e31c8e54",
+            "division_code": "KCP GUBUG",
+            "division_name": "KCP GUBUG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "35e862f95826bb5289bfa2198660e75e",
+            //"division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Jember",
+            "unit_id": "2"
+        },
+        // {
+        //     "division_id": "36171af702c98d76492d738179a41032",
+        //     "division_code": "KCP SEMARANG NG",
+        //     "division_name": "KCP SEMARANG NGALIYAN",
+        //     "unit_id": "2"
+        // },
+        {
+            "division_id": "36c2de877eeda34c80463219a1e7484f",
+            "division_code": "KCP JAKARTA K-L",
+            "division_name": "KCP JAKARTA K-LINK TOWER",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "36d786d4c54e4d5f4f3e8461eaf09822",
+            "division_code": "KCP PANYABUNGAN",
+            "division_name": "KCP PANYABUNGAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "374bca203c1f17235a6ee9af64b749e9",
+            "division_code": "KCP JAKARTA CIL",
+            "division_name": "KCP JAKARTA CILILITAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "3807f98aaba9e709f2f1226f2010dfb9",
+            "division_code": "KCP SEMARANG BA",
+            "division_name": "KCP SEMARANG BANYUMANIK",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "395586289bb12ac1754a057981fb7f8a",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Malang",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "397d3deaf6021a5ec91eb10fc307d661",
+            "division_code": "KCP BOJONEGORO ",
+            "division_name": "KCP BOJONEGORO SUMBERREJO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "39cedcf9c79077c85e8a95aa70abed39",
+            "division_code": "KCP RENGAT",
+            "division_name": "KCP RENGAT",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "3a0952176868da58e853e1fb29dd0c85",
+            "division_code": "KCP NUNUKAN",
+            "division_name": "KCP NUNUKAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "3b0a40fd8ddb3a617a73aa1581ed170e",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Balikpapan",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "3be523dd72a10cf50040a8f2dd0efd78",
+            "division_code": "KCP SUNGAI LILI",
+            "division_name": "KCP SUNGAI LILIN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "3ce3fb989a6c0709c20ee5e464de7f97",
+            "division_code": "KC KUTAI KARTAN",
+            "division_name": "KC KUTAI KARTANEGARA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "3d2b6b87c191d133886ee8e5f415fe0b",
+            "division_code": "KCP SUKABUMI CI",
+            "division_name": "KCP SUKABUMI CIBADAK",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "3d30aefd996dcbe7993872f3475c43e3",
+            "division_code": "RC2",
+            "division_name": "Retail Collection Restructuring & Recovery 2 Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "3d71c9d9f1d1320c6e41971ecdf70398",
+            "division_code": "KCP JAKARTA TAN",
+            "division_name": "KCP JAKARTA TANAH ABANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "3d81a3ea761490ddb3bb31fa0e6650f0",
+            "division_code": "KC LUWUK",
+            "division_name": "KC LUWUK",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "3ddb335b27058593d0a6e123f7de406a",
+            "division_code": "KCP JKT TENDEAN",
+            "division_name": "KCP JKT TENDEAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "3df3c36febb2b8796a2a78ae6a15d002",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Batam",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "3e56f14d8c83ff016d63a3217d364915",
+            "division_code": "KCP BITUNG",
+            "division_name": "KCP BITUNG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "3ecd0a8f89ad3b87563ee507a4990d94",
+            "division_code": "KC SERANG",
+            "division_name": "KC SERANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "3f98164e6db3634716e5ced63287be6c",
+            "division_code": "KCP KARANGANYAR",
+            "division_name": "KCP KARANGANYAR PALUR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "4",
+            "division_code": "TIG",
+            "division_name": "Treasury & International Banking Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "4099a355813922b3e6c7f3d66925d273",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Yogyakarta",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "411d243f8b25a673bbfab4682cc6d553",
+            "division_code": "KCP TOLITOLI",
+            "division_name": "KCP TOLITOLI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "416051f03721b38f389d2b00caff5d93",
+            "division_code": "HUG",
+            "division_name": "Hajj and Umra Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "41909c579b48adbf52001eca2ea1f61d",
+            "division_code": "KCP BLANGPIDIE",
+            "division_name": "KCP BLANGPIDIE",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "41ca2945ab98809a5f14087d2cb988bc",
+            "division_code": "KCP BULA",
+            "division_name": "KCP BULA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "420fd4826f21b509dc621a02302a16ff",
+            "division_code": "KCP JAYAPURA AB",
+            "division_name": "KCP JAYAPURA ABEPURA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "42315952f4de3e7202ed55bc87566d07",
+            "division_code": "KC KETAPANG",
+            "division_name": "KC KETAPANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "423a46d7585c8eb4d3ec83deedd87e8a",
+            "division_code": "KFO POS SEMARAN",
+            "division_name": "KFO POS SEMARANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "43a8ba660256a94e1bb2839a32bc1397",
+            "division_code": "KCP SUBANG",
+            "division_name": "KCP SUBANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "43ab23f20d1bfd9b7efe763a43fd5f01",
+            "division_code": "KC JAKARTA SUDI",
+            "division_name": "KC JAKARTA SUDIRMAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "43c90e7c9a00b0cac75044ddf4c0fe52",
+            "division_code": "KC BENGKULU",
+            "division_name": "KC BENGKULU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "4406b2a07b28af12d4a10386a8140ede",
+            "division_code": "HCS",
+            "division_name": "Human Capital Service Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "444a3236b102cab0567598e76e0ae74a",
+            "division_code": "KCP JKT KEMANG",
+            "division_name": "KCP JKT KEMANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "4463b2dc8c7b637f4120ad7b0dcde428",
+            "division_code": "KCP KOTABARU",
+            "division_name": "KCP KOTABARU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "454ef32ab56ac065e84d26b31a3692d8",
+            "division_code": "KK JEMBER UNIVE",
+            "division_name": "KK JEMBER UNIVERSITAS MUHAMMADIYAH",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "461cd440315685c1ebd0f094416a5844",
+            "division_code": "KC SAMARINDA",
+            "division_name": "KC SAMARINDA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "464bc4772f1f064945da81e281d7191e",
+            "division_code": "KCP KALIANDA",
+            "division_name": "KCP KALIANDA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "466906d151f236f004b1ae47b57781b2",
+            "division_code": "KCP CICURUG",
+            "division_name": "KCP CICURUG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "46cd9e48bafe5b045984ad513f651a4f",
+            "division_code": "TRO",
+            "division_name": "Team Roll Out",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "478e5a50f78d962a2440f1752472959a",
+            "division_code": "KC YOGYAKARTA",
+            "division_name": "KC YOGYAKARTA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "47a4b6673d04e970d5d326236a29034a",
+            "division_code": "KCP PANDAAN",
+            "division_name": "KCP PANDAAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "481f1e7348b392effdaed47289cf7943",
+            "division_code": "KFO POS TANGERA",
+            "division_name": "KFO POS TANGERANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "48a2979f1a4e0ac1b1ffc44de6d36888",
+            "division_code": "KCP JKT MENTENG",
+            "division_name": "KCP JKT MENTENG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "48c30a827af484f74506552fe7e0331d",
+            "division_code": "KCP KETAPANG MA",
+            "division_name": "KCP KETAPANG MANIS MATA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "48f92247735980f413fbe3e46b94bc40",
+            "division_code": "KC PAMEKASAN",
+            "division_name": "KC PAMEKASAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "49487d85a7d179faf543761adf943012",
+            "division_code": "KCP JAKARTA DUR",
+            "division_name": "KCP JAKARTA DURI KOSAMBI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "499a0a122214d8020014b4a1b07759c5",
+            "division_code": "KCP BEKASI HARA",
+            "division_name": "KCP BEKASI HARAPAN INDAH",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "49ab38a9dfaa22556790188c9351a2a0",
+            "division_code": "KCP BACAN",
+            "division_name": "KCP BACAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "4ad1ffd0aaf692834e3f3265c4cbd23e",
+            "division_code": "KFO POS JAKARTA",
+            "division_name": "KFO POS JAKARTA PUSAT",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "4bbbac49ac18b974ac1fc9fd2e4145f5",
+            "division_code": "ISG",
+            "division_name": "IT Architecture & Strategy Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "4bf0c3ee1547d9ac73c7ad5468516a38",
+            "division_code": "KC JAKARTA CENG",
+            "division_name": "KC JAKARTA CENGKARENG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "4c210ad7936df1235f51d91af51c7633",
+            "division_code": "KFO MITRA MANDI",
+            "division_name": "KFO MITRA MANDIRI ANEKA TAMBANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "4c2506c034ddcda9fab5f80299563f89",
+            "division_code": "KCP JAKARTA PAS",
+            "division_name": "KCP JAKARTA PASAR BARU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "4c6fd36fba3603be702262feadae655a",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Mdn G. Mada",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "4c9e79de3a6167cf3aa88c4b5458cc6b",
+            "division_code": "KFO POS BANDUNG",
+            "division_name": "KFO POS BANDUNG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "4cb0ad3c3824360b00157e612ad16529",
+            "division_code": "KCP MEDAN MUCHT",
+            "division_name": "KCP MEDAN MUCHTAR BASRI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "4cc934b21d6392b9f5030035c8bc004d",
+            "division_code": "KCP PONOROGO",
+            "division_name": "KCP PONOROGO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "4dc85b631c74787a141b32b65ec74928",
+            "division_code": "KCP SANGATTA",
+            "division_name": "KCP SANGATTA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "4e3b48767c1b0b3fbbe5f3dac6439760",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Cirebon",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "4e6d531a3fb6367c3bd3235890b69bd4",
+            "division_code": "KCP LIWA",
+            "division_name": "KCP LIWA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "4ee8ea47b1ef0bdbca4c6eba8cdfafa2",
+            "division_code": "KC SURABAYA DAR",
+            "division_name": "KC SURABAYA DARMO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "4f66795cb22ef75853dfd36fe0ef02a1",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Bekasi",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "4f927e82a93719042cdb4d479158b179",
+            "division_code": "KCP LAHAT",
+            "division_name": "KCP LAHAT",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "4ffd6e5f7b11c7c1acae774455d6d3ef",
+            "division_code": "KCP PULAU PUNJU",
+            "division_name": "KCP PULAU PUNJUNG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "5",
+            "division_code": "CMG",
+            "division_name": "Commercial Banking Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "5041d19ecb80f74efd88c0775df8e224",
+            "division_code": "KFO POS JATINEG",
+            "division_name": "KFO POS JATINEGARA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "50c594210cba81181245b645c7d0890a",
+            "division_code": "KCP INDRAMAYU",
+            "division_name": "KCP INDRAMAYU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "50c898d7967a36de6a04fce70d891b07",
+            "division_code": "KCP DEPOK MARGO",
+            "division_name": "KCP DEPOK MARGONDA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "50d5c29facecbacae1964141f0a66317",
+            "division_code": "KCP MAGETAN",
+            "division_name": "KCP MAGETAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "513e68401784847cbbbe7f5dc51af8bb",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Sby Darmo",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "519cce2874e135d5f87035adeda26346",
+            "division_code": "KCP BALIKPAPAN ",
+            "division_name": "KCP BALIKPAPAN SEPINGGAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "51a1fe2e9ff8333fda3bdf5276bd3e4e",
+            "division_code": "DCOR",
+            "division_name": "DCOR",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "520e774876cc6fb0c72cbcd1cdea2e9c",
+            "division_code": "KC JAKARTA CIBU",
+            "division_name": "KC JAKARTA CIBUBUR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "529570e3c86a0db02f953c2600ac123f",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Mdn G. Mada",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "529a6185a478eba98b653b2f69967554",
+            "division_code": "KC BATURAJA",
+            "division_name": "KC BATURAJA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "52b114428752e3e1e6906ccac0b916b4",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Jkt Thamrin",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "52c6efe5f9d9aa1cbd1d51dc5440bcba",
+            "division_code": "KCP MAROS",
+            "division_name": "KCP MAROS",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "536ea490ce362977342666e7c9cd94cb",
+            "division_code": "KCP MEDAN SIMPA",
+            "division_name": "KCP MEDAN SIMPANG LIMUN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "544ce49025aef70f5279a01bf7aa562f",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Pekanbaru",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "5452fec593a0ee4e7d6f3a320b199427",
+            "division_code": "KFO MIKRO SRIBH",
+            "division_name": "KFO MIKRO SRIBHAWONO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "54795be175f7ed9141fed5ed763a2cfa",
+            "division_code": "KCP LUBUK LINGG",
+            "division_name": "KCP LUBUK LINGGAU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "55a3129ddb9574287e9fcecf9a37712e",
+            "division_code": "KCP MOROWALI",
+            "division_name": "KCP MOROWALI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "5625f593f39ca4ef167f5ed1563ad385",
+            "division_code": "KCP DEPOK CIMAN",
+            "division_name": "KCP DEPOK CIMANGGIS",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "564e7b4cb55b0eaa9475f7ad3ae4f6eb",
+            "division_code": "KCP CALANG",
+            "division_name": "KCP CALANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "56932987c6e98209082ff1cb12d2d5f7",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Aceh",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "58221588d499ddb4360aec1243bec2ba",
+            "division_code": "KCP DEPOK CINER",
+            "division_name": "KCP DEPOK CINERE",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "58a7b189ad6d0a58ed0ef97852aa033d",
+            "division_code": "KC JAKARTA KELA",
+            "division_name": "KC JAKARTA KELAPA GADING",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "58d24ad8aaaef5869e0676bb23681974",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Manado",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "59346d62d7d0583dd89679316074c5b9",
+            "division_code": "KC LANGSA",
+            "division_name": "KC LANGSA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "5937feea0b056ccf7b6c5238edcc5876",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Batam",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "59440e92469ed46e6a58cbd2c95c1ad5",
+            "division_code": "KCP PROBOLINGGO",
+            "division_name": "KCP PROBOLINGGO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "59e69a6d28eba0c15fe7443758bc5300",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - KC Padangsidempuan",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "5a4674f0f4fe1c34b4e444d19706b852",
+            "division_code": "KCP JKT JOGLO",
+            "division_name": "KCP JKT JOGLO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "5a8710997e7cf578ca6f90a30c623ce0",
+            "division_code": "KCP PONTIANAK K",
+            "division_name": "KCP PONTIANAK KOTA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "5ab8b3d35cdc96889d0eaf478ab1d51c",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Bdg Dago",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "5b1b7248186c5154032278bb7838e30e",
+            "division_code": "KFO POS CIANJUR",
+            "division_name": "KFO POS CIANJUR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "5bb59f053bb22ed0885ee27f67796925",
+            "division_code": "KCP CIREBON CIL",
+            "division_name": "KCP CIREBON CILEDUG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "5c3d02a4febdfd7ba9648f73dea38449",
+            "division_code": "KFO POS SOLO",
+            "division_name": "KFO POS SOLO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "5c55ccf732cd325d4f909d44d2365532",
+            "division_code": "KCP KUTA",
+            "division_name": "KCP KUTA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "5c837b434d8426fb530a87f22b5ca9f8",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Palu",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "5d37cf3b15643ae7311d65778e510813",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Jkt Mayestik",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "5d608a34dc19484eb0e8e3d486c49535",
+            "division_code": "KCP KISARAN",
+            "division_name": "KCP KISARAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "5db33d72edec2ac6ab0b75fd85fe1d90",
+            "division_code": "KCP SIBUHUAN",
+            "division_name": "KCP SIBUHUAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "5e68a18817901c12d67ec1430b4d7bf6",
+            "division_code": "KC SIDOARJO",
+            "division_name": "KC SIDOARJO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "5e99a528aa0c2b14d972e195c9338057",
+            "division_code": "KC BEKASI",
+            "division_name": "KC BEKASI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "5eeccce56e40586cf6178c842a365581",
+            "division_code": "KFO MIKRO DELAN",
+            "division_name": "KFO MIKRO DELANGGU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "5f9e9a81f0e3bb2fa27341a4d7c9b59a",
+            "division_code": "KCP UJUNG TANJU",
+            "division_name": "KCP UJUNG TANJUNG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "5fe196a25f4ff0397a6fe49aaa6bd9ec",
+            "division_code": "KCP PAHLAWAN",
+            "division_name": "KCP PAHLAWAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "6",
+            "division_code": "PTG",
+            "division_name": "Product & Transactional Banking Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "604232c42e4d96820f25e9cdedfa09ad",
+            "division_code": "KCP BOGOR POMAD",
+            "division_name": "KCP BOGOR POMAD",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "6075eb01a1f71453971913d6334b0ba5",
+            "division_code": "KK BANJARMASIN ",
+            "division_name": "KK BANJARMASIN STMIK",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "60cb8bb6e333961d78f139379a7e4569",
+            "division_code": "KCP PALEMBANG K",
+            "division_name": "KCP PALEMBANG KM 6",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "617bed08c91c96105ab38c20b0ef96d0",
+            "division_code": "KCP JAKARTA PUL",
+            "division_name": "KCP JAKARTA PULO GADUNG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "619dde68662bcc0bc72d2d7830673e41",
+            "division_code": "KC PADANGSIDEMP",
+            "division_name": "KC PADANGSIDEMPUAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "61a171232d3468fc64f76285eadd8370",
+            "division_code": "KC SIMEULUE",
+            "division_name": "KC SIMEULUE",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "61b1b8bf831d220649c3f48e0f1cdd78",
+            "division_code": "KCP PASAMAN BAR",
+            "division_name": "KCP PASAMAN BARAT",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "61cac2635ad02c8a808d6dc4b557c102",
+            "division_code": "KFO POS PADANG",
+            "division_name": "KFO POS PADANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "61cfe5e80ca7f61c700725dbcbff8040",
+            "division_code": "KLS JAKARTA GD.",
+            "division_name": "KLS JAKARTA GD. PUSAT KEHUTANAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "620d0e91f576f84e4ba8bd2df22bc71a",
+            "division_code": "KC PEKANBARU HA",
+            "division_name": "KC PEKANBARU HARAPAN RAYA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "624d7d687fb0630a8e6b4ed622af0c95",
+            "division_code": "KC KENDAL",
+            "division_name": "KC KENDAL",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "6388256ad3016b1d7d8d659abd77759c",
+            "division_code": "KCP SUMBAWA",
+            "division_name": "KCP SUMBAWA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "640e58c9a1478d2e44cd6bced1c429e9",
+            "division_code": "KK YOGYAKARTA U",
+            "division_name": "KK YOGYAKARTA UII",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "646dec4d105b13094b0631cea75c9a61",
+            "division_code": "KC BONE",
+            "division_name": "KC BONE",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "64e8c9644837205467e729d2b4d8e47d",
+            "division_code": "KCP MEDAN SETIA",
+            "division_name": "KCP MEDAN SETIA BUDI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "652e4150efbea82d97b23f75292980d3",
+            "division_code": "KCP INDRAPURA",
+            "division_name": "KCP INDRAPURA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "654f0210cd6783efcbce2c9306731bb2",
+            "division_code": "DCOR FST",
+            "division_name": "DCOR Finance & Strategy",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "65c8566a74ef055986f26915f8a02847",
+            "division_code": "KK JAKARTA RSIJ",
+            "division_name": "KK JAKARTA RSIJ CEMPAKA PUTIH",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "65dff3fa735b8fa55c65de1739141354",
+            "division_code": "KCP KEDIRI PARE",
+            "division_name": "KCP KEDIRI PARE",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "6643cae4fab028a3c0d38f46482461dc",
+            "division_code": "KC CILACAP",
+            "division_name": "KC CILACAP",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "6645c0bf059a1f019a2c4b565dd665dc",
+            "division_code": "KCP JAYAPURA SE",
+            "division_name": "KCP JAYAPURA SENTANI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "6786de0c9ed02746a3e679064813d042",
+            "division_code": "KCP YOGYAKARTA ",
+            "division_name": "KCP YOGYAKARTA KATAMSO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "67e7f2bc5f653c5a6454b4c9c26a3d99",
+            "division_code": "KCP SUBULUSSALA",
+            "division_name": "KCP SUBULUSSALAM",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "67eb94dfa8117ead1791dad3216221ef",
+            "division_code": "KC SORONG",
+            "division_name": "KC SORONG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "68d999c18e145f9a13e0f0dedb1eff14",
+            "division_code": "KCP POSO",
+            "division_name": "KCP POSO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "68e3492f349fbe6642092b0d60bb1ffc",
+            "division_code": "KCP GOWA",
+            "division_name": "KCP GOWA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "6901c4a5ea8e27eb6fe8bbf6f87db93a",
+            "division_code": "KCP SUMENEP",
+            "division_name": "KCP SUMENEP",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "69283bbbb0607f4c7f5dd0762bf9dfa2",
+            "division_code": "RO V",
+            "division_name": "Region Office V",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "6929394500a216b3b2af0ba1ea65938c",
+            "division_code": "KK SURABAYA UNI",
+            "division_name": "KK SURABAYA UNIVERSITAS AIRLANGGA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "693aae5154a12494e617dfd535e9136f",
+            "division_code": "KFO POS JAMBI",
+            "division_name": "KFO POS JAMBI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "696bce6fe01a25c68f9030c896c9ec8a",
+            "division_code": "KCP PALU PLAZA",
+            "division_name": "KCP PALU PLAZA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "699165f456b7074b27365e461bdcce0f",
+            "division_code": "KCP MALANG SOEK",
+            "division_name": "KCP MALANG SOEKARNO HATTA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "699dfc769e490606e8d2b68a1e6a434c",
+            "division_code": "KFO POS SURABAY",
+            "division_name": "KFO POS SURABAYA KEBON ROJO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "69c0451ef071e463b2c5ba6369483038",
+            "division_code": "KCP FLAMBOYAN",
+            "division_name": "KCP FLAMBOYAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "6a79822c35cdf6ce4935d09383672c44",
+            "division_code": "KCP BATAMINDO",
+            "division_name": "KCP BATAMINDO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "6aa3d41ffea43fffc7c67aebbf345860",
+            "division_code": "KFO MIKRO GEMOL",
+            "division_name": "KFO MIKRO GEMOLONG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "6aa8859f55cf58fc4002b4a021b4345f",
+            "division_code": "KCP BANJARNEGAR",
+            "division_name": "KCP BANJARNEGARA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "6af0cb66bcfcb58132e819d7c00528b5",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Denpasar",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "6b9b37c884543923fe845133eaa16547",
+            "division_code": "KCP JKT PASAR M",
+            "division_name": "KCP JKT PASAR MINGGU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "6bf1ee5a0ca55edcc536a77aa320b275",
+            "division_code": "KCP TEMANGGUNG",
+            "division_name": "KCP TEMANGGUNG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "6c6d6b5348864acb8bd9ef79df069799",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Jkt Mayestik",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "6d20df0fc88fd566c8f8729c3e0c0560",
+            "division_code": "KCP MALANG PASA",
+            "division_name": "KCP MALANG PASAR BESAR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "6d5a99e9bc36d7fd5d1048782ebf1c10",
+            "division_code": "KC JAKARTA HASA",
+            "division_name": "KC JAKARTA HASANUDIN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "6dbb22db263207a41ef59fbd49087b7a",
+            "division_code": "KK SRIBHAWONO",
+            "division_name": "KK SRIBHAWONO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "6dccebd70f53394f6c0addf38836d8b8",
+            "division_code": "KCP TULUNGAGUNG",
+            "division_name": "KCP TULUNGAGUNG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "6f2b3e4260d3a52f5c2abb94f5042289",
+            "division_code": "KC PEKALONGAN",
+            "division_name": "KC PEKALONGAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "6f73027002bad72c4f2727994d80e0a2",
+            "division_code": "KFO POS GARUT",
+            "division_name": "KFO POS GARUT",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "6fc62eb9d483cfa446b7478d0fe41dd2",
+            "division_code": "KC SURABAYA JEM",
+            "division_name": "KC SURABAYA JEMUR HANDAYANI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7",
+            "division_code": "IBG",
+            "division_name": "Institutional Banking Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "7010aae90944dc3c47012e3fd2d50e96",
+            "division_code": "KCP JAKARTA JAT",
+            "division_name": "KCP JAKARTA JATINEGARA TIMUR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "701c1d8bfdfeaa3da5453201539d954f",
+            "division_code": "KCP ANAMBAS",
+            "division_name": "KCP ANAMBAS",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7023d933ede738326296ad6d78636041",
+            "division_code": "KFO POS MALANG",
+            "division_name": "KFO POS MALANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7031102c5279afdeeabd06c7edda9171",
+            "division_code": "KCP GUNUNG TUA",
+            "division_name": "KCP GUNUNG TUA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "714cd09288fbefb2e1c866b2d3cec3a7",
+            "division_code": "KK BATAM SEKUPA",
+            "division_name": "KK BATAM SEKUPANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7172d2aba9d45b9f8f6074fcfd8e827e",
+            "division_code": "KC BONTANG",
+            "division_name": "KC BONTANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "721bed318ae94532afbdbe9464b63213",
+            "division_code": "KCP DEPOK KELAP",
+            "division_name": "KCP DEPOK KELAPA DUA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "725f1f4e4c78030cb1dc3892ff69a9a6",
+            "division_code": "KCP KUALA SIMPA",
+            "division_name": "KCP KUALA SIMPANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7288b648a7f53072c87ef9968f94c9af",
+            "division_code": "KCP SAMARINDA S",
+            "division_name": "KCP SAMARINDA SUDIRMAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "729383b527e8e3d2d4facb7f91f0e0d6",
+            "division_code": "KCP MEDAN ISKAN",
+            "division_name": "KCP MEDAN ISKANDAR MUDA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "732e84b8ac735f28cbc65acae2ae722c",
+            "division_code": "KCP NATUNA",
+            "division_name": "KCP NATUNA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7333d818a976d357a3c8ffc266b7c067",
+            "division_code": "KK SOLO ASSALAA",
+            "division_name": "KK SOLO ASSALAAM",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7347708d41f7cac8c6fff00e094b9ca1",
+            "division_code": "KCP JAKARTA KEB",
+            "division_name": "KCP JAKARTA KEBAYORAN LAMA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "737b1ba2d6a897d989cbde3c397a6dfc",
+            "division_code": "KFO POS MANADO",
+            "division_name": "KFO POS MANADO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7393e1d16b9da33f5da2edd84243f4ba",
+            "division_code": "KC MATARAM",
+            "division_name": "KC MATARAM",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "741fb20513177eb2a6d3973d8f71c72e",
+            "division_code": "KCP DENPASAR GA",
+            "division_name": "KCP DENPASAR GATOT SUBROTO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "742228611fef84e6c65132fffbfa08b3",
+            "division_code": "KC BUKITTINGGI",
+            "division_name": "KC BUKITTINGGI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "744525ea3640644d2092cb6f29b0f0dc",
+            "division_code": "KCP GOMBONG",
+            "division_name": "KCP GOMBONG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "745056cbd58685dc1ca228c1658a4efc",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Makassar",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "750ff7a1aec133f6850db0d79ebf44fd",
+            "division_code": "KCP SURAKARTA P",
+            "division_name": "KCP SURAKARTA PASAR KLIWON",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "75142196f2a1eaff20a345ca992d7629",
+            "division_code": "KCP JAKARTA S. ",
+            "division_name": "KCP JAKARTA S. PARMAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "752a325ffa722a4e46971b62598eeb14",
+            "division_code": "RFRR",
+            "division_name": "Retail Financing Risk & Recovery - Region VII",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7543cfd803acd7b3bd53a9d7aa46aec5",
+            "division_code": "KCP BANGKALAN",
+            "division_name": "KCP BANGKALAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "756cc8604e9f417db6d2bedcde9a4de8",
+            "division_code": "KC MARTAPURA",
+            "division_name": "KC MARTAPURA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7574e9fae51ae95cfdc3b450c4d09837",
+            "division_code": "KCP PADANG ULAK",
+            "division_name": "KCP PADANG ULAK KARANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "75b2717a3707d87ef5609be308b9ae86",
+            "division_code": "KFO POS BEKASI",
+            "division_name": "KFO POS BEKASI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "76162724632150d7c3a3ea5749f3fa40",
+            "division_code": "KK JAKARTA PENG",
+            "division_name": "KK JAKARTA PENGADILAN AGAMA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "767cdbfda7f93df6c925364012ee7954",
+            "division_code": "KK JEMAJA",
+            "division_name": "KK JEMAJA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "76870a62df9fc79f16699885dec924a0",
+            "division_code": "KCP LEBAK BANTE",
+            "division_name": "KCP LEBAK BANTEN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "76926febbd8c415996d395b7d9bf9476",
+            "division_code": "KCP JAKARTA DEW",
+            "division_name": "KCP JAKARTA DEWI SARTIKA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "76939ec8999eb0d1c429d4ac6d9edbdb",
+            "division_code": "KCP SUBANG PAMA",
+            "division_name": "KCP SUBANG PAMANUKAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "76a5b5027976b5f139f56b55ba78722b",
+            "division_code": "KCP CIAWI",
+            "division_name": "KCP CIAWI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "788ac32b1709240e3947431de0861394",
+            "division_code": "KCP MAGELANG",
+            "division_name": "KCP MAGELANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "78ac50471a76bfea9e34a9d8d5dd8720",
+            "division_code": "KC SINGKAWANG",
+            "division_name": "KC SINGKAWANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "790e3fb40df3bb06027f426c5b5ce10c",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Jember",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7996ff85c826644ed83bec06f444fad2",
+            "division_code": "KCP BIREUEUN",
+            "division_name": "KCP BIREUEUN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7a0b5740140a681a10d4a4ddf6108703",
+            "division_code": "KCP PANCOR",
+            "division_name": "KCP PANCOR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7aaa44e3ced1ed4a9187d2097dc469bc",
+            "division_code": "KC JAKARTA RAWA",
+            "division_name": "KC JAKARTA RAWAMANGUN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7acf531f48b8988be4f52e645b3b25ed",
+            "division_code": "KCP PALEMBANG R",
+            "division_name": "KCP PALEMBANG RADIAL",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7add2c2c37cee72e3fae788b5b9592d0",
+            "division_code": "KK BANTUL",
+            "division_name": "KK BANTUL",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7b39f23a646b3c94f2d47f0fd40f6909",
+            "division_code": "KCP BOGOR DRAMA",
+            "division_name": "KCP BOGOR DRAMAGA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7c23aa176fc2d271901619e2cde9d8fa",
+            "division_code": "KC BALIKPAPAN",
+            "division_name": "KC BALIKPAPAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7c2ae6524373f21a3781c9df3a992bc8",
+            "division_code": "KC DEPOK",
+            "division_name": "KC DEPOK",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7c3c4e3183ea3ed793229438ef252a09",
+            "division_code": "CAT",
+            "division_name": "Corporate Action Team",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "7c4e7efcb29f5408c9cd010b6b773280",
+            "division_code": "KC GARUT",
+            "division_name": "KC GARUT",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7c6119d4dbfc328755ca425de9fb3481",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Mdn A Yani",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7cce30882dbbb66d82bf7c4d6faa2887",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Jkt Thamrin",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7d05ef3ad89aa07d1eabc075d6d27c12",
+            "division_code": "KCP BATANG TORU",
+            "division_name": "KCP BATANG TORU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7d4563b8171bb459969378e20411a7c8",
+            "division_code": "IOG",
+            "division_name": "IT Operation Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "7d7d65c50288fb884eee941f7e2a1215",
+            "division_code": "KC MANADO",
+            "division_name": "KC MANADO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7db9d93b011262ca5814acda135f988e",
+            "division_code": "KCP KARAWANG",
+            "division_name": "KCP KARAWANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7dbb19ce91350c8f2dda1b1209720426",
+            "division_code": "KC BOGOR CITERE",
+            "division_name": "KC BOGOR CITEREUP",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7dd507dc4359e604f51c9bbfed5de21b",
+            "division_code": "KCP SIMALUNGUN ",
+            "division_name": "KCP SIMALUNGUN PERDAGANGAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7dd66cb257b87b1b7835d90fdcf1ce77",
+            "division_code": "KC MALANG",
+            "division_name": "KC MALANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7de139568783da209b5c170fe30f97c5",
+            "division_code": "KCP KUALA TUNGK",
+            "division_name": "KCP KUALA TUNGKAL",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7e9cbe4f7dd5379292eed4601ea4053a",
+            "division_code": "KCP BEKASI JATI",
+            "division_name": "KCP BEKASI JATIBENING",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7ebd547515f4494f160b47e376798edc",
+            "division_code": "KCP PRINGSEWU",
+            "division_name": "KCP PRINGSEWU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7f0a44abf4c7cfb35b1eca464f10ac6e",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Jambi",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7f63a07533625cfe04ac4b5505b8520c",
+            "division_code": "KK TANGERANG KE",
+            "division_name": "KK TANGERANG KEBON NANAS",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7fd76a443ce6661d1b59a324fb350c62",
+            "division_code": "RO I",
+            "division_name": "Region Office I",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "7fff7e8bec34697696280b45d2fc6449",
+            "division_code": "KCP JOMBANG",
+            "division_name": "KCP JOMBANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "8",
+            "division_code": "BBG",
+            "division_name": "Business Banking Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "805e225e65a0805448be448484e2fea1",
+            "division_code": "KFO MITRA BSHB ",
+            "division_name": "KFO MITRA BSHB MELATI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "80f4a4ecc472a61557ace285494b97c2",
+            "division_code": "KCP BARABAI",
+            "division_name": "KCP BARABAI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "81aba18926946d30534fa7791c697b1c",
+            "division_code": "KK BANDUNG JAPA",
+            "division_name": "KK BANDUNG JAPATI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "81bb1499d766b9adae27f3da047f74e2",
+            "division_code": "KCP JAKARTA SUL",
+            "division_name": "KCP JAKARTA SULTAN ISKANDAR MUDA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "81f06fdb12fd6c2143c031f9e4f11871",
+            "division_code": "KCP TEGAL ADIWE",
+            "division_name": "KCP TEGAL ADIWERNA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "823e33b462205f59537ececbfab5e36a",
+            "division_code": "KCP MEUREUDU",
+            "division_name": "KCP MEUREUDU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "83372b1f9805fe0e2464d2db32bf3a55",
+            "division_code": "KK BANYUWANGI K",
+            "division_name": "KK BANYUWANGI KETAPANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "836e2eced5f308f2c324b762fd5af9de",
+            "division_code": "KC PALEMBANG",
+            "division_name": "KC PALEMBANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "838bb8f6f3d2e60419777fed30b391cd",
+            "division_code": "RO II",
+            "division_name": "Region Office II",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "83990d11bc2a38c83fa1bd83711dccca",
+            "division_code": "KCP SAMPANG",
+            "division_name": "KCP SAMPANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "850017e2a84f54d4ad2b6c3674e144a6",
+            "division_code": "KCP YOGYAKARTA ",
+            "division_name": "KCP YOGYAKARTA WIROBRAJAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "85658b6d73165f22bb971bbcab4d4034",
+            "division_code": "KFO POS BEKASI ",
+            "division_name": "KFO POS BEKASI PONDOK GEDE",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "8628cc03f643deb94b9778be88b7864f",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Pmtgsiantar",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "8676a3e7df03349d2000d651b330d302",
+            "division_code": "KCP BAUBAU",
+            "division_name": "KCP BAUBAU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "86d3b38acf61506fe678bb50d3ab92c7",
+            "division_code": "KCP BREBES",
+            "division_name": "KCP BREBES",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "8707984f546ae9f5e50a04e9d206518d",
+            "division_code": "KCP AMBON DIPON",
+            "division_name": "KCP AMBON DIPONEGORO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "87289fd8d8de257c1d1a0000805a0083",
+            "division_code": "CMG",
+            "division_name": "Commercial Banking Group - Area Semarang",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "873a2a663d4872c4ed66e55005f92cc6",
+            "division_code": "KC PRABUMULIH",
+            "division_name": "KC PRABUMULIH",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "881710ea7261e552034f942c7ba9b024",
+            "division_code": "RFRR",
+            "division_name": "Retail Financing Risk & Recovery - Region IV",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "889ff89f3cc308d74663fe403e8af930",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Bdg A. Yani",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "89247c83856e09323373b640b54fe01b",
+            "division_code": "KCP SIDOARJO WA",
+            "division_name": "KCP SIDOARJO WARU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "8956996960b66bc0d8be10a6fe5a84a6",
+            "division_code": "KCP LAWANG",
+            "division_name": "KCP LAWANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "8ab3364b9aa3cf522736936c9787d691",
+            "division_code": "KFO POS KENDARI",
+            "division_name": "KFO POS KENDARI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "8b002d209d876356895d3e5d87967ac8",
+            "division_code": "KCP BANYUWANGI ",
+            "division_name": "KCP BANYUWANGI ROGOJAMPI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "8bbaf7bbd8715567f5ef0ecb54d7e76d",
+            "division_code": "KCP INDRAMAYU P",
+            "division_name": "KCP INDRAMAYU PATROL",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "8bdb10d29da35353739c3af98bff9c04",
+            "division_code": "KCP JAKARTA RAW",
+            "division_name": "KCP JAKARTA RAWASARI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "8c03172d0885b96fd8afa89362b6c5b0",
+            "division_code": "KCP BANTUL",
+            "division_name": "KCP BANTUL",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "8c9c86b1b43fe0198c90328091470550",
+            "division_code": "KCP JAKARTA KRA",
+            "division_name": "KCP JAKARTA KRAMAT JAYA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "8cf33f7ce2339a30a04cbc887f0235b0",
+            "division_code": "KCP SUKABUMI SU",
+            "division_name": "KCP SUKABUMI SURADE",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "8d1032216cc9148f96bd75d3e7e71a0d",
+            "division_code": "KC PURWOKERTO",
+            "division_name": "KC PURWOKERTO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "8d7b2a60b4d502b880c82e321eed8e0e",
+            "division_code": "KCP MANADO PASA",
+            "division_name": "KCP MANADO PASAR 45",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "8d81ed3db6da722261f48e7ddc100555",
+            "division_code": "KC MEDAN KAMPUN",
+            "division_name": "KC MEDAN KAMPUNG BARU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "8d9a43147583f49037b8946760cc2ed7",
+            "division_code": "KC KUPANG",
+            "division_name": "KC KUPANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "8fad146683d0cabdaf5d8dd44ec2ea39",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Yogyakarta",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9",
+            "division_code": "MBG",
+            "division_name": "Micro Banking Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "901e186c60a20fb830eb858c7656b990",
+            "division_code": "KCP JAKARTA SUN",
+            "division_name": "KCP JAKARTA SUNTER",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "90888434f01ab2f9a9b90c7b87f18567",
+            "division_code": "KK BANJARMASIN ",
+            "division_name": "KK BANJARMASIN S. PARMAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "911eebcb34665c812e8b992db59de462",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Bogor",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "91ac4cb3540de247ebc5f88aace1ea3a",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Padang",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "91e7d68b2d36b206fad926af46eb98ff",
+            "division_code": "KCP JEMBER BALU",
+            "division_name": "KCP JEMBER BALUNG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "92116bf32ba9ba8dd08b6ccf54a0362e",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Solo",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9218358802e1cbf8663d6bd071919504",
+            "division_code": "KCP PANGKALAN",
+            "division_name": "KCP PANGKALAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9274d8425192015098cee36692c75bee",
+            "division_code": "KCP PURWODADI",
+            "division_name": "KCP PURWODADI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "92cd75ff429306d0d2e046f1c226cfad",
+            "division_code": "KCP PERBAUNGAN",
+            "division_name": "KCP PERBAUNGAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "93a787349de9b443017db7c48faec080",
+            "division_code": "KCP WONOGIRI",
+            "division_name": "KCP WONOGIRI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "93a7d035af4edd5a1f314a46190fcdd4",
+            "division_code": "KK JAKARTA AL A",
+            "division_name": "KK JAKARTA AL AZHAR KEBAYORAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "944f1dbe3fb752bc6b1758739954f8f1",
+            "division_code": "KCP JKT SIMPRUG",
+            "division_name": "KCP JKT SIMPRUG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "94ce09b9754740adcc0c5d6db94068c4",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Bdr Lampung",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "95292ecc0a544aeef4a92f5953277fde",
+            "division_code": "KC JAKARTA TANJ",
+            "division_name": "KC JAKARTA TANJUNG PRIOK",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "952ae9bfbbc16c879095a5a791b63907",
+            "division_code": "KCP DUMAI SUKAJ",
+            "division_name": "KCP DUMAI SUKAJADI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "95316ed0e0f23f2b09b709966b099a92",
+            "division_code": "KCP JAKARTA MEG",
+            "division_name": "KCP JAKARTA MEGA KUNINGAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9562ea35ac4d86377b49f8ce8435de1b",
+            "division_code": "KCP CIREBON PLE",
+            "division_name": "KCP CIREBON PLERED",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "962daf30cba3bff6ce38bd9a8fbd6887",
+            "division_code": "KCP GARUT KADUN",
+            "division_name": "KCP GARUT KADUNGORA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "968d71da5169432fd251dd6ea1a89655",
+            "division_code": "KCP DENPASAR WR",
+            "division_name": "KCP DENPASAR WR SUPRATMAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "96de5702c48fb6b30e5211a52404cb92",
+            "division_code": "KC BOJONEGORO",
+            "division_name": "KC BOJONEGORO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9744b45ae51c83271da9fc99c96bf8bf",
+            "division_code": "KCP SURABAYA JE",
+            "division_name": "KCP SURABAYA JEMBATAN MERAH",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "97bc4de8d5954fa788007792b0513e68",
+            "division_code": "DCOR FRR",
+            "division_name": "DCOR Financing Risk & Recovery",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "981332a5494596941ad3f8f2c8a1ecaf",
+            "division_code": "KCP JAKARTA PEC",
+            "division_name": "KCP JAKARTA PECENONGAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "98171ad34bb17c388340f113f7e2a44f",
+            "division_code": "KCP MEDAN PETIS",
+            "division_name": "KCP MEDAN PETISAH",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "983e88357cbe5d2568f2bf31bf9b47c1",
+            "division_code": "KC BEKASI CIKAR",
+            "division_name": "KC BEKASI CIKARANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "98c5e95f8d0598436bdb746b89279a90",
+            "division_code": "KCP JAKARTA CIR",
+            "division_name": "KCP JAKARTA CIRACAS",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "99c52d7c81873d42798c217ac915326d",
+            "division_code": "KCP JAKARTA PS.",
+            "division_name": "KCP JAKARTA PS. REBO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9a544839690cbf34e35d4ce704be982f",
+            "division_code": "KC BANYUWANGI",
+            "division_name": "KC BANYUWANGI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9acde2b14af10a49ad7ef24c1457a096",
+            "division_code": "KCP KUNINGAN",
+            "division_name": "KCP KUNINGAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9af635fdd90213fa1c8a574c110ac1ba",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Banjarmasin",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9b0d3695638286e78be5d8f088d533eb",
+            "division_code": "KCP SOLO NUSUKA",
+            "division_name": "KCP SOLO NUSUKAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9b300213e89d50a6e1c22d11f8fee9d9",
+            "division_code": "KCP NGANJUK",
+            "division_name": "KCP NGANJUK",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9b6f7cc974dfee37db96e94e65e373d8",
+            "division_code": "RFRR",
+            "division_name": "Retail Financing Risk & Recovery - Region V",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9be2ba0641896537eddae5948e4238da",
+            "division_code": "KCP KOTAMOBAGU",
+            "division_name": "KCP KOTAMOBAGU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9bfbca4f4d58f7a59d1f88f6a65450ec",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Palembang",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9c39f9eba06ef7fbc38b80868c6b2d13",
+            "division_code": "KCP JAKARTA WOL",
+            "division_name": "KCP JAKARTA WOLTERMONGINSIDI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9c940127f9067cd1fbbbe9ff823665fe",
+            "division_code": "KK TAPAK TUAN",
+            "division_name": "KK TAPAK TUAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9cd20f0c31b44031f3ff5af884c5432b",
+            "division_code": "KC BINJAI",
+            "division_name": "KC BINJAI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9d98d90d536b58b20c9efc79e83a762b",
+            "division_code": "KCP TEBING TING",
+            "division_name": "KCP TEBING TINGGI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9e2eb00a99f8008b215f362c5fea0656",
+            "division_code": "KCP BEKASI KALI",
+            "division_name": "KCP BEKASI KALIMALANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9e5b870c3c8db5fb6e26ef57b0fdfb21",
+            "division_code": "KCP SURABAYA AM",
+            "division_name": "KCP SURABAYA AMPEL",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9e5c09eb304dc0aec7d3e328a98e7fd7",
+            "division_code": "KK BOJONEGORO P",
+            "division_name": "KK BOJONEGORO PONPES ATTANWIR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9e629824a168210610e3e6c50d7ed1bf",
+            "division_code": "KCP TANGERANG P",
+            "division_name": "KCP TANGERANG PAMULANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9e77fe6621c2898421b8beb1ab44a9ef",
+            "division_code": "KCP JAKARTA GAD",
+            "division_name": "KCP JAKARTA GADING BOULEVARD",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9e8b9da4ba0297626321056d050f34ee",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Bekasi",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9edeac278b92ef1a78e0d97c3e9e1d56",
+            "division_code": "KCP BAGAN SIAPI",
+            "division_name": "KCP BAGAN SIAPIAPI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9f4f12882ef2e42812aa0c641551d71a",
+            "division_code": "KCP PADANG PANJ",
+            "division_name": "KCP PADANG PANJANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "9fb91aab9ef15496e9961f598daa6388",
+            "division_code": "KC TASIKMALAYA",
+            "division_name": "KC TASIKMALAYA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a0711772a7227102fda08e3e620edf2d",
+            "division_code": "KC CIANJUR",
+            "division_name": "KC CIANJUR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a07599e185a187b1270774db33021498",
+            "division_code": "KCP BAGAN BATU",
+            "division_name": "KCP BAGAN BATU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a09741714e1e7be045cf8d06d1149e2d",
+            "division_code": "KCP MEDAN PULO ",
+            "division_name": "KCP MEDAN PULO BRAYAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a0c754a024c9491e47218833fe753377",
+            "division_code": "KCP MAKASSAR TA",
+            "division_name": "KCP MAKASSAR TAMALANREA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a16649fbc793a41495f74c3241df07aa",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Pmtgsiantar",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a16eef4ab97c77c73d2b0fb96037181c",
+            "division_code": "KK BANJARMASIN ",
+            "division_name": "KK BANJARMASIN HASAN BASRI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a1bdd233e143bb4da16d090aa919201a",
+            "division_code": "KCP GODEAN",
+            "division_name": "KCP GODEAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a1cf01eb80789411fd0fd3bb495da794",
+            "division_code": "KCP MUARA BULIA",
+            "division_name": "KCP MUARA BULIAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a25fb0c8a451ffa6ecbf749b067880e8",
+            "division_code": "KC LUBUK PAKAM",
+            "division_name": "KC LUBUK PAKAM",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a31b56c60c5965640b2b806a590aac19",
+            "division_code": "KC JAKARTA KALI",
+            "division_name": "KC JAKARTA KALIBATA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a347f15a094d11114f38a884684ec840",
+            "division_code": "KC MAKASSAR",
+            "division_name": "KC MAKASSAR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a36f75ed80df1a06a1021e928e5a5983",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Semarang",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a379a53f71b22d576f99c91d0c565fd2",
+            "division_code": "CMG",
+            "division_name": "Commercial Banking Group - Area Medan",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a395c0500348793995aec891afb166fc",
+            "division_code": "KCP UNGARAN",
+            "division_name": "KCP UNGARAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a432b0a8e7dec89e1cb19cf030c0f20d",
+            "division_code": "KCP PANDEGLANG",
+            "division_name": "KCP PANDEGLANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a46b687b5348ffdd9bfc984026a05237",
+            "division_code": "KCP BATAM CENTE",
+            "division_name": "KCP BATAM CENTER",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a4809e46fe8b8a90babf313323a6f6d0",
+            "division_code": "KC MADIUN",
+            "division_name": "KC MADIUN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a53b468dbc7ce80f696834d36bbb50d9",
+            "division_code": "KCP YOGYAKARTA ",
+            "division_name": "KCP YOGYAKARTA KOTAGEDE",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a5c35adff7fcc6ca9522325eb4ffec40",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Sby J. Hndyni",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a61adea1681bfe2e94a84cae97c5e4ef",
+            "division_code": "CMG",
+            "division_name": "Commercial Banking Group - Area Solo",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a647326681a3369a0ef540d51c8f9d46",
+            "division_code": "KCP JAKARTA KED",
+            "division_name": "KCP JAKARTA KEDOYA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a649fccf3651d4389b33aa5bd3844201",
+            "division_code": "KFO POS JAKARTA",
+            "division_name": "KFO POS JAKARTA TIMUR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a672385e0605eacc1250fb842020fecd",
+            "division_code": "KCP LUBUK BASUN",
+            "division_name": "KCP LUBUK BASUNG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a789499de98d0fd5369d3afb7c3736d0",
+            "division_code": "KK JAKARTA MASJ",
+            "division_name": "KK JAKARTA MASJID JAMI BINTARO JAYA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a7f71584e9ed8b15c70c704f4b9a27e1",
+            "division_code": "KCP LUBUK SIKAP",
+            "division_name": "KCP LUBUK SIKAPING",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a844c472bed3e3afbb50b0e13f04f53a",
+            "division_code": "KC CIMAHI",
+            "division_name": "KC CIMAHI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a857ac19d385fb63fd5c51e32b407eaf",
+            "division_code": "KCP SURABAYA RU",
+            "division_name": "KCP SURABAYA RUNGKUT",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a87609b042229e40b5219c5b8b412176",
+            "division_code": "KC PONTIANAK",
+            "division_name": "KC PONTIANAK",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a8a143429cb6708815d41a9be5661309",
+            "division_code": "KC JAKARTA THAM",
+            "division_name": "KC JAKARTA THAMRIN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a9de49d8858e34fd2564fbf2dfbcf9e2",
+            "division_code": "KCP KAMPUNG PAJ",
+            "division_name": "KCP KAMPUNG PAJAK",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "a9fcccc8289ef78535d4aa25f29cec71",
+            "division_code": "KCP JAKARTA TOM",
+            "division_name": "KCP JAKARTA TOMANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "aa606cfd439e4dc0fc3db7f2492344b2",
+            "division_code": "KC KENDARI",
+            "division_name": "KC KENDARI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "aa8975d791cd78089e94efae1321ecb1",
+            "division_code": "KFO MITRA MANDI",
+            "division_name": "KFO MITRA MANDIRI PASAR BARU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ab753ca3cf2624b7e27db41bdd79388d",
+            "division_code": "KK JAKARTA DEPA",
+            "division_name": "KK JAKARTA DEPARTEMEN AGAMA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ab7ac54dc804427a554ccecaf90845bb",
+            "division_code": "KC BOGOR",
+            "division_name": "KC BOGOR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "abbc870c95e149f6156fc12316717aa9",
+            "division_code": "KC SIBOLGA",
+            "division_name": "KC SIBOLGA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "abcb58b9f32392b94228f4df4e545a7f",
+            "division_code": "KCP SIGI",
+            "division_name": "KCP SIGI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ac15de7c15d75d4da32f8d6e7e2447a3",
+            "division_code": "KC SEMARANG",
+            "division_name": "KC SEMARANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ac329b9cb0eb26520c3ca7f75e42c7bb",
+            "division_code": "KK CIAMIS RANCA",
+            "division_name": "KK CIAMIS RANCAH",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "acce1dd82e57fbff1f700b87af02e59d",
+            "division_code": "KCP PACITAN",
+            "division_name": "KCP PACITAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ad2c2f1722ff11b92495a6247864b133",
+            "division_code": "KC JAKARTA JATI",
+            "division_name": "KC JAKARTA JATINEGARA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ad60126c835e522866926b2d87f375f0",
+            "division_code": "KCP KAPUAS",
+            "division_name": "KCP KAPUAS",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ad7e57c6e10ba24a7a6e6b8f16c4547f",
+            "division_code": "KC JAKARTA SAHA",
+            "division_name": "KC JAKARTA SAHARJO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ae2d950747940ee0691fff40c77ccb45",
+            "division_code": "KCP JATINANGOR",
+            "division_name": "KCP JATINANGOR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ae4a0632248f60e929997bfad5d2be9f",
+            "division_code": "KCP JAMBI SIPIN",
+            "division_name": "KCP JAMBI SIPIN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ae5289316251238881298f78e07a3f30",
+            "division_code": "RO VI",
+            "division_name": "Region Office VI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "aebaa510e6bdef005380920a2af2d43c",
+            "division_code": "KCP AEK KANOPAN",
+            "division_name": "KCP AEK KANOPAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "af6a7fd4d2ab98165812b3abb5d7e9cd",
+            "division_code": "KFO MIKRO PANDA",
+            "division_name": "KFO MIKRO PANDAN KOTA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "afdd3d376b91c6f8dd67c761c2756d3d",
+            "division_code": "CMG",
+            "division_name": "Commercial Banking Group - Area Batam",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b084a9c24fcee842650378d7c366fe9b",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Banjarmasin",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b0e8b4e1fcc2bb86042aa3ce507f6570",
+            "division_code": "KCP TUBAN",
+            "division_name": "KCP TUBAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b15de484cf25fe4816e95c0460d8d9c8",
+            "division_code": "KC BANDAR LAMPU",
+            "division_name": "KC BANDAR LAMPUNG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b1acbfe58f97f930fa6e0caaca020c35",
+            "division_code": "KCP JAKARTA PAN",
+            "division_name": "KCP JAKARTA PANGKALAN JATI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b1e7c36feb3c664a9a2f55eb92fb144a",
+            "division_code": "KCP JAKARTA KLE",
+            "division_name": "KCP JAKARTA KLENDER",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b242e0c3c5b4244017a0feb5b26b8fed",
+            "division_code": "KCP JAKARTA RAS",
+            "division_name": "KCP JAKARTA RASUNA SAID",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b24f5d6967ac309e7f88d14a9297cb76",
+            "division_code": "KCP SEMARANG TI",
+            "division_name": "KCP SEMARANG TIMUR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b2a67e0b53642b33fb1b1a01eaeefaae",
+            "division_code": "KK BANTUL UMY",
+            "division_name": "KK BANTUL UMY",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b329ceae85113cc14ed76cf5c035f79a",
+            "division_code": "KCP SIDOARJO SE",
+            "division_name": "KCP SIDOARJO SEPANJANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b35fac75254abd59ad1744991b7dc456",
+            "division_code": "KC JKT PONDOK I",
+            "division_name": "KC JKT PONDOK INDAH",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b39be999046a73cd9fea8c2ecd900f1e",
+            "division_code": "KC KABANJAHE",
+            "division_name": "KC KABANJAHE",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b3c00c9332fe3e2076d87258f1fdd3c0",
+            "division_code": "KCP ACEH ULEE K",
+            "division_name": "KCP ACEH ULEE KARENG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b3c54f179b66047d4477c742eb6e3b60",
+            "division_code": "KCP SURABAYA SU",
+            "division_name": "KCP SURABAYA SUNGKONO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b413d0b5178111c919ca8ab01b389939",
+            "division_code": "RFRR",
+            "division_name": "Retail Financing Risk & Recovery - Region III",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b4cbcf5d71d1677a33b1adf20f170370",
+            "division_code": "KCP BATULICIN",
+            "division_name": "KCP BATULICIN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b576ae9361601098ff4142c1d937a6a6",
+            "division_code": "KK SURAKARTA MA",
+            "division_name": "KK SURAKARTA MANAHAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b5803ebdfb9e8d8c8a5a5b8435576dde",
+            "division_code": "KCP MEDAN MAREL",
+            "division_name": "KCP MEDAN MARELAN RAYA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b584fa60894c942184f2131bccbfbae6",
+            "division_code": "KCP KRIAN",
+            "division_name": "KCP KRIAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b643829e5a5287e575c7c30091a5a908",
+            "division_code": "KCP BANDAR LAMP",
+            "division_name": "KCP BANDAR LAMPUNG TELUK BETUNG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b6a9defc0cae7dde29ba1bf21ca6ead3",
+            "division_code": "KFO MITRA BSHB ",
+            "division_name": "KFO MITRA BSHB TABANAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b6e3c4f3168052b2be9736c261a88b8e",
+            "division_code": "KC JAMBI",
+            "division_name": "KC JAMBI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b6ea220869717cb01d13831f4d63b3b4",
+            "division_code": "KCP SUNGAI LIAT",
+            "division_name": "KCP SUNGAI LIAT",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b6fdaa5ae113ce1bb39d6b829be9dbdd",
+            "division_code": "KCP PELAIHARI",
+            "division_name": "KCP PELAIHARI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b7489bfbcf0002f85b4dce8a77848f0c",
+            "division_code": "KCP JAKARTA CIP",
+            "division_name": "KCP JAKARTA CIPINANG JAYA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b7511e2875a2199e8b4b006a4769cc15",
+            "division_code": "JAKARTA BARAT",
+            "division_name": "JAKARTA BARAT",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b7ab3d9ab70fb5d93af3056b60b8697d",
+            "division_code": "CMG",
+            "division_name": "Commercial Banking Group - Area Jkt Hasanudin",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b7c184b7b9dbdc4513e853b232f81242",
+            "division_code": "KCP PALEMBANG S",
+            "division_name": "KCP PALEMBANG SUDIRMAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b7fae4f9fd4dbf8c6a571d5d4998c59b",
+            "division_code": "KCP KLATEN",
+            "division_name": "KCP KLATEN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b8738a9034b6b29e77bc06b8309e0849",
+            "division_code": "KFO POS BANYUWA",
+            "division_name": "KFO POS BANYUWANGI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b90089169bb8baedec66f6e044bf5925",
+            "division_code": "KC TANJUNG",
+            "division_name": "KC TANJUNG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b9553b22c1ba78cc697f8ca52fc33fbe",
+            "division_code": "KCP SUKOHARJO K",
+            "division_name": "KCP SUKOHARJO KARTASURA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "b98f6673cd2bb72900657f6cc34dc3a4",
+            "division_code": "KCP SURABAYA KE",
+            "division_name": "KCP SURABAYA KEDUNGDORO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "baa60cfdd2cb03c13db27bd4acdebfed",
+            "division_code": "KCP JAKARTA MUA",
+            "division_name": "KCP JAKARTA MUARA KARANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "bab60fd8fef968c239743aaf0eab10f6",
+            "division_code": "KCP SOLOK",
+            "division_name": "KCP SOLOK",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "bb2072932809827fd8f48f94bf5b0381",
+            "division_code": "KCP SAMARINDA H",
+            "division_name": "KCP SAMARINDA HASAN BASRI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "bb233f2146356127349cb6405b4bbf62",
+            "division_code": "KK UNIVERSITAS ",
+            "division_name": "KK UNIVERSITAS NEGERI PADANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "bb411a62829bd83e76236f11a6f66799",
+            "division_code": "KCP BANGKINANG",
+            "division_name": "KCP BANGKINANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "bb74eba7022b9096471cb2e9568a8094",
+            "division_code": "KCP KUTAI TENGG",
+            "division_name": "KCP KUTAI TENGGARONG SEBERANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "bb810b9e08648261506c6b4792890271",
+            "division_code": "KC SOLO",
+            "division_name": "KC SOLO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "bbc1e6f3bc866e1a278140151dfba8e0",
+            "division_code": "KCP JAKARTA GAD",
+            "division_name": "KCP JAKARTA GADING ORCHARD",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "bc38f379ba71d08bacc7954983108f89",
+            "division_code": "KCP MALANG BATU",
+            "division_name": "KCP MALANG BATU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "bcb18385088e8dbb9958fd7334d8956f",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Bdr Lampung",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "bccc478db49e08821343f061def6b5c0",
+            "division_code": "KC PAYAKUMBUH",
+            "division_name": "KC PAYAKUMBUH",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "bd6aa4d13aacd38567b53bd6d06a2a07",
+            "division_code": "KC PALEMBANG PA",
+            "division_name": "KC PALEMBANG PASAR 16 ILIR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "bde52dd2d0bc8c651b4f135645fb9d99",
+            "division_code": "KFO MIKRO LANGA",
+            "division_name": "KFO MIKRO LANGAM",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "be0e7f9112b413d1bb3954870b014b90",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Makassar",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "be5c323a6b72d44a809fef43e47c98ff",
+            "division_code": "KCP SEMARANG KA",
+            "division_name": "KCP SEMARANG KARANGAYU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "be8aa6021260eafccae23fbd2e691f54",
+            "division_code": "KC SAMBAS",
+            "division_name": "KC SAMBAS",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "becf3e15eeb2a9e2aebe90660d4b9280",
+            "division_code": "KCP CIKAMPEK",
+            "division_name": "KCP CIKAMPEK",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "bffea0b4eb7aeb55e5aa2564eeaeacd1",
+            "division_code": "KCP BATANG",
+            "division_name": "KCP BATANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "c06946eabbd9519ffb592a2e26b74c7a",
+            "division_code": "CMG",
+            "division_name": "Commercial Banking Group - Area Surabaya",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "c0ebf62b0fe2743b5be856bc2e341477",
+            "division_code": "KFO POS MAKASSA",
+            "division_name": "KFO POS MAKASSAR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "c161aa5574d534a92adbd77a15a718a3",
+            "division_code": "KFO POS SERANG",
+            "division_name": "KFO POS SERANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "c1db1e8f1f1b025f5d466002cb6bde07",
+            "division_code": "KCP PONTIANAK S",
+            "division_name": "KCP PONTIANAK SIDAS",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "c2a88450159e6272fc0397992853ec5b",
+            "division_code": "KCP BULUKUMBA",
+            "division_name": "KCP BULUKUMBA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "c2bb191d78b82f6eb8557765e6cbca91",
+            "division_code": "KCP PONTIANAK A",
+            "division_name": "KCP PONTIANAK AHMAD YANI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "c39785bbe937a587c87132bceab0ce92",
+            "division_code": "KCP BOGOR TAJUR",
+            "division_name": "KCP BOGOR TAJUR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "c39c694bc346636615092bd1fe028b8c",
+            "division_code": "KC PALU",
+            "division_name": "KC PALU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "c4185648eda5952a760e5f6a5691b19a",
+            "division_code": "KCP CIMAHI BARO",
+            "division_name": "KCP CIMAHI BAROS",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "c49d511012b1d13f998ff7ee12472228",
+            "division_code": "KCP KOTABUMI",
+            "division_name": "KCP KOTABUMI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "c4a0dc4cef6f62334af751f31a80776e",
+            "division_code": "KC JAKARTA KEBO",
+            "division_name": "KC JAKARTA KEBON JERUK",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "c4b8664f80fa04ce915066be2072dba3",
+            "division_code": "KFO MITRA MANDI",
+            "division_name": "KFO MITRA MANDIRI BANDAR LAMPUNG WR. SUPRATMAN ",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "c58d0e26e190d7c9ac9d8ff4068bab6b",
+            "division_code": "KC KEDIRI",
+            "division_name": "KC KEDIRI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "c5a9054a576c4c40fefbfdbb414c57c0",
+            "division_code": "KCP MEDAN BELAW",
+            "division_name": "KCP MEDAN BELAWAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "c604f2a5e22feff4bbe7948b8a9fc7a2",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Cirebon",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "c65b7be8f1ae7d4ea7443148edd6dae7",
+            "division_code": "KCP KETAHUN",
+            "division_name": "KCP KETAHUN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "c6fae5964099975b023f07ea17566299",
+            "division_code": "KCP BANJARMASIN",
+            "division_name": "KCP BANJARMASIN A. YANI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "c81a7ef746578a3e298c631e46b85eaf",
+            "division_code": "KCP SRAGEN",
+            "division_name": "KCP SRAGEN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "c82ca3eae21bc76a0f49ba30880e3bef",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Aceh",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "c9d52060f1f2ecc91219ea08edf4e0e7",
+            "division_code": "KK KALIREJO",
+            "division_name": "KK KALIREJO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "c9d5e9596eb03a06eac02cf8e2a7816f",
+            "division_code": "KFO MIKRO MERLU",
+            "division_name": "KFO MIKRO MERLUNG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "c9fd36d6cf39635040e3312f27550626",
+            "division_code": "KC AMBON",
+            "division_name": "KC AMBON",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ca03515f20e169faf4a711cbd1419c82",
+            "division_code": "KCP SERANG CIKA",
+            "division_name": "KCP SERANG CIKANDE",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ca78728f8753abbf98a96630be5782f8",
+            "division_code": "KCP MEDAN RINGR",
+            "division_name": "KCP MEDAN RINGROAD",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "cade9b9af6a902de6b92c2dd2167d5a6",
+            "division_code": "KK BANJARMASIN ",
+            "division_name": "KK BANJARMASIN SD MUHAMMADIYAH",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "cb33b3cb102786672b34da377c31dd16",
+            "division_code": "KCP JAKARTA PAN",
+            "division_name": "KCP JAKARTA PANGLIMA POLIM",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "cc6a3903ebd68ef1aedbfc57956c96d9",
+            "division_code": "KCP SUKOHARJO S",
+            "division_name": "KCP SUKOHARJO SOLO BARU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ccd7467ac34f1de86ff0af0ccbf1259b",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Pekanbaru",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "cdcbffa5832b1e7ba57c99f4c79dc0d6",
+            "division_code": "KCP SINTANG",
+            "division_name": "KCP SINTANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ce13a9d997b01b40d7f59917b2593b51",
+            "division_code": "KCP TANJUNG PAN",
+            "division_name": "KCP TANJUNG PANDAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ce15ba67ed8cadd42bdd1ce06869df58",
+            "division_code": "KCP CIPANAS",
+            "division_name": "KCP CIPANAS",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "cecff84a6362a771433dabe9a3c30c28",
+            "division_code": "KC PEKANBARU HA",
+            "division_name": "KC PEKANBARU HARAPAN RAYA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ced499704935777383af417a8df518ff",
+            "division_code": "KCP BALIKPAPAN ",
+            "division_name": "KCP BALIKPAPAN BARU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "cf82868089baabed06d6c24825201b7c",
+            "division_code": "KFO POS BALIKPA",
+            "division_name": "KFO POS BALIKPAPAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "cf8e6f2b5895a988484ce45b3a413ff6",
+            "division_code": "KCP MEDAN SUKAR",
+            "division_name": "KCP MEDAN SUKARAMAI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d01296ee5f07404deae813e30974940c",
+            "division_code": "DCOR DS",
+            "division_name": "DCOR Distribution & Service",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "d058a5fa29f62006631f50dc327a50c4",
+            "division_code": "KCP CILACAP MAJ",
+            "division_name": "KCP CILACAP MAJENANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d10b16697f7114ba5b9d95df6b4add50",
+            "division_code": "KK DURI CPI",
+            "division_name": "KK DURI CPI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d1339008fd0d0cc42a5b0accd42747d5",
+            "division_code": "KCP JAKARTA KAL",
+            "division_name": "KCP JAKARTA KALIDERES",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d144f70f3274488fcbc6398d19557e3b",
+            "division_code": "KCP MAJALENGKA",
+            "division_name": "KCP MAJALENGKA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d15df5a0e2be6478c36da9d7e58f111b",
+            "division_code": "KCP POLEWALI",
+            "division_name": "KCP POLEWALI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d25d4544bc6474654824e4b4a036afb2",
+            "division_code": "KCP BANJAR",
+            "division_name": "KCP BANJAR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d2c0ea298c4c0b264ef17bfda5b84e8e",
+            "division_code": "KCP BATAM BOTAN",
+            "division_name": "KCP BATAM BOTANIA GARDEN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d3c7fcc032de4d47d6bc01cfb9f99541",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Jkt Kb Jeruk",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d49550cc28ea15132823bed0d8d85fd9",
+            "division_code": "KCP LUMAJANG",
+            "division_name": "KCP LUMAJANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d4f3047b16a3fa4d81a54aee8a7189a0",
+            "division_code": "KFO POS JEMBER",
+            "division_name": "KFO POS JEMBER",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d4f37aaa7748937db576185ae559161b",
+            "division_code": "KC PEMATANGSIAN",
+            "division_name": "KC PEMATANGSIANTAR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d4feb9a88cb42c993dfec9dd9bd6ba16",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Jkt Hasanudin",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d540dfb2cf24130a359c3203fa529731",
+            "division_code": "KFO POS TANGERA",
+            "division_name": "KFO POS TANGERANG CIPUTAT",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d5acb43e4e6f6498863a1d71165d297b",
+            "division_code": "KCP SURABAYA WI",
+            "division_name": "KCP SURABAYA WIYUNG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d6167445430b6664cddda612f60fd2a6",
+            "division_code": "KCP TELUK KUANT",
+            "division_name": "KCP TELUK KUANTAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d61f5725146147ad15860f8aa2a6c789",
+            "division_code": "KCP DEPOK NUSAN",
+            "division_name": "KCP DEPOK NUSANTARA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d6f18cbd4c76cc0149ea4e60580d23d1",
+            "division_code": "KCP UNIT 2 TULA",
+            "division_name": "KCP UNIT 2 TULANG BAWANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d718cbb7424d57a4f8737fa6ced72409",
+            "division_code": "KCP AMUNTAI",
+            "division_name": "KCP AMUNTAI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d7871dbf35cada60ab9d5d3b65b4d29d",
+            "division_code": "KC JKT WARUNG B",
+            "division_name": "KC JKT WARUNG BUNCIT",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d7f092669f988a6c3c3b50a5f05cdf2f",
+            "division_code": "KCP TARAKAN",
+            "division_name": "KCP TARAKAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d8649252857ca0eef3b66ca274ea1324",
+            "division_code": "KCP MAKASSAR AH",
+            "division_name": "KCP MAKASSAR AHMAD YANI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d866c5524a96b80a677c6083584f79da",
+            "division_code": "KCP JAKARTA PON",
+            "division_name": "KCP JAKARTA PONDOK PINANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d925993d7d95cf6703cf31222863d447",
+            "division_code": "KC ACEH",
+            "division_name": "KC ACEH",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d985182053b0c82f4e6e71c19db76cff",
+            "division_code": "KC DURI",
+            "division_name": "KC DURI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d98b1906deb3d24aa837b5653c5045c8",
+            "division_code": "KCP DEPOK DUA",
+            "division_name": "KCP DEPOK DUA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "d9c0bbd5e5a0c29839642cc52c716f1e",
+            "division_code": "KCP BEKASI TIMU",
+            "division_name": "KCP BEKASI TIMUR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "da28dabe845b454080aad67474240442",
+            "division_code": "KLS TASIKMALAYA",
+            "division_name": "KLS TASIKMALAYA RSUD",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "daa898132e9900dd9370725348508663",
+            "division_code": "RFRR",
+            "division_name": "Retail Financing Risk & Recovery - Region II",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "daf2ed558aa17cc3c87e47487f6091b2",
+            "division_code": "KK BOGOR KOTA W",
+            "division_name": "KK BOGOR KOTA WISATA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "db79a9b6c0064962e144ad40c6b32472",
+            "division_code": "KK PASIR PANGAR",
+            "division_name": "KK PASIR PANGARAIAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "dbd81afdb2a9e3a7b879810d1b661715",
+            "division_code": "KCP JAKARTA TEB",
+            "division_name": "KCP JAKARTA TEBET",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "dbfe8c6b7c5417faf87158dc8f33c9ae",
+            "division_code": "KC RANTAU PRAPA",
+            "division_name": "KC RANTAU PRAPAT",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "dc3fb7e7bfc68e6b7ccd236cdfc438c3",
+            "division_code": "KC TANGERANG CI",
+            "division_name": "KC TANGERANG CIPUTAT",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "dd0e4170957c69de04b41c7d5ca0e560",
+            "division_code": "KCP JAMBI JELUT",
+            "division_name": "KCP JAMBI JELUTUNG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "dd7504c0f9dc8966ae04b07c6403217a",
+            "division_code": "KCP SURAKARTA P",
+            "division_name": "KCP SURAKARTA PASAR KLEWER",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ddd9179f847112a1e607f735091fdf46",
+            "division_code": "KCP SIAK",
+            "division_name": "KCP SIAK",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "de0870e5e78f15fc59ddf14e412c6ce3",
+            "division_code": "KC CILEGON",
+            "division_name": "KC CILEGON",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "de14feeb69695dc0ab1b834eeae505e2",
+            "division_code": "KCP SUMEDANG",
+            "division_name": "KCP SUMEDANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "de1a336353e0dd31ede9c963cd268592",
+            "division_code": "KCP CURUP",
+            "division_name": "KCP CURUP",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "de40c8d1062a18766f420567415702cf",
+            "division_code": "KCP BANDAR LAMP",
+            "division_name": "KCP BANDAR LAMPUNG KEDATON",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "de59399fa2c79c672b7f10e4c616ba97",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Jkt Hasanudin",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "de6ee71e93b05ac2dd10d43d6ca5d0f1",
+            "division_code": "KC CIREBON",
+            "division_name": "KC CIREBON",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "dec2a3961140f7d3c790d09334c8402a",
+            "division_code": "CMG",
+            "division_name": "Commercial Banking Group - Area Banjarmasin",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "df537b969734dc3912a90b1ad0eb799c",
+            "division_code": "KCP KAYU AGUNG",
+            "division_name": "KCP KAYU AGUNG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "dfca7847585aae06c331c771f89f031b",
+            "division_code": "KCP PALOPO",
+            "division_name": "KCP PALOPO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e03ab5c728e2064daf985f38d8351a5b",
+            "division_code": "KCP TASIKMALAYA",
+            "division_name": "KCP TASIKMALAYA SINGAPARNA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e0628f410350b45178c619fd353cbff8",
+            "division_code": "KCP PALU TADULA",
+            "division_name": "KCP PALU TADULAKO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e09c805f76251ed9f2949aab002338b2",
+            "division_code": "KCP BATUSANGKAR",
+            "division_name": "KCP BATUSANGKAR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e1aba5170d550ff3b7c0d8cd2e2214a7",
+            "division_code": "KCP BONDOWOSO",
+            "division_name": "KCP BONDOWOSO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e1acf6d618df008d9850662fd22daa75",
+            "division_code": "KCP JAKARTA RAD",
+            "division_name": "KCP JAKARTA RADIO DALAM",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e1ba6d6ba2c7ae7aa7626262f6fd62fb",
+            "division_code": "KCP MOJOKERTO",
+            "division_name": "KCP MOJOKERTO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e24220457f7c00ad31d97b21c18c2bf3",
+            "division_code": "KFO POS BANJARM",
+            "division_name": "KFO POS BANJARMASIN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e2627b3267d29fbf67da90a1f71b9c40",
+            "division_code": "KC PADANG",
+            "division_name": "KC PADANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e263319fe6a08a454ad87ab0e5b420bf",
+            "division_code": "KCP TANGERANG C",
+            "division_name": "KCP TANGERANG CIMONE",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e361055ac292a704d63148820208bf7c",
+            "division_code": "KCP WONOSARI",
+            "division_name": "KCP WONOSARI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e3904a7a8a1d008df0b5a03c36dd99f6",
+            "division_code": "KC JAKARTA POND",
+            "division_name": "KC JAKARTA PONDOK KELAPA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e39bd5b4b7a914c477f577c50990dc51",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Jkt K. Gading",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e3d1ec9b37b42f5572e162db4cdb045c",
+            "division_code": "RO VII",
+            "division_name": "Region Office VII",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e49f4e1e714af755a0100e93c4cff046",
+            "division_code": "KCP KUTAI SENDA",
+            "division_name": "KCP KUTAI SENDAWAR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e4d9ab4ffedd54f09c7b522f59d39d13",
+            "division_code": "KCP BANDUNG SET",
+            "division_name": "KCP BANDUNG SETIA BUDI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e4e55225e47f0d0f9ef38399b82e84eb",
+            "division_code": "KCP STABAT",
+            "division_name": "KCP STABAT",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e4e8c7866389b7dd8b9960e446c38a33",
+            "division_code": "KC BANDUNG AHMA",
+            "division_name": "KC BANDUNG AHMAD YANI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e52d6942b78511a04c2f600bf499b12c",
+            "division_code": "KCP PEKANBARU S",
+            "division_name": "KCP PEKANBARU SUDIRMAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e55554918cacc86ea779447816522db1",
+            "division_code": "KCP BANDUNG UJU",
+            "division_name": "KCP BANDUNG UJUNG BERUNG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e58c4929ac492a2907fdb01d3113b73e",
+            "division_code": "KCP BUKITTINGGI",
+            "division_name": "KCP BUKITTINGGI PASAR AUR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e59c05abe4450dd18129becb2f579e7a",
+            "division_code": "KCP MALANG TURE",
+            "division_name": "KCP MALANG TUREN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e6354d6edf639d155fdb22e1b8919106",
+            "division_code": "KCP BANJARMASIN",
+            "division_name": "KCP BANJARMASIN SENTRA ANTASARI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e63f3f21d0742e3d62257a555fd5deb9",
+            "division_code": "KC PANGKALAN BU",
+            "division_name": "KC PANGKALAN BUN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e676dde4a0f43b43f2232b7a87b10f6f",
+            "division_code": "KC JAKARTA MAYE",
+            "division_name": "KC JAKARTA MAYESTIK",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e6aa7275da5501bd00856a066b87fd27",
+            "division_code": "KCP SLEMAN",
+            "division_name": "KCP SLEMAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e6e09f1634b6d5635e3c157f853b3b82",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Malang",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e880f564cfaba0ba9e9885009c7975a5",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Denpasar",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e8b765b17fdf800080c2ef214dce5164",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Jambi",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e8cf1be2c4a05c2c566a534435636c8a",
+            "division_code": "KCP MUARA BUNGO",
+            "division_name": "KCP MUARA BUNGO",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e8d0209e671462cd6459accd3e667ad6",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Jkt K. Gading",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e8e29a099324dcfe8796af72e8d95e92",
+            "division_code": "KC SAMPIT",
+            "division_name": "KC SAMPIT",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e8f3986eede3acb7b25bd6a771886604",
+            "division_code": "CRR",
+            "division_name": "Corporate Risk Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "e9341d5804dea00e4cf7b887a5116299",
+            "division_code": "KCP TEMBILAHAN",
+            "division_name": "KCP TEMBILAHAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e96aa5794c8d9b4c2b65efbd55894b4b",
+            "division_code": "KCP PANGKALAN B",
+            "division_name": "KCP PANGKALAN BRANDAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e9951444511471013dcc667a95b7a4b2",
+            "division_code": "KCP SAROLANGUN",
+            "division_name": "KCP SAROLANGUN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e9e675d2a4169c16e0c1c4a753768960",
+            "division_code": "KC BEKASI PONDO",
+            "division_name": "KC BEKASI PONDOK GEDE",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e9e93a39ef23326ea4e93e57fcd00d98",
+            "division_code": "Tangerang BSD",
+            "division_name": "Tangerang BSD",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "e9e9a6543c000ba0389af5dce171cdd5",
+            "division_code": "KCP JAKARTA CIK",
+            "division_name": "KCP JAKARTA CIKINI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ea65445fd5f41f7b203b1ec00acc6728",
+            "division_code": "KK JAKARTA MENA",
+            "division_name": "KK JAKARTA MENARA 165",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ea8653a023152e1df0de6c7e0dc9641a",
+            "division_code": "KC PALANGKARAYA",
+            "division_name": "KC PALANGKARAYA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ea93c1c0018cd32925be541eb8e85e7e",
+            "division_code": "KCP AMPANA",
+            "division_name": "KCP AMPANA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "eabdf85b4babeaca93868cd16532faec",
+            "division_code": "KCP SURABAYA PA",
+            "division_name": "KCP SURABAYA PASAR TURI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "eb2b6c8bff1987ea7c38de1935345470",
+            "division_code": "KCP JAKARTA FAT",
+            "division_name": "KCP JAKARTA FATMAWATI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "eb60573013ccdbc2af46eae41d151e95",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Mdn A Yani",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ebaae2dc05ba226f37f8a68f5323aca2",
+            "division_code": "KK PEKANBARU UI",
+            "division_name": "KK PEKANBARU UIR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ebbe36f4f458eab506ab98155ca60609",
+            "division_code": "KC TANGERANG CI",
+            "division_name": "KC TANGERANG CILEDUG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ebd495ad10c8a1b10a227b0292543ebc",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Padang",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ec50b3c320de12c35c54b0b576c58562",
+            "division_code": "KCP JAKARTA PON",
+            "division_name": "KCP JAKARTA PONDOK BAMBU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ecc51044caddb3897374901d9cc13780",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Jkt Kb Jeruk",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "eda55a2e3a2bc6b3fd2097e90976854f",
+            "division_code": "KCP TANGERANG C",
+            "division_name": "KCP TANGERANG CIRENDEU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "edb9048d11b4c874dad414587827805f",
+            "division_code": "KLS JAKARTA DEP",
+            "division_name": "KLS JAKARTA DEPTAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ee043c7ab5943febb5eca45fdd7df5cf",
+            "division_code": "KC LHOKSEUMAWE",
+            "division_name": "KC LHOKSEUMAWE",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "eea403bf4d34bd2a7286400f906acbb1",
+            "division_code": "CMR",
+            "division_name": "Commercial Risk Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "eeabefe3313552033c928545d4a00029",
+            "division_code": "KFO POS YOGYAKA",
+            "division_name": "KFO POS YOGYAKARTA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ef32a17aac83babfa9271cfa8cace3a1",
+            "division_code": "KCP BINTAN CENT",
+            "division_name": "KCP BINTAN CENTER",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "efbbb4e6bccc84884307a398df383574",
+            "division_code": "KCP JAKARTA PAN",
+            "division_name": "KCP JAKARTA PANGKALAN JATI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "efe5835fcf378bea92593b74acec45ee",
+            "division_code": "KC BANJARMASIN",
+            "division_name": "KC BANJARMASIN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "f01d7cdc0629bac1c474ceadc772ce53",
+            "division_code": "KCP DEPOK MIFA ",
+            "division_name": "KCP DEPOK MIFA UI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "f043a0dc07ca1a7ba9586069359a0809",
+            "division_code": "KCP TANGERANG G",
+            "division_name": "KCP TANGERANG GRAHA RAYA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "f06d49dcc33805c60068a62d1741d86c",
+            "division_code": "KCP JAKARTA BEN",
+            "division_name": "KCP JAKARTA BENDUNGAN HILIR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "f115adccda9c5d5efa58de24793a9c7f",
+            "division_code": "KC JAKARTA HAYA",
+            "division_name": "KC JAKARTA HAYAM WURUK",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "f116582229024712c4185e84da32faa9",
+            "division_code": "KC PATI",
+            "division_name": "KC PATI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "f12b74f51c0ea890b68d5958d422fe8d",
+            "division_code": "KCP PALEMBANG J",
+            "division_name": "KCP PALEMBANG JAKABARING",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "f144acfb9c36c0b724396878f1dc4c4b",
+            "division_code": "KCP JAKARTA TAN",
+            "division_name": "KCP JAKARTA TANJUNG DUREN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "f18b247405cdbe6828e4d74487555c92",
+            "division_code": "KCP UJUNG BATU",
+            "division_name": "KCP UJUNG BATU",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "f20862f0ac1ab456254a99d40992832b",
+            "division_code": "KCP NANGA PINOH",
+            "division_name": "KCP NANGA PINOH",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "f2330e8f360693c041460c165e50d872",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Sby J. Hndyni",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "f38d9d4abf2bd88d3c1ad7e9f96bfb1e",
+            "division_code": "KCP TAKENGON",
+            "division_name": "KCP TAKENGON",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "f3a5d48cffe2637e75e013da1e642aa7",
+            "division_code": "HCP",
+            "division_name": "Human Capital Policy Group",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "f3ccaa0f1fe4e649301e92debd06cd4e",
+            "division_code": "KCP SIGLI",
+            "division_name": "KCP SIGLI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "f3eb04b8c907c1fe671926fae875e756",
+            "division_code": "KFO POS JAKARTA",
+            "division_name": "KFO POS JAKARTA UTARA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "f4d3f6f446b627a87543b1a31320bd3a",
+            "division_code": "DCOR TOD",
+            "division_name": "DCOR Technology & Operation",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "f53e84bdbcf046ce4d485484f72f5ce3",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Pontianak",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "f57d2ad383c7a23fbc0a68da2db93329",
+            "division_code": "KFO MIKRO SUNGA",
+            "division_name": "KFO MIKRO SUNGAI BAHAR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "f5cf5fe2261de9a6b2e596c0223f21b5",
+            "division_code": "AFR",
+            "division_name": "Area Financing Risk - Area Semarang",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "f5d93070eeec31f17284a6aca2a9a940",
+            "division_code": "KK JAKARTA INDO",
+            "division_name": "KK JAKARTA INDOSAT",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "f5ec6dc943cd9408b500398d36b7f25c",
+            "division_code": "KCP BATAM BATU ",
+            "division_name": "KCP BATAM BATU AJI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "f6110a8d723dac4ec0349207f1b455d7",
+            "division_code": "KCP MAKASSAR UN",
+            "division_name": "KCP MAKASSAR UNISMUH",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "f6179d207f15c591b4540658cbfd1c11",
+            "division_code": "KCP TANGERANG M",
+            "division_name": "KCP TANGERANG MALABAR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "f76abda0d6c5b27d25c3fb67ae2afb5c",
+            "division_code": "KCP JAKARTA CEM",
+            "division_name": "KCP JAKARTA CEMPAKA PUTIH",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "f8d35ec6ec5d1ace9eb9ac7e04b1ef6b",
+            "division_code": "KCP JAKARTA CAK",
+            "division_name": "KCP JAKARTA CAKUNG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "f98caeaecce1baddd6b81d143c64e17c",
+            "division_code": "KCP TANGERANG B",
+            "division_name": "KCP TANGERANG BALARAJA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "fa131b0e7b1434e1f8e2028361bc2e36",
+            "division_code": "KCP SERANG TIMU",
+            "division_name": "KCP SERANG TIMUR",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "fab565e2281000e650fd460bcd594ca3",
+            "division_code": "KCP BEKASI KEMA",
+            "division_name": "KCP BEKASI KEMANG PRATAMA",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "fb2da42d667fd944ab9ab6dc75bf1135",
+            "division_code": "KCP SIPIROK",
+            "division_name": "KCP SIPIROK",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "fb8ecd2bdaa5716c2962c379ee245064",
+            "division_code": " RFRR",
+            "division_name": "Retail Financing Risk & Recovery - Region I",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "fbd33d909586842102e82daa745e36c0",
+            "division_code": "KK PEKANBARU RU",
+            "division_name": "KK PEKANBARU RUMBAI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "fc753c33200915f0d0e8f97453211bf8",
+            "division_code": "KK JEMBER KALIS",
+            "division_name": "KK JEMBER KALISAT",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "fcc593f70e847034cb343b758aa24a6c",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Jkt Pd Kelapa",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "fd0ce9e0d0ad478188c2d40e75620650",
+            "division_code": "KC MEULABOH",
+            "division_name": "KC MEULABOH",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "fd32d9b655635ee2f55837a6ba7b2dd6",
+            "division_code": "KCP BELITANG",
+            "division_name": "KCP BELITANG",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "fd442cafc4db5b10ccda9dc527c54bf6",
+            "division_code": "KCP TANJUNG UBA",
+            "division_name": "KCP TANJUNG UBAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "fd5a9314cc4b1c318904f8519f61e54c",
+            "division_code": "DCOR WBD",
+            "division_name": "DCOR Wholesale Banking",
+            "unit_id": "1"
+        },
+        {
+            "division_id": "fd758a7eee2b96792ec7ec2bbb1776f6",
+            "division_code": "KCP NGAWI",
+            "division_name": "KCP NGAWI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "fe11eea5f8dfb04c6d5b9b07523ed50b",
+            "division_code": "KK JAKARTA GRAH",
+            "division_name": "KK JAKARTA GRAHA MANDIRI",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "fe61a33d7b674c329c7417ad07ff37eb",
+            "division_code": "ACR",
+            "division_name": "Area Collection Recovery - Area Palu",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "fe67652ef6df419199a3ce4538157325",
+            "division_code": "KCP PAINAN",
+            "division_name": "KCP PAINAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ff16441322297d73362a0d91f8673d19",
+            "division_code": "KFO MITRA MANDI",
+            "division_name": "KFO MITRA MANDIRI KEMBANG JEPUN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ff58cbf6e4a73919cbd1f3e702427caf",
+            "division_code": "KCP BANDUNG PAJ",
+            "division_name": "KCP BANDUNG PAJAJARAN",
+            "unit_id": "2"
+        },
+        {
+            "division_id": "ffa6abfa94db11d06e9cbbd6c7c37d27",
+            "division_code": "CMG",
+            "division_name": "Commercial Banking Group - Area Palembang",
+            "unit_id": "2"
+        }
+    ]
+}

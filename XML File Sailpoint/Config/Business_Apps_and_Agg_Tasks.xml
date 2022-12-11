@@ -1,0 +1,507 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE sailpoint PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+
+<sailpoint>
+
+
+
+
+<CorrelationConfig name="BugTracking Correlation Config">
+  <AttributeAssignments>
+    <Filter operation="EQ" property="empId" value="id"/>
+  </AttributeAssignments>
+</CorrelationConfig>
+
+
+
+<Application connector="sailpoint.connector.DelimitedFileConnector" featuresString="DIRECT_PERMISSIONS, NO_RANDOM_ACCESS, DISCOVER_SCHEMA" icon="enterpriseIcon" name="Finance" profileClass="" type="DelimitedFile">
+  <AccountCorrelationConfig>
+    <Reference class="sailpoint.object.CorrelationConfig" name="Finance Correlation Config"/>
+  </AccountCorrelationConfig>
+  <Attributes>
+    <Map>
+      <entry key="PassphraseForPrivateKey"/>
+      <entry key="PrivateKeyFilePath"/>
+      <entry key="afterProvisioningRule"/>
+      <entry key="beforeProvisioningRule"/>
+      <entry key="compositeDefinition"/>
+      <entry key="delimiter" value=","/>
+      <entry key="file" value="/home/spadmin/ImplementerTraining/data/Finance-users.csv"/>
+      <entry key="filetransport" value="local"/>
+      <entry key="filterEmptyRecords">
+        <value>
+          <Boolean>true</Boolean>
+        </value>
+      </entry>
+      <entry key="group.delimiter" value=","/>
+      <entry key="group.file" value="/home/spadmin/ImplementerTraining/data/Finance-group-permissions.csv"/>
+      <entry key="group.filetransport" value="local"/>
+      <entry key="group.filterEmptyRecords">
+        <value>
+          <Boolean>true</Boolean>
+        </value>
+      </entry>
+      <entry key="group.hasHeader">
+        <value>
+          <Boolean>true</Boolean>
+        </value>
+      </entry>
+      <entry key="group.isCaseInsensitiveMerge">
+        <value>
+          <Boolean/>
+        </value>
+      </entry>
+      <entry key="group.isSortedByIndexColumn">
+        <value>
+          <Boolean/>
+        </value>
+      </entry>
+      <entry key="group.mergeRows">
+        <value>
+          <Boolean/>
+        </value>
+      </entry>
+      <entry key="group.partitionMode" value="auto"/>
+      <entry key="group.stopIfLineHasWrongColumnLength">
+        <value>
+          <Boolean/>
+        </value>
+      </entry>
+      <entry key="hasHeader">
+        <value>
+          <Boolean>true</Boolean>
+        </value>
+      </entry>
+      <entry key="isCaseInsensitiveMerge">
+        <value>
+          <Boolean/>
+        </value>
+      </entry>
+      <entry key="isSortedByIndexColumn">
+        <value>
+          <Boolean/>
+        </value>
+      </entry>
+      <entry key="mergeRows">
+        <value>
+          <Boolean/>
+        </value>
+      </entry>
+      <entry key="nativeChangeDetectionAttributeScope" value="entitlements"/>
+      <entry key="nativeChangeDetectionAttributes"/>
+      <entry key="nativeChangeDetectionEnabled">
+        <value>
+          <Boolean/>
+        </value>
+      </entry>
+      <entry key="nativeChangeDetectionOperations"/>
+      <entry key="parseType" value="delimited"/>
+      <entry key="partitionMode" value="auto"/>
+      <entry key="port"/>
+      <entry key="sftpAuthMethod" value="password"/>
+      <entry key="stopIfLineHasWrongColumnLength">
+        <value>
+          <Boolean/>
+        </value>
+      </entry>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US"/>
+          </Map>
+        </value>
+      </entry>
+      <entry key="templateApplication" value="DelimitedFile Template"/>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
+  </Owner>
+  <ProvisioningForms>
+    <Form name="account" objectType="account" type="Create">
+      <Attributes>
+        <Map>
+          <entry key="pageTitle" value="account"/>
+        </Map>
+      </Attributes>
+      <Section name="Section 1">
+        <Field name="User ID" type="string">
+          <Script>
+            <Source>return identity.getAttribute("empId");</Source>
+          </Script>
+        </Field>
+        <Field name="User Name" type="string">
+          <Script>
+            <Source>return identity.displayName;</Source>
+          </Script>
+        </Field>
+        <Field name="Status" type="string" value="A"/>
+        <Field name="Locked" type="string" value="N"/>
+      </Section>
+    </Form>
+  </ProvisioningForms>
+  <Schemas>
+    <Schema displayAttribute="User Name" identityAttribute="User ID" instanceAttribute="" nativeObjectType="account" objectType="account" permissionsRemediationModificationType="None">
+      <AttributeDefinition name="User ID" type="string">
+        <Description/>
+      </AttributeDefinition>
+      <AttributeDefinition name="User Name" type="string">
+        <Description/>
+      </AttributeDefinition>
+      <AttributeDefinition entitlement="true" multi="true" name="Permission Group" schemaObjectType="group" type="string">
+        <Description/>
+      </AttributeDefinition>
+      <AttributeDefinition name="Status" type="string">
+        <Description/>
+      </AttributeDefinition>
+      <AttributeDefinition name="Locked" type="string">
+        <Description/>
+      </AttributeDefinition>
+      <AttributeDefinition name="privileged" type="string">
+        <Description/>
+      </AttributeDefinition>
+    </Schema>
+    <Schema descriptionAttribute="Description" displayAttribute="Permission Group" identityAttribute="Permission Group" instanceAttribute="" nativeObjectType="group" objectType="group" permissionsRemediationModificationType="None">
+      <AttributeDefinition name="Permission Group" type="string">
+        <Description/>
+      </AttributeDefinition>
+      <AttributeDefinition entitlement="true" multi="true" name="Permission Rights" type="string">
+        <Description/>
+      </AttributeDefinition>
+      <AttributeDefinition name="Description" type="string">
+        <Description/>
+      </AttributeDefinition>
+    </Schema>
+  </Schemas>
+  <ApplicationScorecard/>
+</Application>
+
+
+
+<Application connector="sailpoint.connector.JDBCConnector" featuresString="DISCOVER_SCHEMA, PROVISIONING, SYNC_PROVISIONING, DIRECT_PERMISSIONS, SEARCH, ENABLE, UNLOCK" icon="databaseIcon" name="Bug Tracking" profileClass="" type="JDBC">
+  <AccountCorrelationConfig>
+    <Reference class="sailpoint.object.CorrelationConfig" name="BugTracking Correlation Config"/>
+  </AccountCorrelationConfig>
+  <Attributes>
+    <Map>
+      <entry key="SQL" value="select * from users;"/>
+      <entry key="afterProvisioningRule"/>
+      <entry key="aggregationMode">
+        <value>
+          <Boolean/>
+        </value>
+      </entry>
+      <entry key="beforeProvisioningRule"/>
+      <entry key="compositeDefinition"/>
+      <entry key="deltaTable"/>
+      <entry key="driverClass" value="com.mysql.jdbc.Driver"/>
+      <entry key="getDeltaSQL"/>
+      <entry key="getObjectSQL" value="select * from users where id = '$(identity)';"/>
+      <entry key="isPermissionEnabled">
+        <value>
+          <Boolean/>
+        </value>
+      </entry>
+      <entry key="jdbcExceptionBucketing">
+        <value>
+          <Boolean>true</Boolean>
+        </value>
+      </entry>
+      <entry key="mergeRows">
+        <value>
+          <Boolean/>
+        </value>
+      </entry>
+      <entry key="nativeChangeDetectionAttributeScope" value="entitlements"/>
+      <entry key="nativeChangeDetectionAttributes"/>
+      <entry key="nativeChangeDetectionEnabled">
+        <value>
+          <Boolean/>
+        </value>
+      </entry>
+      <entry key="nativeChangeDetectionOperations"/>
+      <entry key="partitionMode">
+        <value>
+          <Boolean/>
+        </value>
+      </entry>
+      <entry key="partitionStatements"/>
+      <entry key="password" value="1:ACP:m7PWNv60byDVZ2WyNplz0Ipczk0GLPlQEBuEuaGjuUw="/>
+      <entry key="provisionRule" value="globalRule"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US"/>
+          </Map>
+        </value>
+      </entry>
+      <entry key="templateApplication" value="JDBC Template"/>
+      <entry key="testConnSQL"/>
+      <entry key="url" value="jdbc:mysql://localhost/bugtracking?serverTimezone=UTC"/>
+      <entry key="useExecuteQuery">
+        <value>
+          <Boolean/>
+        </value>
+      </entry>
+      <entry key="useStoredProcedureDelta">
+        <value>
+          <Boolean/>
+        </value>
+      </entry>
+      <entry key="useStoredProcedureDirectPermission">
+        <value>
+          <Boolean/>
+        </value>
+      </entry>
+      <entry key="useStoredProcedureGetObject">
+        <value>
+          <Boolean/>
+        </value>
+      </entry>
+      <entry key="useStoredProcedurePartition">
+        <value>
+          <Boolean/>
+        </value>
+      </entry>
+      <entry key="useStoredProcedureSqlStmt">
+        <value>
+          <Boolean/>
+        </value>
+      </entry>
+      <entry key="useStoredProcedureTestConn">
+        <value>
+          <Boolean/>
+        </value>
+      </entry>
+      <entry key="user" value="root"/>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
+  </Owner>
+  <Schemas>
+    <Schema displayAttribute="username" identityAttribute="id" instanceAttribute="" nativeObjectType="account" objectType="account" permissionsRemediationModificationType="None">
+      <AttributeDefinition name="id" type="string">
+        <Description/>
+      </AttributeDefinition>
+      <AttributeDefinition name="username" type="string">
+        <Description/>
+      </AttributeDefinition>
+      <AttributeDefinition name="firstname" type="string">
+        <Description/>
+      </AttributeDefinition>
+      <AttributeDefinition name="lastname" type="string">
+        <Description/>
+      </AttributeDefinition>
+      <AttributeDefinition entitlement="true" managed="true" multi="true" name="capability" type="string">
+        <Description/>
+      </AttributeDefinition>
+      <AttributeDefinition name="status" type="string">
+        <Description/>
+      </AttributeDefinition>
+      <AttributeDefinition name="locked" type="string">
+        <Description/>
+      </AttributeDefinition>
+    </Schema>
+  </Schemas>
+  <ApplicationScorecard/>
+</Application>
+
+
+
+<TaskDefinition formPath="/monitor/tasks/accountAggregationTask.xhtml" name="Aggregate Bug Tracking" resultAction="Delete" subType="task_item_type_acct_aggregation" type="AccountAggregation">
+  <Attributes>
+    <Map>
+      <entry key="TaskSchedule.host"/>
+      <entry key="applications" value="Bug Tracking"/>
+      <entry key="checkDeleted" value="true"/>
+      <entry key="checkHistory" value="false"/>
+      <entry key="checkPolicies" value="false"/>
+      <entry key="correlateEntitlements" value="false"/>
+      <entry key="correlateOnly" value="false"/>
+      <entry key="correlateScope" value="false"/>
+      <entry key="deltaAggregation" value="false"/>
+      <entry key="enablePartitioning" value="false"/>
+      <entry key="haltOnMaxError" value="false"/>
+      <entry key="noAutoCreateApplications" value="false"/>
+      <entry key="noAutoCreateScopes" value="false"/>
+      <entry key="noNeedsRefresh" value="false"/>
+      <entry key="noOptimizeReaggregation" value="true"/>
+      <entry key="promoteManagedAttributes" value="true"/>
+      <entry key="refreshScorecard" value="false"/>
+      <entry key="sequential" value="false"/>
+      <entry key="taskCompletionEmailNotify" value="Disabled"/>
+      <entry key="taskCompletionEmailRecipients"/>
+      <entry key="taskCompletionEmailTemplate"/>
+    </Map>
+  </Attributes>
+  <Description>Task template for application account scanning.</Description>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
+  </Owner>
+  <Parent>
+    <Reference class="sailpoint.object.TaskDefinition" name="Account Aggregation"/>
+  </Parent>
+</TaskDefinition>
+
+
+<TaskDefinition formPath="/monitor/tasks/accountAggregationTask.xhtml" name="Aggregate Time Tracking" resultAction="Delete" subType="task_item_type_acct_aggregation" type="AccountAggregation">
+  <Attributes>
+    <Map>
+      <entry key="TaskSchedule.host"/>
+      <entry key="applications" value="Time Tracking"/>
+      <entry key="checkDeleted" value="true"/>
+      <entry key="checkHistory" value="false"/>
+      <entry key="checkPolicies" value="false"/>
+      <entry key="correlateEntitlements" value="false"/>
+      <entry key="correlateOnly" value="false"/>
+      <entry key="correlateScope" value="false"/>
+      <entry key="deltaAggregation" value="false"/>
+      <entry key="enablePartitioning" value="false"/>
+      <entry key="haltOnMaxError" value="false"/>
+      <entry key="noAutoCreateApplications" value="false"/>
+      <entry key="noAutoCreateScopes" value="false"/>
+      <entry key="noNeedsRefresh" value="false"/>
+      <entry key="noOptimizeReaggregation" value="true"/>
+      <entry key="promoteManagedAttributes" value="true"/>
+      <entry key="refreshScorecard" value="false"/>
+      <entry key="sequential" value="false"/>
+      <entry key="taskCompletionEmailNotify" value="Disabled"/>
+      <entry key="taskCompletionEmailRecipients"/>
+      <entry key="taskCompletionEmailTemplate"/>
+    </Map>
+  </Attributes>
+  <Description>Task template for application account scanning.</Description>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
+  </Owner>
+  <Parent>
+    <Reference class="sailpoint.object.TaskDefinition" name="Account Aggregation"/>
+  </Parent>
+</TaskDefinition>
+
+
+
+<TaskDefinition formPath="/monitor/tasks/accountAggregationTask.xhtml" name="Aggregate Chat" resultAction="Delete" subType="task_item_type_acct_aggregation" type="AccountAggregation">
+  <Attributes>
+    <Map>
+      <entry key="TaskSchedule.host"/>
+      <entry key="applications" value="Chat"/>
+      <entry key="checkDeleted" value="true"/>
+      <entry key="checkHistory" value="false"/>
+      <entry key="checkPolicies" value="false"/>
+      <entry key="correlateEntitlements" value="false"/>
+      <entry key="correlateOnly" value="false"/>
+      <entry key="correlateScope" value="false"/>
+      <entry key="deltaAggregation" value="false"/>
+      <entry key="enablePartitioning" value="false"/>
+      <entry key="haltOnMaxError" value="false"/>
+      <entry key="noAutoCreateApplications" value="false"/>
+      <entry key="noAutoCreateScopes" value="false"/>
+      <entry key="noNeedsRefresh" value="false"/>
+      <entry key="noOptimizeReaggregation" value="true"/>
+      <entry key="promoteManagedAttributes" value="true"/>
+      <entry key="refreshScorecard" value="false"/>
+      <entry key="sequential" value="false"/>
+      <entry key="taskCompletionEmailNotify" value="Disabled"/>
+      <entry key="taskCompletionEmailRecipients"/>
+      <entry key="taskCompletionEmailTemplate"/>
+    </Map>
+  </Attributes>
+  <Description>Task template for application account scanning.</Description>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
+  </Owner>
+  <Parent>
+    <Reference class="sailpoint.object.TaskDefinition" name="Account Aggregation"/>
+  </Parent>
+</TaskDefinition>
+
+
+<TaskDefinition formPath="/monitor/tasks/accountGroupAggregationTask.xhtml" name="Aggregate Chat Groups" resultAction="Delete" subType="task_item_type_acct_grp_aggregation" type="AccountGroupAggregation">
+  <Attributes>
+    <Map>
+      <entry key="TaskSchedule.host"/>
+      <entry key="aggregationType" value="group"/>
+      <entry key="applications" value="Chat"/>
+      <entry key="checkDeleted" value="true"/>
+      <entry key="deltaAggregation" value="false"/>
+      <entry key="descriptionLocale" value="en_US"/>
+      <entry key="groupSchema"/>
+      <entry key="taskCompletionEmailNotify" value="Disabled"/>
+      <entry key="taskCompletionEmailRecipients"/>
+      <entry key="taskCompletionEmailTemplate"/>
+    </Map>
+  </Attributes>
+  <Description>Task template for application group scanning.</Description>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
+  </Owner>
+  <Parent>
+    <Reference class="sailpoint.object.TaskDefinition" name="Account Group Aggregation"/>
+  </Parent>
+</TaskDefinition>
+
+
+<TaskDefinition formPath="/monitor/tasks/accountAggregationTask.xhtml" name="Aggregate Finance" resultAction="Delete" subType="task_item_type_acct_aggregation" type="AccountAggregation">
+  <Attributes>
+    <Map>
+      <entry key="TaskSchedule.host"/>
+      <entry key="applications" value="Finance"/>
+      <entry key="checkDeleted" value="true"/>
+      <entry key="checkHistory" value="false"/>
+      <entry key="checkPolicies" value="false"/>
+      <entry key="correlateEntitlements" value="false"/>
+      <entry key="correlateOnly" value="false"/>
+      <entry key="correlateScope" value="false"/>
+      <entry key="deltaAggregation" value="false"/>
+      <entry key="enablePartitioning" value="false"/>
+      <entry key="haltOnMaxError" value="false"/>
+      <entry key="noAutoCreateApplications" value="false"/>
+      <entry key="noAutoCreateScopes" value="false"/>
+      <entry key="noNeedsRefresh" value="false"/>
+      <entry key="noOptimizeReaggregation" value="true"/>
+      <entry key="promoteManagedAttributes" value="true"/>
+      <entry key="refreshScorecard" value="false"/>
+      <entry key="sequential" value="false"/>
+      <entry key="taskCompletionEmailNotify" value="Disabled"/>
+      <entry key="taskCompletionEmailRecipients"/>
+      <entry key="taskCompletionEmailTemplate"/>
+    </Map>
+  </Attributes>
+  <Description>Task template for application account scanning.</Description>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
+  </Owner>
+  <Parent>
+    <Reference class="sailpoint.object.TaskDefinition" name="Account Aggregation"/>
+  </Parent>
+</TaskDefinition>
+
+
+<TaskDefinition formPath="/monitor/tasks/accountGroupAggregationTask.xhtml" name="Aggregate Finance Groups" resultAction="Delete" subType="task_item_type_acct_grp_aggregation" type="AccountGroupAggregation">
+  <Attributes>
+    <Map>
+      <entry key="TaskSchedule.host"/>
+      <entry key="aggregationType" value="group"/>
+      <entry key="applications" value="Finance"/>
+      <entry key="checkDeleted" value="true"/>
+      <entry key="deltaAggregation" value="false"/>
+      <entry key="descriptionLocale" value="en_US"/>
+      <entry key="groupSchema"/>
+      <entry key="taskCompletionEmailNotify" value="Disabled"/>
+      <entry key="taskCompletionEmailRecipients"/>
+      <entry key="taskCompletionEmailTemplate"/>
+    </Map>
+  </Attributes>
+  <Description>Task template for application group scanning.</Description>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
+  </Owner>
+  <Parent>
+    <Reference class="sailpoint.object.TaskDefinition" name="Account Group Aggregation"/>
+  </Parent>
+</TaskDefinition>
+
+
+</sailpoint>

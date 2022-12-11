@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE EmailTemplate PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<EmailTemplate created="1590001166229" id="0a000001723313f3817233746795016f" modified="1590001287122" name="Work Item Assignment Removal">
+  <Body>    
+
+  
+   
+&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+&lt;head>
+  &lt;title>Work item removed: $!{workItemName}&lt;/title>
+&lt;/head>
+
+&lt;!-- Background for  -->
+&lt;body style="background:#00799d;margin:0;padding:0;text-align:left;">
+
+  &lt;table cellpadding="0" cellspacing="0" width="588" border="0" align="center" style="margin:0 auto;padding:0;">
+    &lt;tr valign="top">
+      &lt;td> &lt;img src="http://localhost:8080/identityiq/images/TopLogo1.png" height="" vspace="10">&amp;nbsp;&lt;/td>
+    &lt;/tr>
+    &lt;tr valign="top">
+      
+    &lt;/tr>
+    &lt;tr valign="top">
+        &lt;td>
+        &lt;!-- EMAILER CONTENT BEGINS -->
+        
+        &lt;!-- HEADER -->
+        &lt;!-- CHANGE BACKGROUND COLOR IN STYLE BELOW: blue - #0987a0 ; tan - #847f5c -->
+        &lt;table cellpadding="0" cellspacing="0" width="588" style="background:#fafafa;margin:0;padding:0;text-align:left;border-bottom:5px solid #b2b2b2;">
+        &lt;tr valign="middle">
+          &lt;td height="85">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td>
+            &lt;td>
+            &lt;!-- CHANGE COLOR STYLE BELOW: blue - #98bec6 ; tan - #b5b192 -->
+            &lt;h2 style="color:#222222;margin:0;padding:0;font:bold 12pt Arial;text-transform:uppercase;">Workitem Removed&lt;/h2>
+            &lt;h1 style="color:#037da1;margin:0;padding:0;font:bold 22pt Arial;">$!{workItemName}&lt;/h1>             
+            &lt;/td>
+        &lt;/tr>
+        &lt;/table>
+        &lt;!-- /HEADER -->
+        
+        &lt;!-- CONTENT -->
+     &lt;table cellpadding="0" cellspacing="0" width="588" style="background:#dadada;margin:0;padding:0;text-align:left;border-left:0px solid #b2b2b2;border-right:0px solid #b2b2b2;">
+        &lt;tr valign="top"> 
+          &lt;td colspan="3">&lt;img src="http://localhost:8080/identityiq/images/LogoHeader.png" height=""hspace="10" vspace="10" />&lt;/td>
+        &lt;/tr>
+        &lt;tr valign="top">
+          &lt;td width="40">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td>
+          &lt;td>
+            
+            &lt;table cellpadding="0" cellspacing="0" width="100%" border="0">
+            &lt;tr valign="bottom">
+            &lt;td>
+            &lt;p style="margin:0;padding:0;color:#007080;font:bold 10pt Arial;line-height:15pt;">&lt;/p>
+            &lt;p/>
+            &lt;p style="margin:0;padding:0;color:#007080;font: 10pt Arial;line-height:15pt;">
+            #if ($requesterName) $requesterName 
+            #{else} The system 
+            #{end} 
+             has removed the following work item from your queue: $workItemName.
+            &lt;p/>
+            &lt;br/> 
+            &lt;/td>
+            &lt;/tr>
+            &lt;/table>
+            &lt;!-- CHANGE STYLE COLOR IN anchor or a TAG BELOW and in all anchor tags that apply below : red - #a22831 ; blue - #0987a0 -->
+            &lt;p style="margin:0;padding:0;color:#007080;font:normal %%thankYouStatementFontSize%% Arial;line-height:15pt;">Thank you for your cooperation&lt;/p>
+            &lt;p style="margin:0 0 50px;padding:0;color:#007080;font:bold %%thankYouStatementFontSize%% Arial;line-height:15pt;">Your Security and Compliance Team&lt;/p>
+            &lt;/td>
+            &lt;td width="40">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td>
+        &lt;/tr>
+        &lt;tr valign="top">
+          &lt;td colspan="3">
+               &lt;p style="margin:0 0 0 30px;padding:0;color:%%supportLinksSeparator%%;font:normal 12pt Arial;line-height:12pt;margin-bottom:30px">&lt;a href="http://localhost:8080/identityiq/dashboard.jsf" style="color:#666666;text-decoration:none;font-weight:bold;">Help&lt;/a> &amp;nbsp;|&amp;nbsp; &lt;a href="http://localhost:8080/identityiq/dashboard.jsf" style="color:#666666;text-decoration:none;font-weight:bold;">FAQs&lt;/a> &amp;nbsp;|&amp;nbsp; &lt;a href="http://localhost:8080/identityiq/dashboard.jsf" style="color:#666666;text-decoration:none;font-weight:bold;">Support&lt;/a>&lt;/p>
+          &lt;/td>
+        &lt;/tr>
+        &lt;/table>
+        &lt;!-- /CONTENT -->
+        
+        &lt;!-- FOOTER -->
+        &lt;!-- CHANGE BACKGROUND COLOR IN STYLE BELOW: blue - #0987a0 ; tan - #847f5c -->
+        &lt;table cellpading="0" cellspacing="0" width="588" style="background:#fafafa;margin:0;padding:0;text-align:right;border-top:0px solid #b2b2b2;">
+        &lt;tr valign="middle">
+          &lt;td width="180" height="60">&amp;nbsp;&amp;nbsp;&lt;/td>
+        &lt;/tr>
+        &lt;/table>
+        &lt;!-- /FOOTER -->
+        
+        &lt;!-- /EMAILER -->
+        &lt;/td>
+    &lt;/tr>
+    &lt;/table>
+	&lt;/body>
+	&lt;/html>
+  
+ 
+    
+    </Body>
+  <Description>
+      Email Template for reminding work item owners that their work
+      items are assigned.
+      NOTE: In addition to the declared arguments, all entries 
+      from the work item attributes map are also available by name in the template.
+
+      
+      Arguments
+      ---------
+      workItemName (String):      The name of the delegated WorkItem
+      oldDueDate  (date):         The old due date of the work item
+      newDueDate  (date):         The new due date of the work item
+      expiration  (date):         The expiration of the work item
+      remindersRemaining  (int):  The number of reminders remaining until the next escalation
+      requester (String):         The Identity that requested the reassignment
+
+    </Description>
+  <Subject>Work item removed: "$workItemName"</Subject>
+</EmailTemplate>

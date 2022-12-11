@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE sailpoint PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+
+
+<sailpoint>
+
+
+<GroupDefinition indexed="true" name="Americas" private="false">
+  <Description>Active employees in Americas region</Description>
+  <GroupFilter>
+    <CompositeFilter operation="AND">
+      <Filter ignoreCase="true" operation="EQ" property="type" value="employee"/>
+      <Filter operation="EQ" property="inactive">
+        <Value>
+          <Boolean/>
+        </Value>
+      </Filter>
+      <Filter matchMode="START" operation="LIKE" property="region" value="Americas"/>
+    </CompositeFilter>
+  </GroupFilter>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
+  </Owner>
+</GroupDefinition>
+
+
+<GroupDefinition indexed="true" name="Europe" private="false">
+  <Description>Active employees in Europe region</Description>
+  <GroupFilter>
+    <CompositeFilter operation="AND">
+      <Filter ignoreCase="true" operation="EQ" property="type" value="employee"/>
+      <Filter operation="EQ" property="inactive">
+        <Value>
+          <Boolean/>
+        </Value>
+      </Filter>
+      <Filter matchMode="START" operation="LIKE" property="region" value="Europe"/>
+    </CompositeFilter>
+  </GroupFilter>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
+  </Owner>
+</GroupDefinition>
+
+
+<GroupDefinition indexed="true" name="Asia-Pacific" private="false">
+  <Description>Active employees in APAC region</Description>
+  <GroupFilter>
+    <CompositeFilter operation="AND">
+      <Filter ignoreCase="true" operation="EQ" property="type" value="employee"/>
+      <Filter operation="EQ" property="inactive">
+        <Value>
+          <Boolean/>
+        </Value>
+      </Filter>
+      <Filter matchMode="START" operation="LIKE" property="region" value="Asia-Pacific"/>
+    </CompositeFilter>
+  </GroupFilter>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="spadmin"/>
+  </Owner>
+</GroupDefinition>
+
+
+
+</sailpoint>

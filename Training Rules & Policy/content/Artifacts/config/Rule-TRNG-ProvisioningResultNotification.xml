@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Rule language="beanshell" name="TRNG-ProvisioningResultNotification" type="AfterProvisioning">
+  <Description>An IdentityIQ server-side rule that is executed after the connector's provisioning method is called. This gives the customer the ability to customize or react to anything in the ProvisioningPlan AFTER it has been sent out to the specific applications. 
+
+This rule type will be called for any application found in a plan that also has a configured 'afterProvisioningRule' configured.
+This specific rule emails the request's target user if provisioning succeeds and emails the application owner if it fails.
+</Description>
+  <Signature>
+    <Inputs>
+      <Argument name="log">
+        <Description>
+          The log object associated with the SailPointContext.
+        </Description>
+      </Argument>
+      <Argument name="context">
+        <Description>
+          A sailpoint.api.SailPointContext object that can be used to query the database if necessary.
+        </Description>
+      </Argument>
+      <Argument name="plan">
+        <Description>
+          The ProvisioningPlan object on its way to the Connector.
+        </Description>
+      </Argument>
+      <Argument name="application">
+        <Description>
+          The application object that references this before/after script.
+        </Description>
+      </Argument>
+      <Argument name="result">
+        <Description>
+          The ProvisioningResult object returned by the connectors provision method. This can be null and in many cases the connector will  not return a result and instead will annotate the plan's ProvisioningResult either at the plan or account level.        
+        </Description>
+      </Argument>
+    </Inputs>
+  </Signature>
+  <ReferencedRules>
+       <Reference class='Rule' name='TRNG-UtilRuleLibrary'/>
+  </ReferencedRules>
+
+  <Source>
+    import sailpoint.object.ProvisioningPlan;
+    import sailpoint.object.ProvisioningResult;
+    import sailpoint.object.Application;
+
+     ProvisioningResult planResult;
+    String status;
+    Map args = new HashMap();
+
+    // [1] Populate status from result argument if it is set 
+    //     or populate it from the plan's ProvisioningResult 
+    //-----------------------------------------------------
+    if ( null != result) {
+        planResult = result;
+        status = result._______________;
+    } else {
+        if (null != plan ) {
+            planResult = plan.______________;
+            if (null != planResult) {
+               status = planResult.______________;
+            }
+        } 
+    }
+    //-----------------------------------------------------
+
+    //add arguments to pass to email template
+    args.put("status", status);
+    args.put("group", getProvisionedGroup(plan));
+    args.put("target", plan.getNativeIdentity());
+    
+    // Send email to user if successful or to app owner if failure
+    if (status.equals(ProvisioningResult.STATUS_COMMITTED)) {
+        // Call rule library method in TRNG-UtilLibrary rule to send message to target user
+        sendEmail(plan.getNativeIdentity(), "TRNG-ProvisioningResultNotification", args);
+
+    // [2] Fill in if statement to check for failed requests
+    //--------------------------------------------
+    } else if (status.equals(_________)) {
+    //--------------------------------------------
+        args.put("errorMsgs",planResult.getErrors());
+        // Call rule library method in TRNG-UtilLibrary rule to send message to application owner
+        sendEmail(application.getOwner().getName(), "TRNG-ProvisioningResultNotification", args);
+    } 
+    // Do nothing if provisioning status is not success or failure
+  </Source>
+</Rule>

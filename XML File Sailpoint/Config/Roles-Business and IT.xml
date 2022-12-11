@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE sailpoint PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<sailpoint>
+<Bundle name="Manager access for Time Tracking" type="it">
+  <Attributes>
+    <Map>
+      <entry key="accountSelectorRules"/>
+      <entry key="allowDuplicateAccounts" value="false"/>
+      <entry key="allowMultipleAssignments" value="false"/>
+      <entry key="mergeTemplates" value="false"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="Carl.Foster"/>
+  </Owner>
+  <Profiles>
+    <Profile>
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="Time Tracking"/>
+      </ApplicationRef>
+      <Constraints>
+        <Filter operation="CONTAINS_ALL" property="capability">
+          <Value>
+            <List>
+              <String>approve</String>
+              <String>reject</String>
+            </List>
+          </Value>
+        </Filter>
+      </Constraints>
+    </Profile>
+  </Profiles>
+</Bundle>
+<Bundle name="Manager access for Chat" type="it">
+  <Attributes>
+    <Map>
+      <entry key="accountSelectorRules"/>
+      <entry key="allowDuplicateAccounts" value="false"/>
+      <entry key="allowMultipleAssignments" value="false"/>
+      <entry key="mergeTemplates" value="false"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="Carl.Foster"/>
+  </Owner>
+  <Profiles>
+    <Profile>
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="Chat"/>
+      </ApplicationRef>
+      <Constraints>
+        <Filter operation="CONTAINS_ALL" property="groups">
+          <Value>
+            <List>
+              <String>managers</String>
+            </List>
+          </Value>
+        </Filter>
+      </Constraints>
+    </Profile>
+  </Profiles>
+</Bundle>
+<Bundle name="Manager access" type="business">
+  <Attributes>
+    <Map>
+      <entry key="accountSelectorRules"/>
+      <entry key="allowDuplicateAccounts" value="false"/>
+      <entry key="allowMultipleAssignments" value="false"/>
+      <entry key="mergeTemplates" value="false"/>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US" value="Manager-level access, including:&lt;br>&#xa;&#xa;&lt;ul>&#xa;&lt;li>Ability to &quot;approve&quot; or &quot;reject&quot; timesheets in Time Tracking application&lt;/li>&#xa;&lt;li>(Optional) Access to &quot;Managers&quot; channel in Corporate Chat&lt;br>&#xa;&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;br>"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" name="Carl.Foster"/>
+  </Owner>
+  <Permits>
+    <Reference class="sailpoint.object.Bundle" name="Manager access for Chat"/>
+  </Permits>
+  <Requirements>
+    <Reference class="sailpoint.object.Bundle" name="Manager access for Time Tracking"/>
+  </Requirements>
+  <Selector>
+    <IdentitySelector>
+      <MatchExpression and="true">
+        <MatchTerm name="managerStatus" type="IdentityAttribute" value="TRUE"/>
+        <MatchTerm name="inactive" type="IdentityAttribute" value="FALSE"/>
+      </MatchExpression>
+    </IdentitySelector>
+  </Selector>
+</Bundle>
+</sailpoint>

@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE sailpoint PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<sailpoint>
+<ImportAction name='merge'>
+<ObjectConfig name="Identity">
+
+  <ObjectAttribute displayName="Employee ID" editMode="ReadOnly" extendedNumber="1" name="empId" type="string">
+    <AttributeSource name="nip">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Nama Kantor" editMode="ReadOnly" groupFactory="true" name="nm_kantor" namedColumn="true" type="string">
+    <AttributeSource name="nm_kantor">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Nama Jabatan Registrasi" editMode="ReadOnly" groupFactory="true" name="nm_jabatan_str" namedColumn="true" type="string">
+    <AttributeSource name="nm_jabatan_str">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Posisi" editMode="ReadOnly" groupFactory="true" name="posisi" namedColumn="true" type="string">
+    <AttributeSource name="posisi">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Kode Jabatan Registrasi" editMode="ReadOnly" name="kd_jabatan_str" namedColumn="true" type="string">
+    <AttributeSource name="kd_jabatan_str">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Posisi Singkat" editMode="ReadOnly" name="posisi_singkat" namedColumn="true" type="string">
+    <AttributeSource name="posisi_singkat">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Kode Kantor Induk Lama" editMode="ReadOnly" name="kd_kantor_induk_lama" namedColumn="true" type="string">
+    <AttributeSource name="kd_kantor_induk_lama">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Kode Kantor Lama" editMode="ReadOnly" name="kd_kantor_lama" namedColumn="true" type="string">
+    <AttributeSource name="kd_kantor_lama">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Terhitung Mulai Tanggal" editMode="ReadOnly" name="tmt_jabatan" namedColumn="true" type="string">
+    <AttributeSource name="tmt_jabatan">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Tanggal Berakhir" editMode="ReadOnly" name="tgl_berakhir" namedColumn="true" type="string">
+    <AttributeSource name="tgl_berakhir">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Status Jabatan" editMode="ReadOnly" name="status_jabatan" namedColumn="true" type="string">
+    <AttributeSource name="status_jabatan">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Divisi" editMode="ReadOnly" name="nama_divisi" namedColumn="true" type="string">
+    <AttributeSource name="nama_divisi">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Nama Manager Level 1" editMode="ReadOnly" name="nm_atasan_lv1" namedColumn="true" type="string">
+    <AttributeSource name="nm_atasan_lv1">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Posisi Manager Level 1" editMode="ReadOnly" name="posisi_atasan_lv1" namedColumn="true" type="string">
+    <AttributeSource name="posisi_atasan_lv1">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Posisi Singkat Manager Level 1" editMode="ReadOnly" name="posisi_singkat_atasan_lv1" namedColumn="true" type="string">
+    <AttributeSource name="posisi_singkat_atasan_lv1">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Kantor Manager Level 1" editMode="ReadOnly" name="kantor_atasan_lv1" namedColumn="true" type="string">
+    <AttributeSource name="kantor_atasan_lv1">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Nama Manager Level 2" editMode="ReadOnly" name="nm_atasan_lv2" namedColumn="true" type="string">
+    <AttributeSource name="nm_atasan_lv2">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Posisi Manager Level 2" editMode="ReadOnly" name="posisi_atasan_lv2" namedColumn="true" type="string">
+    <AttributeSource name="posisi_atasan_lv2">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Posisi Singkat Manager Level 2" editMode="ReadOnly" name="posisi_singkat_atasan_lv2" namedColumn="true" type="string">
+    <AttributeSource name="posisi_singkat_atasan_lv2">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Kantor Manager Level 2" editMode="ReadOnly" name="kantor_atasan_lv2" namedColumn="true" type="string">
+    <AttributeSource name="kantor_atasan_lv2">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Nama Manager Level 3" editMode="ReadOnly" name="nm_atasan_lv3" namedColumn="true" type="string">
+    <AttributeSource name="nm_atasan_lv3">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Posisi Manager Level 3" editMode="ReadOnly" name="posisi_atasan_lv3" namedColumn="true" type="string">
+    <AttributeSource name="posisi_atasan_lv3">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Posisi Singkat Manager Level 3" editMode="ReadOnly" name="posisi_singkat_atasan_lv3" namedColumn="true" type="string">
+    <AttributeSource name="posisi_singkat_atasan_lv3">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Kantor Manager Level 3" editMode="ReadOnly" name="kantor_atasan_lv3" namedColumn="true" type="string">
+    <AttributeSource name="kantor_atasan_lv3">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+
+
+
+
+  
+
+
+
+
+
+</ObjectConfig>
+
+</ImportAction>
+
+</sailpoint>

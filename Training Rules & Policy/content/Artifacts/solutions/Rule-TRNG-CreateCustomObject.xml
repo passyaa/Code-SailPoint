@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE Rule PUBLIC "sailpoint.dtd" "sailpoint.dtd">  
+<Rule  language="beanshell"  name="TRNG-CreateCustomObject"> 
+  <Description>This rule retrieves records from an external database and populates a Custom object with that data</Description> 
+  <ReferencedRules>
+      <Reference class="Rule" name="TRNG-UtilRuleLibrary"/>
+  </ReferencedRules>
+  <Source>  
+    import java.sql.Connection;  
+    import java.sql.PreparedStatement;  
+    import java.sql.ResultSet;  
+    import java.sql.SQLException;  
+    import java.sql.Statement;  
+    // [1] import Custom class
+    //------------------------------------
+    import sailpoint.object.Custom;
+    //------------------------------------
+     
+    // [2] Create Custom object with default constructor and name it "regionCodes"
+    //------------------------------------
+    Custom codesCustObj = new Custom();
+    codesCustObj.setName("regionCodes");
+    //------------------------------------
+    
+    // Call method in rule library
+    Connection dbCxn = connectToDatabase();
+    if (dbCxn == null) {
+       // log message and exit
+       String errMsg = "Cannot build Custom object - no database connection";
+       log.error(errMsg);
+       return errMsg;
+    }  
+
+    // Run the query and populate the Custom object   
+    try {  
+       String sqlQuery = "select * from regionCodes";  
+         
+       PreparedStatement prStmt = dbCxn.prepareStatement(sqlQuery);  
+       ResultSet rs = prStmt.executeQuery();  
+
+       // loop through resultSet adding each row to the Custom object
+       while ( (null != rs) &amp;&amp; (rs.next()) ) {  
+          String name = rs.getString("name");
+          String code = rs.getString("code");
+
+          // [3] Add name-value pair to Custom object
+          //------------------------------------
+          codesCustObj.put(name,code); 
+          //------------------------------------
+       }  
+       rs.close();   
+       prStmt.close();   
+ 
+       // [4] Save and commit with SailPointContext
+       //--------------------------------------  
+       context.saveObject(codesCustObj);
+       context.commitTransaction();
+       //--------------------------------------  
+       
+       // [5] Print the Custom object
+       //--------------------------------------
+       System.out.println("Custom object: " + codesCustObj.toXml());
+       //--------------------------------------
+ 
+    } catch (Exception ex) {  
+       log.error(ex);  
+    } finally {  
+       try {  
+          dbCxn.close();  
+       } catch (SQLException sqlEx) {  
+          log.error(sqlEx);  
+       }  
+       dbCxn = null;  
+    }  
+    return "regionCodes Custom object complete";      
+          
+  </Source>  
+</Rule>  

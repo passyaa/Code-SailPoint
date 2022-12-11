@@ -1,0 +1,11 @@
+<!-- go to debug >> system configuration >> search manageAccountsActions -->
+
+<entry key="manageAccountsActions">
+<value>
+    <List>
+    <AccountOperation>Delete</AccountOperation>
+    <AccountOperation>Disable</AccountOperation>
+    <AccountOperation>Enable</AccountOperation>
+    <AccountOperation>Unlock</AccountOperation>
+    </List>
+</value>

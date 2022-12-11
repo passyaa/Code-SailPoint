@@ -1,0 +1,91 @@
+{ 
+    "user_id":"3205289410365055789",
+    "user_group_id": 1,
+    "unit_id":"2",
+    "branch_id":"f28f77a7e53e8ae91130461f41972831",
+    "division_id":"bb810b9e08648261506c6b4792890271",
+    "user_name":"aripin",
+    "user_email":"aripin.011100@syariahmandiri.co.id",
+    "user_status":"1",
+    "multi_user ":"0"
+}
+
+KP Payment
+Cabang Payment
+KP Mulpos
+limit KP Payment
+limit Cabang Payment
+limit KP Mulpos
+
+
+String jobTitleCodeCheck = identity.getAttribute("jobtitle_code");
+System.out.println("*** \n jobTitleCodeCheck - Branch ID = " + firstname + " " + lastname + " " + employeeid + " \n***\n" + jobTitleCodeCheck + "\n****************************************");
+
+
+{
+	"user_id":"$plan.nativeIdentity$",
+    "user_group_id": "$plan.user_group_id$",
+ 	"sub_user_group_id":"$plan.sub_user_group_id$",
+ 	"unit_id":"$plan.unit_id$",
+ 	"branch_id":"$plan.branch_id$",
+	"division_id":"$plan.division_id$",
+ 	"user_mulpos":"$plan.user_mulpos$",
+	"user_status":"$plan.user_status$"
+}
+
+{
+    "status": true,
+    "status_code": 201,
+    "message": "ok",
+    "count_data": 12,
+    "data": [
+        {
+            "sub_user_group_id": "4",
+            "sub_user_group_name": "User Maker KP Payment"
+        },
+        {
+            "sub_user_group_id": "5",
+            "sub_user_group_name": "User Checker KP Payment"
+        },
+        {
+            "sub_user_group_id": "6",
+            "sub_user_group_name": "User Approval KP Payment"
+        },
+        {
+            "sub_user_group_id": "7",
+            "sub_user_group_name": "User Maker Cabang Payment"
+        },
+        {
+            "sub_user_group_id": "8",
+            "sub_user_group_name": "User Checker Cabang Payment"
+        },
+        {
+            "sub_user_group_id": "9",
+            "sub_user_group_name": "User Approval Cabang Payment"
+        },
+        {
+            "sub_user_group_id": "10",
+            "sub_user_group_name": "User Maker KP Mulpos"
+        },
+        {
+            "sub_user_group_id": "11",
+            "sub_user_group_name": "User Checker KP Mulpos"
+        },
+        {
+            "sub_user_group_id": "12",
+            "sub_user_group_name": "User Approval KP Mulpos"
+        },
+        {
+            "sub_user_group_id": "14",
+            "sub_user_group_name": "User Approval Limit KP Payment"
+        },
+        {
+            "sub_user_group_id": "15",
+            "sub_user_group_name": "User Approval Limit Cabang Payment"
+        },
+        {
+            "sub_user_group_id": "16",
+            "sub_user_group_name": "User Approval Limit Admin Approval"
+        }
+    ]
+}

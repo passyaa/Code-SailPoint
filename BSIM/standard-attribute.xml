@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE sailpoint PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<sailpoint>
+<ImportAction name='merge'>
+<ObjectConfig name="Identity">
+  
+  <ObjectAttribute displayName="att_manager" editMode="ReadOnly" groupFactory="true" name="manager" standard="true" type="sailpoint.object.Identity">
+    <AttributeSource name="nip_atasan_lvl1">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Manager Level 1" editMode="ReadOnly" groupFactory="true" name="manager1" standard="true" type="string">
+    <AttributeSource name="nip_atasan_lvl1">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Manager Level 3" editMode="ReadOnly" groupFactory="true" name="manager3" standard="true" type="string">
+    <AttributeSource name="nip_atasan_lvl3">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+
+  <ObjectAttribute displayName="Manager Level 2" editMode="ReadOnly" groupFactory="true" name="manager2" standard="true" type="sailpoint.object.Identity">
+    <AttributeSource name="nip_atasan_lvl2">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+  
+  <ObjectAttribute displayName="att_inactive" editMode="ReadOnly" groupFactory="true" name="inactive" standard="true" type="boolean">
+    <AttributeSource name="status">
+      <ApplicationRef>
+        <Reference class="sailpoint.object.Application" name="HR Application"/>
+      </ApplicationRef>
+    </AttributeSource>
+  </ObjectAttribute>
+  
+</ObjectConfig>
+</ImportAction>
+</sailpoint>
