@@ -9,6 +9,8 @@ Name[en_US]=Start Tomcat
 Name=Start Tomcat
 Icon=/home/spadmin/TrainingCommon/images/application-x-executable.png
 
+//masuk
+
 Stop Tomcat Dekstop
 [Desktop Entry]
 Encoding=UTF-8
