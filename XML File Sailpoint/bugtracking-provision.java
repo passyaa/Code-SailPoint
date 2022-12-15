@@ -21,7 +21,7 @@ import org.apache.commons.logging.LogFactory;
 import org.apache.commons.logging.Log;
 import sailpoint.tools.Util;
 
-		// ybyby
+		// oke masuk
 		// Internal method for grabbing an Attribute Request Value.
 		//
 		
