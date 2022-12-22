@@ -18,28 +18,32 @@
     </Inputs>
    </Signature>
 <Source>
-// Library inclusions for BeanShell
-import sailpoint.api.*;
-import sailpoint.object.*;
-import sailpoint.tools.*;
-import java.util.*;
-import java.lang.*;
-import java.text.*;
-// Point this to the “To” email address
-String emailDest = "adam.hampton@example.com";
-// Specify the email template name in tplName
-String tplName = "SailPoint - Test Email Sending";
-EmailTemplate template = context.getObjectByName(EmailTemplate.class, tplName);
-if (null == template) {
-   log.error("ERROR: could not find email template [ " + tplName + "]");
-   return;
-}
-Map args = new HashMap();
-// Add all args needed by the template like this
-args.put("testField1", "This is a test of template parameters.");
-EmailOptions ops = new EmailOptions(emailDest, args);
-context.sendEmailNotification(template, ops);
-return;
+    // Library inclusions for BeanShell
+    import sailpoint.api.*;
+    import sailpoint.object.*;
+    import sailpoint.tools.*;
+    import java.util.*;
+    import java.lang.*;
+    import java.text.*;
+    
+    // Point this to the “To” email address
+    String emailDest = "adam.hampton@example.com";
+    
+    // Specify the email template name in tplName
+    String tplName = "SailPoint - Test Email Sending";
+    
+    EmailTemplate template = context.getObjectByName(EmailTemplate.class, tplName);
+    if (null == template) {
+        log.error("ERROR: could not find email template [ " + tplName + "]");
+        return;
+    }
+    Map args = new HashMap();
+    
+    // Add all args needed by the template like this
+    args.put("testField1", "This is a test of template parameters.");
+    EmailOptions ops = new EmailOptions(emailDest, args);
+    context.sendEmailNotification(template, ops);
+    return;
 </Source>
 </Rule>
 </sailpoint>
