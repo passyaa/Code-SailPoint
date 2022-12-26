@@ -143,7 +143,8 @@ if ( plan != null ) {
                     if (!addRoles.isEmpty()) {
                         System.out.println("About to add roles : " + addRoles.toString() + " and remove current roles first : " + currentRoles.toString() + " and become roles : " + addRoles.toString());
                         
-                        currentRoles.clear();
+                        //currentRoles.clear();
+                        currentRoles.removeAll(currentRoles);
                         System.out.println("After Clear currentRoles : " + Util.listToCsv(currentRoles));
 
                         for (Object item : addRoles) {
