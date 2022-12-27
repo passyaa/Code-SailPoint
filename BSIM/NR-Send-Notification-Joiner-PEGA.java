@@ -48,7 +48,6 @@ if ( plan != null ) {
 	//System.out.println("*** \n The Provisioning Plan being passed in = \n***\n" + plan.toXml() + "\n****************************************");
 
 	List accounts = plan.getAccountRequests();
-        //System.out.println("accounts == " + accounts);
 
 	//  Get all Account Requests out of the plan 
 	if (accounts != null) {
@@ -58,17 +57,12 @@ if ( plan != null ) {
 				// All of the account operations will reside in a try block in case we have any errors, we can mark the provisioningresult as "Failed" if we have an issue.
 				if (AccountRequest.Operation.Create.equals(account.getOperation())) {	
 					System.out.println("Account Request Create");
-
+          
           			// Send Notification Email Create
 					// Point this to the "To" email address
-
-					String upn = getAttributeRequestValue(account, "userPrincipalName");
-					//String emailTo = upn.toLowerCase();
-					String emailTo = "test2@gws.banksinarmas.com";
-					String nomerInduk = getAttributeRequestValue(account, "sAMAccountName");
-					String gn = getAttributeRequestValue(account, "givenName");
-					String sn = getAttributeRequestValue(account, "sn");
-					String namaLengkap = String.join(" ",gn,sn);
+					String emailTo = getAttributeRequestValue(account, "email");
+					String nomerInduk = account.getNativeIdentity();
+					String namaLengkap = getAttributeRequestValue(account, "username");
 					String pwd = getAttributeRequestValue(account, "password");
 					System.out.println("emailTo : " + emailTo);
 					System.out.println("nomerInduk : " + nomerInduk);
@@ -80,7 +74,7 @@ if ( plan != null ) {
 						return;
 					}
 					// Specify the email template name in tplName
-					String tplName = "Joiner Notification AD";
+					String tplName = "Joiner Notification PEGA";
 					EmailTemplate template = context.getObjectByName(EmailTemplate.class, tplName);
 					if (null == template) {
 						System.out.println("ERROR: could not find email template [ " + tplName + "]");
