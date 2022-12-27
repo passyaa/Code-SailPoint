@@ -7,7 +7,15 @@ import java.sql.SQLException;
 import java.sql.ResultSet;
 import java.sql.Types;
 import java.util.List;
+import sailpoint.api.*;
+import sailpoint.object.*;
+import sailpoint.tools.*;
+import java.util.*;
 import java.lang.*;
+import java.text.*;
+import java.security.SecureRandom;
+import java.security.*;
+import java.math.*;
 import sailpoint.api.SailPointContext;
 import sailpoint.connector.JDBCConnector;
 import sailpoint.object.Application;
@@ -60,7 +68,7 @@ if ( plan != null ) {
 	List accounts = plan.getAccountRequests();
 
 	//  Get all Account Requests out of the plan 
-	if ( ( accounts != null ) && ( accounts.size() > 0 ) ) {
+	if ( ( accounts != null ) &amp;&amp; ( accounts.size() > 0 ) ) {
 
 		// If the plan contains one or more account requests, we'll iterate through them
 		for ( AccountRequest account : accounts ) {	
@@ -69,11 +77,21 @@ if ( plan != null ) {
 				if (AccountRequest.Operation.Create.equals(account.getOperation())) {
 					// CREATE Operation	OFFICER_TAB		
 					System.out.println("Account Request Operation = Create OFFICER_TAB");
+          
+					String pwdEncrypt = getAttributeRequestValue(account, "PASSWORD");
+					MessageDigest m = null;
+					try {
+						m=MessageDigest.getInstance("MD5");
+					} catch(NoSuchAlgorithmException e) {
+						System.out.println("Something is wrong");
+					}
+					m.update(pwdEncrypt.getBytes(),0,pwdEncrypt.length());
+					String resultPwdEncrypt = new BigInteger(1,m.digest()).toString(16);
 
 					PreparedStatement statement = connection.prepareStatement("INSERT INTO OFFICER_TAB (OFFICER_ID,WFU_ID,BRANCH,PASSWORD,FIRST_NAME,EMAIL_ADDR,DATE_CREATED,CREATED_BY,additional_branch,NoAccount) VALUES (?,?,?,?,?,?,?,?,?,?)");
 					statement.setString(1, (String) account.getNativeIdentity());
 					statement.setString(3, getAttributeRequestValue(account, "BRANCH"));
-					statement.setString(4, getAttributeRequestValue(account, "PASSWORD"));
+					statement.setString(4, resultPwdEncrypt);
 					statement.setString(5, getAttributeRequestValue(account, "FIRST_NAME"));
 					statement.setString(6, getAttributeRequestValue(account, "EMAIL_ADDR"));
 					statement.setString(7, getAttributeRequestValue(account, "DATE_CREATED"));
@@ -111,6 +129,43 @@ if ( plan != null ) {
 						
 					// Sucessful Create, so mark result as COMMITTED
 					result.setStatus(ProvisioningResult.STATUS_COMMITTED);
+          
+          			// Send Notification Email Create
+					// Point this to the "To" email address
+					String emailTo = getAttributeRequestValue(account, "EMAIL_ADDR");
+					String nomerInduk = account.getNativeIdentity();
+					String namaLengkap = getAttributeRequestValue(account, "FIRST_NAME");
+					String pwd = getAttributeRequestValue(account, "PASSWORD");
+					System.out.println("emailTo : " + emailTo);
+					System.out.println("nomerInduk : " + nomerInduk);
+					System.out.println("namaLengkap : " + namaLengkap);
+					System.out.println("password : " + pwd);
+					
+					if (null == emailTo) {
+						System.out.println("ERROR: could not find destination email");
+						return;
+					}
+					// Specify the email template name in tplName
+					String tplName = "Joiner Notification PBK";
+					EmailTemplate template = context.getObjectByName(EmailTemplate.class, tplName);
+					if (null == template) {
+						System.out.println("ERROR: could not find email template [ " + tplName + "]");
+						return;
+					}
+					template = (EmailTemplate) template.deepCopy(context);
+					if (null == template) {
+						System.out.println("ERROR: failed to deepCopy template [ " + tplName + "]");
+						return;
+					}
+
+					// Add all args needed by the template like this
+					Map args = new HashMap();
+					args.put("nip", nomerInduk);
+					args.put("name", namaLengkap);
+					args.put("username", nomerInduk);
+					args.put("pwd", pwd);
+          			EmailOptions ops = new EmailOptions(emailTo, args);
+					context.sendEmailNotification(template, ops);
 					
 				} else {
 
