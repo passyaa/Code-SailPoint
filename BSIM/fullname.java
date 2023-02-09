@@ -1,5 +1,8 @@
 import sailpoint.object.Link;
 
-String fullName = link.getAttribute("nm_peg");
+String firstname = link.getAttribute("nama_depan");
+String lastname = link.getAttribute("nama_belakang");
 
-return fullName;
+String fullname = firstname + "." + lastname;
+
+return fullname;

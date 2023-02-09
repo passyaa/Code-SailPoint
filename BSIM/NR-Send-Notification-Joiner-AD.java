@@ -61,9 +61,11 @@ if ( plan != null ) {
 
           			// Send Notification Email Create
 					// Point this to the "To" email address
+					
 
-					String upn = getAttributeRequestValue(account, "userPrincipalName");
-					//String emailTo = upn.toLowerCase();
+					String emailManager = getAttributeRequestValue(account, "emailManager");
+					System.out.println("emailManager >>>> " + emailManager);
+					//String emailTo = emailManager;
 					String emailTo = "test2@gws.banksinarmas.com";
 					String nomerInduk = getAttributeRequestValue(account, "sAMAccountName");
 					String gn = getAttributeRequestValue(account, "givenName");
