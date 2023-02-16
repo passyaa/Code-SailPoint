@@ -1,0 +1,55 @@
+&lt;html>
+  &lt;head>
+    &lt;style>
+      .alignMe b {
+        display: inline-block;
+        width: 20%;
+        position: relative;
+        padding-right: 10px; /* Ensures colon does not overlay the text */
+      }
+
+      .alignMe b::after {
+        content: " ";
+        position: absolute;
+        right: 10px;
+      }
+    &lt;/style>
+  &lt;/head>
+  &lt;body>
+    &lt;p>Dear Approver,&lt;/p>
+    &lt;p>Terdapat permintaan perubahan yang membutuhkan perhatian anda dengan detail sebagai berikut:&lt;/p>
+    &lt;ul class="alignMe">
+      &lt;li>&lt;b>NIP&lt;/b>: $identityName&lt;/li>
+      &lt;li>&lt;b>Nama&lt;/b>: $identityDisplayName&lt;/li>
+      #foreach ($approvalItem in $approvalSet.items)
+        #if ( $approvalSet.items.size() > 1 )
+          &lt;br>
+        #end
+        &lt;li>&lt;b>Aplikasi&lt;/b>: $approvalItem.applicationName&lt;/li>
+        #if ( $approvalItem.operation == "Add" )
+          &lt;li>&lt;b>Operasi&lt;/b>: Penambahan Akses&lt;/li>
+        #elseif ( $approvalItem.operation == "Remove" )
+          &lt;li>&lt;b>Operasi&lt;/b>: Penghapusan Access&lt;/li>
+        #elseif ( $approvalItem.operation == "Enable" )
+          &lt;li>&lt;b>Operasi&lt;/b>: Pengaktifan Akun&lt;/li>
+        #elseif ( $approvalItem.operation == "Disable" )
+          &lt;li>&lt;b>Operasi&lt;/b>: Penonaktifan Akun&lt;/li>
+        #elseif ( $approvalItem.operation == "Create" )
+          &lt;li>&lt;b>Operasi&lt;/b>: Pembuatan Akun&lt;/li>
+        #elseif ( $approvalItem.operation == "Delete" )
+          &lt;li>&lt;b>Operasi&lt;/b>: Penghapusan Akun&lt;/li>
+        #end
+        #if ( $approvalItem.displayValue )          
+          &lt;li>&lt;b>Perubahan&lt;/b>: $approvalItem.displayValue&lt;/li>
+        #elseif ( $approvalItem.csv) 
+          &lt;li>&lt;b>Perubahan&lt;/b>: $approvalItem.csv&lt;/li>
+        #end
+        #if ( $approvalItem.requesterComments )
+          &lt;li>&lt;b>Deskripsi&lt;/b>: $approvalItem.requesterComments&lt;/li>
+        #end
+      #end
+    &lt;/ul>
+    &lt;p>Mohon meninjau perubahan dan menyetujui/menolak permintaan akses melalui &lt;a href="http://10.22.103.34:8080/identityiq/home.jsf">Aplikasi Identity Portal&lt;/a>&lt;/p>
+    &lt;p>Best Regards,&lt;br>Identity Portal Admin&lt;/p>
+  &lt;/body>
+&lt;/html>
