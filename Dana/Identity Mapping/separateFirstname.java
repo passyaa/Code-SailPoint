@@ -4,6 +4,7 @@ import sailpoint.object.Application;
   
 System.out.println("START RULE SEPARATE FIRSTNAME");
 
+// Get Variable 
 String fullName = link.getAttribute("nm_peg");
 String firstname = "";
 
@@ -12,10 +13,10 @@ if (fullName!=null) {
     //System.out.println("index = " + firstIndex);
 
     if (firstIndex == -1) {
-	String firstName = fullName;
+	firstName = fullName;
 	//System.out.println("Only a single name: " + firstName);
     } else {
-	String firstName = fullName.substring(0, firstIndex);
+	firstName = fullName.substring(0, firstIndex);
 	//System.out.println("firstName: " + firstName);
     }
 
