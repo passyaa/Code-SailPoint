@@ -6,29 +6,19 @@ System.out.println("START RULE SEPARATE FIRSTNAME");
 
 String fullName = link.getAttribute("nm_peg");
 String firstname = "";
-String capitalizeWord = "";
 
 if (fullName!=null) {
-	if (fullName.split(" ").length == 1) {
-    firstname = fullName;
-    //System.out.println(firstname);
-	} else {
-    String surName = fullName.split(" ")[fullName.split(" ").length-1];
-    firstname = fullName.substring(0, fullName.length() - surName.length());
-    //System.out.println(firstname);
-	}
-}
-  
-if (firstname!="") {
-	String lowerCase = firstname.toLowerCase();
-	String[] words = lowerCase.split(" ");
-	
-	for(String w:words) {  
-		String first=w.substring(0,1);  
-		String afterfirst=w.substring(1);  
-		capitalizeWord+=first.toUpperCase()+afterfirst+" ";  
-	}
-  //System.out.println(capitalizeWord.trim());
+    int firstIndex = fullName.indexOf(" ");
+    //System.out.println("index = " + firstIndex);
+
+    if (firstIndex == -1) {
+	String firstName = fullName;
+	//System.out.println("Only a single name: " + firstName);
+    } else {
+	String firstName = fullName.substring(0, firstIndex);
+	//System.out.println("firstName: " + firstName);
+    }
+
 }
 
-return capitalizeWord.trim();
+return firstName.toLowerCase();
