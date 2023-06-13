@@ -6,7 +6,7 @@ System.out.println("START RULE SEPARATE FIRSTNAME");
 
 // Get Variable 
 String fullName = link.getAttribute("nm_peg");
-String firstname = "";
+String firstName = "";
 
 if (fullName!=null) {
     int firstIndex = fullName.indexOf(" ");
