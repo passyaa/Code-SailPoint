@@ -1,0 +1,1 @@
+// return random password with 10 characters
