@@ -4,4 +4,4 @@
 // create date now 
 
 
-// return desc + date
+// return description + date now
