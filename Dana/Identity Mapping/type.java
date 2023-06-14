@@ -5,3 +5,8 @@
 
 
 // if found type service account return string service account
+
+// if found type service account return string service account
+
+
+if type != null return null
