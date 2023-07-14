@@ -17,3 +17,9 @@ If (car != null) {
     return masda;
 
 }
+
+
+
+//Semua
+//berjalan
+//dengan
