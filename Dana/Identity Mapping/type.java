@@ -10,3 +10,10 @@
 
 
 if type != null return null
+
+
+If (car != null) {
+
+    return masda;
+
+}
