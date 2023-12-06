@@ -49,7 +49,7 @@ if (emailCheck != null) {
 	email = localpart + domain;
 
 	QueryOptions qo = new QueryOptions();
-	Filter emailFilter = Filter.ignoreCase(Filter.like("email", localpart, Filter.MatchMode.START));
+	Filter emailFilter = Filter.ignoreCase(Filter.like("email", , Filter.MatchMode.START));
 	qo.addFilter(emailFilter);
 	int total = context.countObjects(Identity.class, qo);
 
